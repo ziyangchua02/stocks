@@ -38,7 +38,11 @@ jobs:
       - run: npm run build
         env:
           VITE_DEMO: 'true'
+      # enablement turns Pages on for the repo the first time this runs, so no
+      # manual settings change is needed.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist
