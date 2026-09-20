@@ -25,6 +25,16 @@ class Environment(BaseSettings):
     gemini_api_key: SecretStr = SecretStr("")
     telegram_enabled: bool = False  # No Telegram client exists in Phase 1.
     database_path: Path = ROOT / "data" / "research.sqlite3"
+    # Set both when the backend is reachable from outside this machine: the token
+    # gates /api, and the origins list widens CORS beyond localhost. Empty means
+    # local-only, which is the default the rest of the project assumes.
+    api_token: SecretStr = SecretStr("")
+    allowed_origins: str = ""
+
+    @property
+    def origins(self) -> list[str]:
+        parts = (part.strip().rstrip("/") for part in self.allowed_origins.split(","))
+        return [part for part in parts if part]
 
 
 class Seed(BaseModel):

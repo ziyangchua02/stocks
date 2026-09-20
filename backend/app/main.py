@@ -1,5 +1,6 @@
 import asyncio
 import fcntl
+import secrets
 from contextlib import asynccontextmanager
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
@@ -49,9 +50,15 @@ def create_app(
     scoring: ScoringConfig | None = None,
     alerts: AlertsConfig | None = None,
 ):
+    # Resolved here rather than inside the lifespan because the middleware below
+    # needs the origin allowlist and the API token before the app starts serving.
+    environment = env or Environment()
+    origins = LOCAL_ORIGINS + environment.origins
+    token = environment.api_token.get_secret_value()
+
     @asynccontextmanager
     async def lifespan(app):
-        settings = env or Environment()
+        settings = environment
         configuration = config or load_config()
         weights = scoring or load_scoring()
         alert_rules = alerts or load_alerts()
@@ -173,9 +180,9 @@ def create_app(
     )
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=LOCAL_ORIGINS,
+        allow_origins=origins,
         allow_methods=["GET", "POST", "DELETE"],
-        allow_headers=["Content-Type"],
+        allow_headers=["Content-Type", "X-API-Token"],
     )
 
     @app.middleware("http")
@@ -184,9 +191,25 @@ def create_app(
         if (
             request.method in {"POST", "PUT", "PATCH", "DELETE"}
             and origin
-            and origin not in LOCAL_ORIGINS
+            and origin not in origins
         ):
             return JSONResponse(status_code=403, content={"detail": "Origin is not allowed"})
+        return await call_next(request)
+
+    @app.middleware("http")
+    async def require_token(request: Request, call_next):
+        # Only active when API_TOKEN is set, which is what makes it safe to reach
+        # this backend from outside the machine. Preflight carries no header, and
+        # "/" stays open as an unauthenticated liveness check for the tunnel.
+        if (
+            token
+            and request.method != "OPTIONS"
+            and request.url.path.startswith("/api")
+            and not secrets.compare_digest(request.headers.get("x-api-token", ""), token)
+        ):
+            return JSONResponse(
+                status_code=401, content={"detail": "Missing or invalid API token"}
+            )
         return await call_next(request)
 
     app.include_router(router)

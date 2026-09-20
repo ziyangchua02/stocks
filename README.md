@@ -325,13 +325,62 @@ cd frontend && VITE_DEMO=true npm run build         # what Pages builds
 
 The capture script only reads endpoints, and refuses to write a file whose
 response mentions a credential field. `.env` is git-ignored and no key appears in
-any committed file. Publishing the backend itself would need authentication
-first: the API has none, so anyone with the URL could trigger refreshes and spend
-your model quota.
+any committed file. The demo needs no backend at all; for a live deployment that
+does reach one, see the next section.
 
 `.github/workflows/pages.yml` rebuilds and deploys the demo on every push to
 `main` that touches `frontend/`; `.github/workflows/tests.yml` runs the backend
 and frontend test suites, which need no network access or keys.
+
+## Live deployment (Vercel frontend, self-hosted backend)
+
+The dashboard can run for real without a server bill: Vercel serves the static
+frontend, and the backend keeps running on a machine you own, reached over a
+Tailscale Funnel tunnel. The database, the API keys and every provider call stay
+on that machine.
+
+```
+browser → Vercel static site → Vercel /api function → tunnel → uvicorn on your machine
+```
+
+The browser never talks to the backend directly. It calls `/api` on its own
+origin, exactly as it does behind the Vite dev proxy, and `frontend/api/[...path].js`
+forwards the call server-side. That keeps the setup same-origin (no CORS) and
+keeps the backend token out of the JavaScript bundle.
+
+**Backend.** Set `API_TOKEN` in `.env` to a long random string
+(`python3 -c 'import secrets; print(secrets.token_urlsafe(32))'`). Every `/api`
+call then needs a matching `X-API-Token` header; `/` stays open so a tunnel or
+uptime check can confirm the process is alive. Without `API_TOKEN` the backend
+stays local-only, which is still the default. `ALLOWED_ORIGINS` (comma-separated)
+additionally lets named browser origins call the API directly; it is not needed
+when the Vercel function is doing the proxying.
+
+Keep it running under systemd rather than a terminal, and enable lingering so it
+comes back after a reboot:
+
+```sh
+systemctl --user enable --now stocks-backend.service
+loginctl enable-linger "$USER"
+tailscale funnel --bg --https=443 http://127.0.0.1:8000
+```
+
+**Frontend.** Import the repository on Vercel with **Root Directory** set to
+`frontend`, then set two environment variables:
+
+| Variable | Value |
+|---|---|
+| `BACKEND_URL` | the tunnel address, e.g. `https://<machine>.<tailnet>.ts.net` |
+| `BACKEND_API_TOKEN` | the same value as `API_TOKEN` in `.env` |
+
+Do **not** set `VITE_DEMO`; that is only for the frozen GitHub Pages snapshot.
+
+**What this does and does not protect.** The token stops anyone who finds the
+tunnel address from spending your Gemini and Finnhub quota. It does not make the
+Vercel site private — anyone with that URL still reaches your data through the
+proxy. Add Vercel's deployment protection, or keep the URL to yourself. When the
+machine is off or asleep the site loads and every panel reports the backend as
+unreachable, which is the honest answer rather than stale data.
 
 ## Verification
 
