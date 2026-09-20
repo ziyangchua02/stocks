@@ -1,0 +1,415 @@
+{
+ "scoring_version": "composite-v1",
+ "config_version": "scoring-v1",
+ "config_hash": "318dddcedcda04f09ad3bcc410e003f1db04ee86ef58dfc44572eab0ef3f91d7",
+ "config": {
+  "version": "scoring-v1",
+  "min_weight_coverage": 0.5,
+  "weights": {
+   "trend": 0.2,
+   "momentum": 0.15,
+   "volume": 0.05,
+   "range_position": 0.1,
+   "valuation": 0.15,
+   "growth_quality": 0.15,
+   "news_sentiment": 0.2
+  },
+  "labels": {
+   "strong_setup": 70.0,
+   "watch": 58.0,
+   "neutral": 42.0
+  },
+  "components": {
+   "trend": {
+    "min_conditions": 2,
+    "conditions": {
+     "price_above_sma20": 1.0,
+     "price_above_sma50": 1.0,
+     "price_above_sma200": 1.5,
+     "sma20_above_sma50": 1.0,
+     "sma50_above_sma200": 1.5
+    }
+   },
+   "momentum": {
+    "curves": {
+     "rsi14": {
+      "weight": 1.0,
+      "curve": [
+       [
+        0.0,
+        10.0
+       ],
+       [
+        20.0,
+        25.0
+       ],
+       [
+        35.0,
+        50.0
+       ],
+       [
+        45.0,
+        75.0
+       ],
+       [
+        55.0,
+        95.0
+       ],
+       [
+        65.0,
+        100.0
+       ],
+       [
+        72.0,
+        85.0
+       ],
+       [
+        80.0,
+        45.0
+       ],
+       [
+        90.0,
+        20.0
+       ],
+       [
+        100.0,
+        10.0
+       ]
+      ]
+     },
+     "macd_histogram_percent_of_price": {
+      "weight": 1.0,
+      "curve": [
+       [
+        -2.0,
+        0.0
+       ],
+       [
+        -0.5,
+        25.0
+       ],
+       [
+        -0.1,
+        45.0
+       ],
+       [
+        0.0,
+        50.0
+       ],
+       [
+        0.1,
+        55.0
+       ],
+       [
+        0.5,
+        75.0
+       ],
+       [
+        2.0,
+        100.0
+       ]
+      ]
+     }
+    }
+   },
+   "volume": {
+    "curves": {
+     "volume_ratio20": {
+      "weight": 1.0,
+      "curve": [
+       [
+        0.0,
+        30.0
+       ],
+       [
+        0.5,
+        40.0
+       ],
+       [
+        1.0,
+        50.0
+       ],
+       [
+        1.5,
+        70.0
+       ],
+       [
+        2.5,
+        90.0
+       ],
+       [
+        4.0,
+        95.0
+       ],
+       [
+        8.0,
+        60.0
+       ]
+      ]
+     }
+    }
+   },
+   "range_position": {
+    "curves": {
+     "percent_of_52w_range": {
+      "weight": 1.0,
+      "curve": [
+       [
+        0.0,
+        20.0
+       ],
+       [
+        20.0,
+        45.0
+       ],
+       [
+        40.0,
+        60.0
+       ],
+       [
+        60.0,
+        75.0
+       ],
+       [
+        85.0,
+        95.0
+       ],
+       [
+        95.0,
+        80.0
+       ],
+       [
+        100.0,
+        65.0
+       ]
+      ]
+     }
+    }
+   },
+   "valuation": {
+    "curves": {
+     "pe": {
+      "weight": 1.0,
+      "curve": [
+       [
+        1.0,
+        85.0
+       ],
+       [
+        8.0,
+        90.0
+       ],
+       [
+        15.0,
+        80.0
+       ],
+       [
+        25.0,
+        60.0
+       ],
+       [
+        40.0,
+        40.0
+       ],
+       [
+        60.0,
+        25.0
+       ],
+       [
+        120.0,
+        10.0
+       ]
+      ]
+     },
+     "forward_pe_discount_percent": {
+      "weight": 1.0,
+      "curve": [
+       [
+        -50.0,
+        20.0
+       ],
+       [
+        -20.0,
+        35.0
+       ],
+       [
+        0.0,
+        50.0
+       ],
+       [
+        10.0,
+        65.0
+       ],
+       [
+        25.0,
+        85.0
+       ],
+       [
+        50.0,
+        95.0
+       ]
+      ]
+     }
+    }
+   },
+   "growth_quality": {
+    "curves": {
+     "revenue_growth_percent": {
+      "weight": 1.0,
+      "curve": [
+       [
+        -30.0,
+        5.0
+       ],
+       [
+        -10.0,
+        25.0
+       ],
+       [
+        0.0,
+        40.0
+       ],
+       [
+        5.0,
+        55.0
+       ],
+       [
+        15.0,
+        75.0
+       ],
+       [
+        30.0,
+        90.0
+       ],
+       [
+        60.0,
+        100.0
+       ]
+      ]
+     },
+     "profit_margin_percent": {
+      "weight": 1.0,
+      "curve": [
+       [
+        -20.0,
+        5.0
+       ],
+       [
+        0.0,
+        30.0
+       ],
+       [
+        5.0,
+        45.0
+       ],
+       [
+        10.0,
+        60.0
+       ],
+       [
+        20.0,
+        80.0
+       ],
+       [
+        35.0,
+        95.0
+       ]
+      ]
+     }
+    }
+   },
+   "news_sentiment": {
+    "curves": {
+     "sentiment": {
+      "weight": 1.0,
+      "curve": [
+       [
+        -1.0,
+        0.0
+       ],
+       [
+        -0.5,
+        20.0
+       ],
+       [
+        -0.15,
+        42.0
+       ],
+       [
+        0.0,
+        50.0
+       ],
+       [
+        0.15,
+        58.0
+       ],
+       [
+        0.5,
+        80.0
+       ],
+       [
+        1.0,
+        100.0
+       ]
+      ]
+     }
+    },
+    "max_age_hours": 48.0,
+    "impact_scaling": {
+     "low": 0.4,
+     "medium": 0.7,
+     "high": 1.0
+    }
+   }
+  },
+  "cautions": {
+   "stale_indicators": {
+    "enabled": true,
+    "downgrade": true
+   },
+   "stale_news": {
+    "enabled": true,
+    "downgrade": false
+   },
+   "negative_news": {
+    "enabled": true,
+    "downgrade": true,
+    "sentiment_below": -0.25,
+    "impacts": [
+     "medium",
+     "high"
+    ]
+   },
+   "overbought": {
+    "enabled": true,
+    "downgrade": false,
+    "rsi_above": 80
+   },
+   "extended_above_sma200": {
+    "enabled": true,
+    "downgrade": false,
+    "percent_above": 30
+   },
+   "earnings_soon": {
+    "enabled": true,
+    "downgrade": false,
+    "days": 7
+   },
+   "thin_coverage": {
+    "enabled": true,
+    "downgrade": false,
+    "coverage_below": 0.75
+   }
+  }
+ },
+ "file": "config/scoring.yaml",
+ "note": "Edit the file and restart to change weights. Past signals keep the weights they were scored with.",
+ "differs_from_latest_signal": false,
+ "labels_in_use": [
+  "Strong setup",
+  "Watch",
+  "Neutral",
+  "Caution"
+ ],
+ "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return."
+}

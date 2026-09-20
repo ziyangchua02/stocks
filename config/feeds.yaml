@@ -1,0 +1,6 @@
+# Only public feed headlines and summaries are ingested. No paywall scraping.
+feeds:
+  - name: CNBC Markets
+    url: https://www.cnbc.com/id/100003114/device/rss/rss.html
+  - name: MarketWatch Top Stories
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories

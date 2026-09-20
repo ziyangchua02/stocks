@@ -1,0 +1,33 @@
+# Local credentials (only the example is safe to commit)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Frontend
+node_modules/
+dist/
+dist-demo/
+coverage/
+*.tsbuildinfo
+
+# Local data and logs
+data/*
+!data/.gitkeep
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+.DS_Store

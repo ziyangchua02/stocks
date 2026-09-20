@@ -1,0 +1,467 @@
+{
+ "checked_at": "2026-09-20T15:04:51.525546+00:00",
+ "market": {
+  "is_open": false,
+  "timezone": "America/New_York",
+  "checked_at": "2026-09-20T15:04:51.525546+00:00",
+  "last_close": "2026-09-18T20:00:00+00:00",
+  "last_completed_session": "2026-09-18",
+  "next_open": "2026-09-21T13:30:00+00:00"
+ },
+ "indices": [
+  {
+   "symbol": "^GSPC",
+   "name": "S&P 500",
+   "status": "cached",
+   "reason": null,
+   "data": {
+    "ticker": "^GSPC",
+    "price": 7650.5,
+    "previous_close": 7637.76,
+    "change": 12.739999999999782,
+    "change_percent": 0.16680283224399517,
+    "volume": 6050102000,
+    "currency": "USD",
+    "source": "yfinance",
+    "source_url": "https://finance.yahoo.com/quote/^GSPC/",
+    "source_as_of": "2026-09-18T21:29:48Z",
+    "fetched_at": "2026-09-20T14:48:38.612545Z",
+    "session": "regular",
+    "delay_status": "unknown; provider does not guarantee real-time delivery"
+   }
+  },
+  {
+   "symbol": "^IXIC",
+   "name": "Nasdaq Composite",
+   "status": "cached",
+   "reason": null,
+   "data": {
+    "ticker": "^IXIC",
+    "price": 26522.545,
+    "previous_close": 26418.3,
+    "change": 104.24499999999898,
+    "change_percent": 0.39459389892610996,
+    "volume": 12789451000,
+    "currency": "USD",
+    "source": "yfinance",
+    "source_url": "https://finance.yahoo.com/quote/^IXIC/",
+    "source_as_of": "2026-09-18T21:15:59Z",
+    "fetched_at": "2026-09-20T14:48:39.030982Z",
+    "session": "regular",
+    "delay_status": "unknown; provider does not guarantee real-time delivery"
+   }
+  },
+  {
+   "symbol": "^DJI",
+   "name": "Dow Jones Industrial Average",
+   "status": "cached",
+   "reason": null,
+   "data": {
+    "ticker": "^DJI",
+    "price": 51682.64,
+    "previous_close": 51778.04,
+    "change": -95.40000000000146,
+    "change_percent": -0.18424799393720326,
+    "volume": 858494006,
+    "currency": "USD",
+    "source": "yfinance",
+    "source_url": "https://finance.yahoo.com/quote/^DJI/",
+    "source_as_of": "2026-09-18T21:52:27Z",
+    "fetched_at": "2026-09-20T14:48:39.296443Z",
+    "session": "regular",
+    "delay_status": "unknown; provider does not guarantee real-time delivery"
+   }
+  }
+ ],
+ "tickers": [
+  {
+   "ticker": "AAPL",
+   "company_name": "Apple",
+   "quote": {
+    "status": "cached",
+    "data": {
+     "ticker": "AAPL",
+     "price": 336.13,
+     "previous_close": 337.0,
+     "change": -0.8700000000000045,
+     "change_percent": -0.25816023738872707,
+     "volume": 86241049,
+     "currency": "USD",
+     "source": "yfinance",
+     "source_url": "https://finance.yahoo.com/quote/AAPL/",
+     "source_as_of": "2026-09-18T20:00:02Z",
+     "fetched_at": "2026-09-20T14:48:39.550687Z",
+     "session": "regular",
+     "delay_status": "unknown; provider does not guarantee real-time delivery"
+    }
+   },
+   "score": 77.39,
+   "label": "Strong setup",
+   "score_status": "scored",
+   "score_reason": null,
+   "weight_coverage": 1.0,
+   "cautions": [],
+   "as_of_session": "2026-09-18",
+   "news_analysis_id": 4
+  },
+  {
+   "ticker": "MSFT",
+   "company_name": "Microsoft",
+   "quote": {
+    "status": "cached",
+    "data": {
+     "ticker": "MSFT",
+     "price": 493.78,
+     "previous_close": 497.75,
+     "change": -3.9700000000000273,
+     "change_percent": -0.7975891511803224,
+     "volume": 39356144,
+     "currency": "USD",
+     "source": "yfinance",
+     "source_url": "https://finance.yahoo.com/quote/MSFT/",
+     "source_as_of": "2026-09-18T20:00:02Z",
+     "fetched_at": "2026-09-20T14:48:40.280704Z",
+     "session": "regular",
+     "delay_status": "unknown; provider does not guarantee real-time delivery"
+    }
+   },
+   "score": 72.56,
+   "label": "Strong setup",
+   "score_status": "scored",
+   "score_reason": null,
+   "weight_coverage": 1.0,
+   "cautions": [],
+   "as_of_session": "2026-09-18",
+   "news_analysis_id": 5
+  },
+  {
+   "ticker": "NVDA",
+   "company_name": "Nvidia",
+   "quote": {
+    "status": "cached",
+    "data": {
+     "ticker": "NVDA",
+     "price": 222.27,
+     "previous_close": 219.34,
+     "change": 2.930000000000007,
+     "change_percent": 1.335825658794576,
+     "volume": 188794542,
+     "currency": "USD",
+     "source": "yfinance",
+     "source_url": "https://finance.yahoo.com/quote/NVDA/",
+     "source_as_of": "2026-09-18T20:00:00Z",
+     "fetched_at": "2026-09-20T14:48:41.353702Z",
+     "session": "regular",
+     "delay_status": "unknown; provider does not guarantee real-time delivery"
+    }
+   },
+   "score": 80.43,
+   "label": "Strong setup",
+   "score_status": "scored",
+   "score_reason": null,
+   "weight_coverage": 1.0,
+   "cautions": [],
+   "as_of_session": "2026-09-18",
+   "news_analysis_id": 6
+  }
+ ],
+ "movers": {
+  "gainers": [
+   {
+    "ticker": "NVDA",
+    "change_percent": 1.335825658794576,
+    "price": 222.27,
+    "currency": "USD",
+    "source_as_of": "2026-09-18T20:00:00Z",
+    "quote_status": "cached"
+   }
+  ],
+  "losers": [
+   {
+    "ticker": "MSFT",
+    "change_percent": -0.7975891511803224,
+    "price": 493.78,
+    "currency": "USD",
+    "source_as_of": "2026-09-18T20:00:02Z",
+    "quote_status": "cached"
+   },
+   {
+    "ticker": "AAPL",
+    "change_percent": -0.25816023738872707,
+    "price": 336.13,
+    "currency": "USD",
+    "source_as_of": "2026-09-18T20:00:02Z",
+    "quote_status": "cached"
+   }
+  ],
+  "unchanged": [],
+  "counted": 3,
+  "missing_quotes": 0,
+  "scope": "Watchlist tickers with a cached quote only; not a market-wide scan."
+ },
+ "headlines": {
+  "items": [
+   {
+    "id": 278,
+    "canonical_url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+    "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+    "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+    "publisher": "CNBC Markets",
+    "summary": "Jensen Huang's position as the leader of the world's most valuable company, has earned him Trump's ear on the most important topics in AI.",
+    "published_at": "2026-09-20T11:25:08Z",
+    "fetched_at": "2026-09-20T12:57:17.158750Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "NVDA"
+    ],
+    "sources": [
+     {
+      "provider": "rss:CNBC Markets",
+      "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+      "fetched_at": "2026-09-20T14:48:37.548449Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "NVDA",
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Increased political influence and access to leadership is generally viewed as a strategic advantage.",
+     "analysis_id": 6,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:05:03.050451+00:00"
+    }
+   },
+   {
+    "id": 53,
+    "canonical_url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+    "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+    "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+    "publisher": "Yahoo",
+    "summary": "Nokia Oyj (HLSE:NOKIA) expanded its partnership with Microsoft to transform telecom automation using unified, AI-driven data operations. The collaboration connects Nokia Data Suite directly with Microsoft Fabric to streamline network data access for global telecom operators. The combined platform is designed to shorten network data retrieval times and support multi-vendor AI use cases such as autonomous assurance and predictive maintenance. This Nokia and Microsoft AI data operations...",
+    "published_at": "2026-09-20T03:19:33Z",
+    "fetched_at": "2026-09-20T12:57:21.074074Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "MSFT"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+      "fetched_at": "2026-09-20T14:48:40.320854Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "MSFT",
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Partnership with Nokia enhances Microsoft's AI-driven data capabilities in the telecom sector.",
+     "analysis_id": 5,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:04:56.259297+00:00"
+    }
+   },
+   {
+    "id": 129,
+    "canonical_url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+    "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+    "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+    "publisher": "Yahoo",
+    "summary": "Washington just put AI and defense infrastructure back under a spotlight, with plans for an \"AI Force\" and an AI tsar signaling fresh attention on chips, cloud capacity and contractors that can plug into federal demand. That shift could reshape where capital flows next and it creates both openings and risks for investors watching AI-related equities. This article unpacks 3 US-listed large caps exposed to this policy theme and explains how each stock connects to the AI and defense spending...",
+    "published_at": "2026-09-20T02:11:49Z",
+    "fetched_at": "2026-09-20T12:57:21.840101Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "NVDA"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+      "fetched_at": "2026-09-20T14:48:41.411281Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "NVDA",
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Alignment with federal defense spending represents a potential new growth vertical.",
+     "analysis_id": 6,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:05:03.050451+00:00"
+    }
+   },
+   {
+    "id": 137,
+    "canonical_url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+    "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+    "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+    "publisher": "Yahoo",
+    "summary": "NVIDIA (NasdaqGS:NVDA), Google, and Emerald AI have created the AI Energy Management Alliance to coordinate electricity use in AI data centers. The alliance has started building what it calls the first purpose-built power-flexible AI data center, designed to adjust consumption with grid needs. AEMA plans to publish shared frameworks for grid-responsive data centers with input from utilities, regulators, and large AI infrastructure users. The formation of AEMA and the power-flexible data...",
+    "published_at": "2026-09-19T23:09:32Z",
+    "fetched_at": "2026-09-20T12:57:21.840101Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "NVDA"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+      "fetched_at": "2026-09-20T14:48:41.411281Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "NVDA",
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Proactive management of energy constraints is critical for long-term data center scaling.",
+     "analysis_id": 6,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:05:03.050451+00:00"
+    }
+   },
+   {
+    "id": 158,
+    "canonical_url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+    "title": "Huang just doubled his chip forecast and blocked a regulator",
+    "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+    "publisher": "Yahoo",
+    "summary": "What the Nvidia chief told reporters in Scotland does not match what his company put in writing last month.",
+    "published_at": "2026-09-19T17:07:00Z",
+    "fetched_at": "2026-09-20T12:57:21.840101Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "NVDA"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+      "fetched_at": "2026-09-20T14:48:41.411281Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "NVDA",
+     "sentiment": -0.5,
+     "impact": "medium",
+     "rationale": "Discrepancies between executive statements and official filings can lead to reputational or regulatory risk.",
+     "analysis_id": 6,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:05:03.050451+00:00"
+    }
+   },
+   {
+    "id": 7,
+    "canonical_url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+    "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+    "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+    "publisher": "Yahoo",
+    "summary": "Apple\u2019s price target hike comes on the heels of surprising consumer survey findings.",
+    "published_at": "2026-09-19T16:03:00Z",
+    "fetched_at": "2026-09-20T12:57:20.052430Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "AAPL"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+      "fetched_at": "2026-09-20T14:48:39.578727Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "AAPL",
+     "sentiment": 0.6,
+     "impact": "medium",
+     "rationale": "Positive signal regarding iPhone demand and analyst sentiment.",
+     "analysis_id": 4,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:04:50.231823+00:00"
+    }
+   },
+   {
+    "id": 10,
+    "canonical_url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+    "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+    "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+    "publisher": "Yahoo",
+    "summary": "Apple stock just got a price target cut due to the memory processor crunch.",
+    "published_at": "2026-09-19T12:50:00Z",
+    "fetched_at": "2026-09-20T12:57:20.052430Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "AAPL",
+     "NVDA"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+      "fetched_at": "2026-09-20T14:48:41.411281Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "AAPL",
+     "sentiment": -0.4,
+     "impact": "medium",
+     "rationale": "Reports a price target cut due to supply chain constraints.",
+     "analysis_id": 4,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:04:50.231823+00:00"
+    }
+   },
+   {
+    "id": 63,
+    "canonical_url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+    "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+    "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+    "publisher": "Yahoo",
+    "summary": "Key Stats for Microsoft StockPrice change for Microsoft stock in last 6 months: 27%$MSFT Stock Price as of Sep. 17: $49852-Week High: $554$MSFT Stock Price Target: $573What Happened?Microsoft (MSFT) stock is in focus after the company raised its quarterly dividend to $0.",
+    "published_at": "2026-09-19T05:45:30Z",
+    "fetched_at": "2026-09-20T12:57:21.074074Z",
+    "content_scope": "headline_and_excerpt",
+    "tickers": [
+     "MSFT"
+    ],
+    "sources": [
+     {
+      "provider": "finnhub",
+      "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+      "fetched_at": "2026-09-20T14:48:40.320854Z"
+     }
+    ],
+    "assessment": {
+     "ticker": "MSFT",
+     "sentiment": 0.6,
+     "impact": "medium",
+     "rationale": "Dividend increase is a positive signal for shareholders.",
+     "analysis_id": 5,
+     "model": "gemini-3.1-flash-lite",
+     "generated_at": "2026-09-20T14:04:56.259297+00:00"
+    }
+   }
+  ],
+  "analyzed_count": 29,
+  "article_count": 200,
+  "note": "Ordered by the model's impact rating, then recency. Impact and sentiment are AI interpretations of the linked article only."
+ },
+ "last_refresh": {
+  "id": "e9f35a9519004767993f852906682782",
+  "status": "completed",
+  "trigger": "manual",
+  "started_at": "2026-09-20T14:49:34.949956+00:00",
+  "completed_at": "2026-09-20T14:49:35.119388+00:00"
+ },
+ "active_refresh": null,
+ "scoring": {
+  "config_version": "scoring-v1",
+  "labels": {
+   "strong_setup": 70.0,
+   "watch": 58.0,
+   "neutral": 42.0
+  }
+ },
+ "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return."
+}

@@ -1,0 +1,19 @@
+{
+ "items": [
+  {
+   "ticker": "AAPL",
+   "company_name": "Apple",
+   "added_at": "2026-09-20T12:54:51.464426+00:00"
+  },
+  {
+   "ticker": "MSFT",
+   "company_name": "Microsoft",
+   "added_at": "2026-09-20T12:54:51.465908+00:00"
+  },
+  {
+   "ticker": "NVDA",
+   "company_name": "Nvidia",
+   "added_at": "2026-09-20T12:54:51.465905+00:00"
+  }
+ ]
+}

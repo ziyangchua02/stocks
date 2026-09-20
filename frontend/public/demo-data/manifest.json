@@ -1,0 +1,39 @@
+{
+ "captured_at": "2026-09-20T15:04:51.900375+00:00",
+ "tickers": [
+  "AAPL",
+  "MSFT",
+  "NVDA"
+ ],
+ "files": [
+  "alerts.json",
+  "daily-brief.json",
+  "health.json",
+  "indicators--AAPL.json",
+  "indicators--MSFT.json",
+  "indicators--NVDA.json",
+  "news--AAPL.json",
+  "news--MSFT.json",
+  "news--NVDA.json",
+  "news-analysis--AAPL.json",
+  "news-analysis--MSFT.json",
+  "news-analysis--NVDA.json",
+  "news.json",
+  "overview.json",
+  "performance.json",
+  "quote--AAPL.json",
+  "quote--MSFT.json",
+  "quote--NVDA.json",
+  "score--AAPL.json",
+  "score--MSFT.json",
+  "score--NVDA.json",
+  "scores.json",
+  "scoring-config.json",
+  "signals--AAPL.json",
+  "signals--MSFT.json",
+  "signals--NVDA.json",
+  "signals.json",
+  "watchlist.json"
+ ],
+ "note": "Frozen snapshot of a local run. The demo serves these instead of an API."
+}

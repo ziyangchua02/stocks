@@ -1,0 +1,27 @@
+# In-app alert rules. Alerts are generated during refresh from data already
+# stored, and are never a recommendation to act.
+enabled: true
+# Telegram delivery is not installed. Keep TELEGRAM_ENABLED=false in .env;
+# in-app alerts are the only channel.
+rules:
+  score_threshold:
+    enabled: true
+    crosses_above: 70
+    crosses_below: 42
+  score_change:
+    enabled: true
+    minimum_change: 8
+  label_change:
+    enabled: true
+  price_move:
+    enabled: true
+    percent: 4
+  high_impact_news:
+    enabled: true
+    impacts: [high]
+    minimum_abs_sentiment: 0.3
+brief:
+  enabled: true
+  lookback_hours: 24
+  max_articles: 10
+  max_output_tokens: 4000

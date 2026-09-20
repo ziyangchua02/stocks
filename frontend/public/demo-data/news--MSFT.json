@@ -1,0 +1,1103 @@
+{
+ "items": [
+  {
+   "id": 53,
+   "canonical_url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+   "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+   "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+   "publisher": "Yahoo",
+   "summary": "Nokia Oyj (HLSE:NOKIA) expanded its partnership with Microsoft to transform telecom automation using unified, AI-driven data operations. The collaboration connects Nokia Data Suite directly with Microsoft Fabric to streamline network data access for global telecom operators. The combined platform is designed to shorten network data retrieval times and support multi-vendor AI use cases such as autonomous assurance and predictive maintenance. This Nokia and Microsoft AI data operations...",
+   "published_at": "2026-09-20T03:19:33Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.5,
+    "impact": "medium",
+    "rationale": "Partnership with Nokia enhances Microsoft's AI-driven data capabilities in the telecom sector.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 54,
+   "canonical_url": "https://finnhub.io/api/news?id=1df6b2682d2c7a0c4ccc2ee48309f59c455ee67ccc2b1e0e65779f21dd1ea392",
+   "title": "AI risk debate: Existential threat or dangerous tool?",
+   "url": "https://finnhub.io/api/news?id=1df6b2682d2c7a0c4ccc2ee48309f59c455ee67ccc2b1e0e65779f21dd1ea392",
+   "publisher": "Yahoo",
+   "summary": "Investing.com -- Concerns about artificial intelligence are shifting from hypothetical extinction scenarios toward evidence that increasingly capable models can already be used for weapons development and cyber operations, according to Yardeni Research.",
+   "published_at": "2026-09-19T23:30:38Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=1df6b2682d2c7a0c4ccc2ee48309f59c455ee67ccc2b1e0e65779f21dd1ea392",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 55,
+   "canonical_url": "https://finnhub.io/api/news?id=6b832664e640eb589ca6b277d6432b2239002b4d689a91893ad9ef70f68f0dc5",
+   "title": "DGRW Pays Dividends Every Month. Its Biggest Stocks Look Nothing Like a High-Yield ETF",
+   "url": "https://finnhub.io/api/news?id=6b832664e640eb589ca6b277d6432b2239002b4d689a91893ad9ef70f68f0dc5",
+   "publisher": "Yahoo",
+   "summary": "WisdomTree's DGRW distributes cash to shareholders every single month, yet its largest holdings read like a growth fund roster rather than an income portfolio. Whether that contradiction works for or against dividend investors depends entirely on what you actually need from a dividend ETF.",
+   "published_at": "2026-09-19T22:57:37Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=6b832664e640eb589ca6b277d6432b2239002b4d689a91893ad9ef70f68f0dc5",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 6,
+   "canonical_url": "https://finnhub.io/api/news?id=e7c88893e45fbbc500a296482ce0c87e9709b092bc2dcd956c578f26ddcad785",
+   "title": "Forget Buying All Seven: The \"Magnificent Seven\" Stock Most Likely to Double by 2028",
+   "url": "https://finnhub.io/api/news?id=e7c88893e45fbbc500a296482ce0c87e9709b092bc2dcd956c578f26ddcad785",
+   "publisher": "Yahoo",
+   "summary": "I believe investors are underrating the potential of this compounding machine.",
+   "published_at": "2026-09-19T18:50:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e7c88893e45fbbc500a296482ce0c87e9709b092bc2dcd956c578f26ddcad785",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 56,
+   "canonical_url": "https://finnhub.io/api/news?id=c2ca74138f86833a2c2c2b95c1adca37e29e8a0db5abb3ee8223fc838ead094a",
+   "title": "AI Made Execution Easier. It Also Changed the Founder\u2019s Most Important Job.",
+   "url": "https://finnhub.io/api/news?id=c2ca74138f86833a2c2c2b95c1adca37e29e8a0db5abb3ee8223fc838ead094a",
+   "publisher": "Yahoo",
+   "summary": "As execution becomes easier to automate, accountability, trust and discernment become even more valuable leadership skills.",
+   "published_at": "2026-09-19T18:30:00Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=c2ca74138f86833a2c2c2b95c1adca37e29e8a0db5abb3ee8223fc838ead094a",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 9,
+   "canonical_url": "https://finnhub.io/api/news?id=4d81a180e6f8e18c98e7f7f44ee77306e9a702930d559d9446b189a7f8237f78",
+   "title": "The Stock Market's Biggest Companies Are Losing Their Grip. Here's the ETF I'd Buy If History Repeats.",
+   "url": "https://finnhub.io/api/news?id=4d81a180e6f8e18c98e7f7f44ee77306e9a702930d559d9446b189a7f8237f78",
+   "publisher": "Yahoo",
+   "summary": "As the market rotates away from large-cap stocks, new opportunities have emerged in their place.",
+   "published_at": "2026-09-19T15:05:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=4d81a180e6f8e18c98e7f7f44ee77306e9a702930d559d9446b189a7f8237f78",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 57,
+   "canonical_url": "https://finnhub.io/api/news?id=c1baba00348242f866a38d57a26c206a6041303f1db6836a8f8523e7295e0ab2",
+   "title": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
+   "url": "https://finnhub.io/api/news?id=c1baba00348242f866a38d57a26c206a6041303f1db6836a8f8523e7295e0ab2",
+   "publisher": "Yahoo",
+   "summary": "One year on from the $9.7 billion Microsoft deal, the company is finally delivering.",
+   "published_at": "2026-09-19T14:27:34Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=c1baba00348242f866a38d57a26c206a6041303f1db6836a8f8523e7295e0ab2",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.3,
+    "impact": "low",
+    "rationale": "Mentions a past deal with IREN; limited direct impact on Microsoft's current operations.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 58,
+   "canonical_url": "https://finnhub.io/api/news?id=213e7ae3ec0eaf62c58e1a54b659021798684ad081ff6330bd28f07592bb8e19",
+   "title": "How Investors Are Reacting To Ultragenyx Pharmaceutical (RARE) First-In-Disease Gene Therapy Approval For FAYUVI",
+   "url": "https://finnhub.io/api/news?id=213e7ae3ec0eaf62c58e1a54b659021798684ad081ff6330bd28f07592bb8e19",
+   "publisher": "Yahoo",
+   "summary": "In September 2026, Ultragenyx Pharmaceutical received full U.S. FDA approval for FAYUVI (UX111), the first-ever treatment for pediatric patients with Sanfilippo syndrome Type A, along with a Priority Review Voucher. This approval not only addresses a previously untreated ultra-rare, fatal neurodegenerative disease but also expands Ultragenyx\u2019s commercial gene therapy portfolio and manufacturing footprint in the U.S. We\u2019ll now explore how FAYUVI\u2019s first-in-disease approval and the associated...",
+   "published_at": "2026-09-19T14:10:33Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=213e7ae3ec0eaf62c58e1a54b659021798684ad081ff6330bd28f07592bb8e19",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 59,
+   "canonical_url": "https://finnhub.io/api/news?id=3c1f06dd43dfb92bc4580221c728e7d579d60bf1b6d31eeed7317cb274e178d5",
+   "title": "IBM Has Raised Its Dividend for 31 Years. Inflation Is Still Winning",
+   "url": "https://finnhub.io/api/news?id=3c1f06dd43dfb92bc4580221c728e7d579d60bf1b6d31eeed7317cb274e178d5",
+   "publisher": "Yahoo",
+   "summary": "IBM has raised its dividend for three decades straight, but the latest increase fits on a penny. Before counting on that income to keep pace with rising costs, retirees should understand what the streak actually delivers.",
+   "published_at": "2026-09-19T14:02:51Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=3c1f06dd43dfb92bc4580221c728e7d579d60bf1b6d31eeed7317cb274e178d5",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 60,
+   "canonical_url": "https://finnhub.io/api/news?id=1bfb1e12c2c0782bd3d9a1ee25d0b79a72bd082a400bfc0734541f9e65dc552c",
+   "title": "Bill Ackman's Pershing Square IPO Breaks Out",
+   "url": "https://finnhub.io/api/news?id=1bfb1e12c2c0782bd3d9a1ee25d0b79a72bd082a400bfc0734541f9e65dc552c",
+   "publisher": "Yahoo",
+   "summary": "Bill Ackman's Pershing Square Inc., a recent IPO, broke out past a buy point Friday in a rocky market. The hedge fund billionaire's publicly traded investment vehicle, Pershing Square Inc., rallied an impressive 27% for the week after bullish analyst upgrades.",
+   "published_at": "2026-09-19T12:00:59Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=1bfb1e12c2c0782bd3d9a1ee25d0b79a72bd082a400bfc0734541f9e65dc552c",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 61,
+   "canonical_url": "https://finnhub.io/api/news?id=ba90a60b1e3501823d592341df7bd327b8cf79e8ecefd19afb4771c70110cc7d",
+   "title": "The Agent Economy Runs on Concrete: Why $660 Billion Is Pouring Into Physical Infrastructure",
+   "url": "https://finnhub.io/api/news?id=ba90a60b1e3501823d592341df7bd327b8cf79e8ecefd19afb4771c70110cc7d",
+   "publisher": "Yahoo",
+   "summary": "The agent economy is not being enabled by software; it is being bottlenecked by hardware. While the popular imagination fixates on autonomous code orchestrating value, the actual mechanism of the current market is far more terrestrial. If you cannot power it, you cannot run it. This is the governing rule of the AI era, and [\u2026]",
+   "published_at": "2026-09-19T10:11:27Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=ba90a60b1e3501823d592341df7bd327b8cf79e8ecefd19afb4771c70110cc7d",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 13,
+   "canonical_url": "https://finnhub.io/api/news?id=13f780888e8f80a1dd6391f3566fca74c418354f968b1de73cb4854818c0ee6f",
+   "title": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
+   "url": "https://finnhub.io/api/news?id=13f780888e8f80a1dd6391f3566fca74c418354f968b1de73cb4854818c0ee6f",
+   "publisher": "Yahoo",
+   "summary": "Investors need something that evolves with a changing economy.",
+   "published_at": "2026-09-19T09:00:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=13f780888e8f80a1dd6391f3566fca74c418354f968b1de73cb4854818c0ee6f",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 62,
+   "canonical_url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+   "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+   "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+   "publisher": "Yahoo",
+   "summary": "The assessment isn't a permanent indictment. Indeed, if anything, it's a clarion call.",
+   "published_at": "2026-09-19T08:50:00Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": -0.2,
+    "impact": "low",
+    "rationale": "General industry commentary on AI backlash; potential sentiment risk but lacks specific Microsoft impact.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 63,
+   "canonical_url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+   "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+   "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+   "publisher": "Yahoo",
+   "summary": "Key Stats for Microsoft StockPrice change for Microsoft stock in last 6 months: 27%$MSFT Stock Price as of Sep. 17: $49852-Week High: $554$MSFT Stock Price Target: $573What Happened?Microsoft (MSFT) stock is in focus after the company raised its quarterly dividend to $0.",
+   "published_at": "2026-09-19T05:45:30Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.6,
+    "impact": "medium",
+    "rationale": "Dividend increase is a positive signal for shareholders.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 64,
+   "canonical_url": "https://finnhub.io/api/news?id=b601e0618b377bbd981a211a648501cf3450ded5e5e0546fc0f704f9b211789e",
+   "title": "Nvidia-backed Nscale Wants to Ride the AI Infrastructure Boom to Wall Street: Files for NYSE IPO",
+   "url": "https://finnhub.io/api/news?id=b601e0618b377bbd981a211a648501cf3450ded5e5e0546fc0f704f9b211789e",
+   "publisher": "Benzinga",
+   "summary": "London cloud company Nscale, backed by Microsoft and Nvidia, has filed to sell shares publicly on the New York Stock Exchange.",
+   "published_at": "2026-09-19T05:12:26Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=b601e0618b377bbd981a211a648501cf3450ded5e5e0546fc0f704f9b211789e",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.2,
+    "impact": "low",
+    "rationale": "Microsoft's backing of Nscale is a minor strategic investment.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 65,
+   "canonical_url": "https://finnhub.io/api/news?id=94a2a10e975e7260860ac1f1ef564df695e31cb4a58c7a7ddfd3b3978c13fd25",
+   "title": "How to position for the next wave of AI-led scientific breakthroughs",
+   "url": "https://finnhub.io/api/news?id=94a2a10e975e7260860ac1f1ef564df695e31cb4a58c7a7ddfd3b3978c13fd25",
+   "publisher": "Yahoo",
+   "summary": "Investing.com -- Artificial intelligence is moving beyond text generation into scientific research, creating investment opportunities across AI infrastructure, pharmaceuticals, nuclear fusion, industrial materials and utilities, according to UBS Wealth Management.",
+   "published_at": "2026-09-19T01:36:30Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=94a2a10e975e7260860ac1f1ef564df695e31cb4a58c7a7ddfd3b3978c13fd25",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 66,
+   "canonical_url": "https://finnhub.io/api/news?id=ecc596db335e208f542456e6857870320883a3415affd25ce4bbef1607784773",
+   "title": "CRWD Stock Keeps Climbing. Should You Climb On?",
+   "url": "https://finnhub.io/api/news?id=ecc596db335e208f542456e6857870320883a3415affd25ce4bbef1607784773",
+   "publisher": "Yahoo",
+   "summary": "This cybersecurity stock is on a historic run fueled by the AI boom, forcing investors to evaluate whether the growth engine has enough fuel left to justify its expanding multiple.",
+   "published_at": "2026-09-18T22:49:14Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=ecc596db335e208f542456e6857870320883a3415affd25ce4bbef1607784773",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 67,
+   "canonical_url": "https://finnhub.io/api/news?id=dd223ff8e68c3d8a8cd9ae25275bfa0c19d1ef2da16e17b94597116ee95d956e",
+   "title": "How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?",
+   "url": "https://finnhub.io/api/news?id=dd223ff8e68c3d8a8cd9ae25275bfa0c19d1ef2da16e17b94597116ee95d956e",
+   "publisher": "Yahoo",
+   "summary": "UiPath (PATH) trades at about $14, some 29% below its high of the past year, and it has lost 11.7% over the past month. Its results are not what did that. The fall is recent: the stock is still up 34.5% over the past three months, and over the past twelve months it returned 18.9% against 17.0% for the S&P 500. What matters is how far a stock like this falls in a real shock.",
+   "published_at": "2026-09-18T22:06:26Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=dd223ff8e68c3d8a8cd9ae25275bfa0c19d1ef2da16e17b94597116ee95d956e",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 92,
+   "canonical_url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+   "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+   "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+   "publisher": "CNBC Markets",
+   "summary": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
+   "published_at": "2026-09-18T21:35:55Z",
+   "fetched_at": "2026-09-20T12:57:17.158750Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "rss:CNBC Markets",
+     "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+     "fetched_at": "2026-09-20T14:48:37.548449Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": -0.4,
+    "impact": "medium",
+    "rationale": "Internal acknowledgement of concerning AI model behavior poses potential reputational and safety risks.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 68,
+   "canonical_url": "https://finnhub.io/api/news?id=50c1c34384df051ae4f5c121e78eeedff943bd3ad02020e5a77f55b71b84a5e2",
+   "title": "Nvidia-Backed Cloud Platform Nscale Files For IPO \u2014 NVDA Stock In Focus",
+   "url": "https://finnhub.io/api/news?id=50c1c34384df051ae4f5c121e78eeedff943bd3ad02020e5a77f55b71b84a5e2",
+   "publisher": "Yahoo",
+   "summary": "AI data center provider Nscale has submitted paperwork for a New York initial public offering to fund computing infrastructure.",
+   "published_at": "2026-09-18T21:31:11Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=50c1c34384df051ae4f5c121e78eeedff943bd3ad02020e5a77f55b71b84a5e2",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 69,
+   "canonical_url": "https://finnhub.io/api/news?id=e715a695b6206d359899cfb3cedf9e970f17c24d4ba177387fb5a8d630a32b96",
+   "title": "Should You Buy NetApp Stock For The Shares It Keeps Retiring?",
+   "url": "https://finnhub.io/api/news?id=e715a695b6206d359899cfb3cedf9e970f17c24d4ba177387fb5a8d630a32b96",
+   "publisher": "Yahoo",
+   "summary": "NetApp (NTAP) has spent years quietly retiring its own stock while the attention went to its flash arrays and AI deals. The stock is not quiet now: it has gained about 92% over the trailing six months and sits roughly 5% below its 52-week high. Fewer shares mean each one carries more of the profit. The question is what that is worth at this price.",
+   "published_at": "2026-09-18T19:53:26Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e715a695b6206d359899cfb3cedf9e970f17c24d4ba177387fb5a8d630a32b96",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 70,
+   "canonical_url": "https://finnhub.io/api/news?id=86f7f974d24109c01645ba46c3adf7f22dededfbbcba59aaf3f8f0f50add5422",
+   "title": "Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO",
+   "url": "https://finnhub.io/api/news?id=86f7f974d24109c01645ba46c3adf7f22dededfbbcba59aaf3f8f0f50add5422",
+   "publisher": "Yahoo",
+   "summary": "Nscale, a developer of artificial intelligence data centers that counts Nvidia Corp. and Microsoft Corp. among its partners, filed for an initial public offering in New York to tap into AI\u2019s insatiable demand for computing power.",
+   "published_at": "2026-09-18T19:52:20Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=86f7f974d24109c01645ba46c3adf7f22dededfbbcba59aaf3f8f0f50add5422",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.2,
+    "impact": "low",
+    "rationale": "Reiteration of Microsoft's partnership with Nscale regarding their IPO.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 71,
+   "canonical_url": "https://finnhub.io/api/news?id=b2e1130de4a9258488eadedb5e1b1cd99757d7a229b9434160b946aa2ff062d8",
+   "title": "Goldman Sachs Sends Stark Warning on S&P 500 Earnings",
+   "url": "https://finnhub.io/api/news?id=b2e1130de4a9258488eadedb5e1b1cd99757d7a229b9434160b946aa2ff062d8",
+   "publisher": "Yahoo",
+   "summary": "AI Boom Is Supercharging S&P 500 Profits. Goldman Sachs Warns the Boost Won't Last",
+   "published_at": "2026-09-18T19:35:26Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=b2e1130de4a9258488eadedb5e1b1cd99757d7a229b9434160b946aa2ff062d8",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 72,
+   "canonical_url": "https://finnhub.io/api/news?id=b16c7792fd805a4f482261f25e6014d7ca7379a7049589eadb132387b52575f3",
+   "title": "OpenAI and Anthropic's Chinese Rivals Face a Revenue Reality Check",
+   "url": "https://finnhub.io/api/news?id=b16c7792fd805a4f482261f25e6014d7ca7379a7049589eadb132387b52575f3",
+   "publisher": "Yahoo",
+   "summary": "The real divide may be revenue, not model quality",
+   "published_at": "2026-09-18T19:33:17Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=b16c7792fd805a4f482261f25e6014d7ca7379a7049589eadb132387b52575f3",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 26,
+   "canonical_url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057",
+   "title": "Where AAPL Stock's $510 Billion Of Shareholder Cash Came From",
+   "url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057",
+   "publisher": "Yahoo",
+   "summary": "One of the world\u2019s largest companies has become a cash-return machine of historic scale, but its engine is now facing a serious test.",
+   "published_at": "2026-09-18T19:24:37Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 73,
+   "canonical_url": "https://finnhub.io/api/news?id=15b499565cc2c19d1f179fff056731bf8095213d81311d4e91e654bc9e179efc",
+   "title": "Core & Main (CNM) Is Up 5.0% After Buybacks, M&A Pipeline Updates and Guidance Reaffirmation - Has The Bull Case Changed?",
+   "url": "https://finnhub.io/api/news?id=15b499565cc2c19d1f179fff056731bf8095213d81311d4e91e654bc9e179efc",
+   "publisher": "Yahoo",
+   "summary": "In its fiscal 2026 second quarter, Core & Main, Inc. reported higher year-on-year sales of US$2,145 million and net income of US$144 million, reaffirmed full-year guidance for US$7.80\u2013US$7.90 billion in net sales, accelerated share repurchases under its existing program, and highlighted a more active acquisition pipeline progressing to letters of intent. A key insight from these updates is management\u2019s emphasis on using a strong balance sheet and cash generation to fund both M&A aimed at...",
+   "published_at": "2026-09-18T19:13:15Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=15b499565cc2c19d1f179fff056731bf8095213d81311d4e91e654bc9e179efc",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 27,
+   "canonical_url": "https://finnhub.io/api/news?id=78a32cefff3b734a602cec1107d0af9612b36dcbd1da4258455cd14ace8a28a3",
+   "title": "Intel vs. SK Hynix: Which Chip Stock Is Worth Chasing After This Week's Surge?",
+   "url": "https://finnhub.io/api/news?id=78a32cefff3b734a602cec1107d0af9612b36dcbd1da4258455cd14ace8a28a3",
+   "publisher": "Yahoo",
+   "summary": "Intel (INTC) and SK Hynix (SKHY) have been among this week's hottest semiconductor stocks as investors react to reports that the companies are exploring partnership opportunities.",
+   "published_at": "2026-09-18T19:10:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=78a32cefff3b734a602cec1107d0af9612b36dcbd1da4258455cd14ace8a28a3",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 74,
+   "canonical_url": "https://finnhub.io/api/news?id=f2c9c6580add36b9ac4070427bbeaff412c97f68c5b1024ee6f7a2a46355146f",
+   "title": "Why Salesforce\u2019s Homegrown AI Model Won\u2019t Move the Stock Until 2027",
+   "url": "https://finnhub.io/api/news?id=f2c9c6580add36b9ac4070427bbeaff412c97f68c5b1024ee6f7a2a46355146f",
+   "publisher": "Yahoo",
+   "summary": "Salesforce just unveiled Koa, its first homegrown AI model built for CRM reasoning, but a gap between launch and availability raises a pointed question: can a model nobody can buy yet actually move the stock?",
+   "published_at": "2026-09-18T19:03:51Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=f2c9c6580add36b9ac4070427bbeaff412c97f68c5b1024ee6f7a2a46355146f",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 75,
+   "canonical_url": "https://finnhub.io/api/news?id=b4237aed203be0c620e7289de3cb158b667819295c160a3fb1e1fa38bc390e3d",
+   "title": "Meta Platforms Just Ripped 23% in a Month: Take Profits, or Buy More?",
+   "url": "https://finnhub.io/api/news?id=b4237aed203be0c620e7289de3cb158b667819295c160a3fb1e1fa38bc390e3d",
+   "publisher": "Yahoo",
+   "summary": "Meta Platforms surged far past its mega-cap peers in a single month while the broader tech sector sat flat, and now shareholders face a decision that hinges entirely on how you read what the July earnings report actually said about the business.",
+   "published_at": "2026-09-18T18:47:39Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=b4237aed203be0c620e7289de3cb158b667819295c160a3fb1e1fa38bc390e3d",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 76,
+   "canonical_url": "https://finnhub.io/api/news?id=46fedd06c559ba8b3d63e97060c25dad3687b4ac45e0e46d0a2425c82202bb5e",
+   "title": "Dividend Champion, Contender, And Challenger Highlights: Week September 20",
+   "url": "https://finnhub.io/api/news?id=46fedd06c559ba8b3d63e97060c25dad3687b4ac45e0e46d0a2425c82202bb5e",
+   "publisher": "SeekingAlpha",
+   "summary": "Track weekly dividend updates for Dividend Champions, Contenders & Challengers\u00e2\u0080\u0094see dividend changes, upcoming ex-dividend dates and pay dates here.",
+   "published_at": "2026-09-18T18:14:15Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=46fedd06c559ba8b3d63e97060c25dad3687b4ac45e0e46d0a2425c82202bb5e",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 77,
+   "canonical_url": "https://finnhub.io/api/news?id=a096c5d06025b5ca49a7b9827f4c34d7e8b736f61fbbd72325babed2d7a6504e",
+   "title": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+   "url": "https://finnhub.io/api/news?id=a096c5d06025b5ca49a7b9827f4c34d7e8b736f61fbbd72325babed2d7a6504e",
+   "publisher": "Yahoo",
+   "summary": "Oracle is sliding hard on a day when its cloud rivals are barely flinching, and the reason behind that split tells investors something important about where the real pressure on ORCL stock is coming from.",
+   "published_at": "2026-09-18T18:07:07Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=a096c5d06025b5ca49a7b9827f4c34d7e8b736f61fbbd72325babed2d7a6504e",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.1,
+    "impact": "low",
+    "rationale": "Market context regarding cloud rivals; Microsoft's performance is described as holding ground.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 78,
+   "canonical_url": "https://finnhub.io/api/news?id=e8e9fac1d80b74936414db318e860c0175d718dbb4f04665e39aab7df49be971",
+   "title": "Credo Technology Group vs. Sandisk: Which Technology Stock Is a Better Buy in 2026?",
+   "url": "https://finnhub.io/api/news?id=e8e9fac1d80b74936414db318e860c0175d718dbb4f04665e39aab7df49be971",
+   "publisher": "Yahoo",
+   "summary": "One company is growing at a pace that is almost impossible to find in semiconductors. The other has reinvented itself as a contracted AI infrastructure play with billions in guaranteed revenue.",
+   "published_at": "2026-09-18T18:05:01Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e8e9fac1d80b74936414db318e860c0175d718dbb4f04665e39aab7df49be971",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 79,
+   "canonical_url": "https://finnhub.io/api/news?id=57f9a3b6fc72eb72004070beb9320997935226a41fa261a3a9160d4d02974797",
+   "title": "Is Palantir's Lead Over Its Peers Already Priced In?",
+   "url": "https://finnhub.io/api/news?id=57f9a3b6fc72eb72004070beb9320997935226a41fa261a3a9160d4d02974797",
+   "publisher": "Yahoo",
+   "summary": "Palantir Technologies (PLTR) grew revenue faster over the past twelve months than every company in its peer group, and only one company in that group earns a wider operating margin. Palantir also carries the group's highest earnings multiple. Over those same twelve months the stock returned less than the S&P 500. The operational lead is evident, but current market valuations appear to price in much of that outperformance.",
+   "published_at": "2026-09-18T18:00:41Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=57f9a3b6fc72eb72004070beb9320997935226a41fa261a3a9160d4d02974797",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 34,
+   "canonical_url": "https://finnhub.io/api/news?id=41be7092eea7b9ab68320a7ba851f5b67a9e7ceb76f9b9414eedbb3fe7176bc1",
+   "title": "Coinbase Seeks Approval to List Perpetual Futures Tied to U.S. Stocks",
+   "url": "https://finnhub.io/api/news?id=41be7092eea7b9ab68320a7ba851f5b67a9e7ceb76f9b9414eedbb3fe7176bc1",
+   "publisher": "Yahoo",
+   "summary": "Coinbase Global (NASDAQ: $COIN) has filed for regulatory approval to list perpetual futures tied to individual larg...",
+   "published_at": "2026-09-18T17:37:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=41be7092eea7b9ab68320a7ba851f5b67a9e7ceb76f9b9414eedbb3fe7176bc1",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 80,
+   "canonical_url": "https://finnhub.io/api/news?id=54d7b8c1caadec517018991092b3aedd8449c3aea7382baf82878b118eae2a16",
+   "title": "Stocks Are Resilient, Fairly Priced, and Probably Getting Ready to Rally",
+   "url": "https://finnhub.io/api/news?id=54d7b8c1caadec517018991092b3aedd8449c3aea7382baf82878b118eae2a16",
+   "publisher": "Yahoo",
+   "summary": "The stock market aced two big tests this week. Things got weird when CNBC\u2019s Steve Liesman asked Warsh where the federal-funds rate is relative to the so-called neutral rate\u2014the policy rate that is neither accommodative nor restrictive.",
+   "published_at": "2026-09-18T17:05:00Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=54d7b8c1caadec517018991092b3aedd8449c3aea7382baf82878b118eae2a16",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 81,
+   "canonical_url": "https://finnhub.io/api/news?id=47cd830c1ab7955950329bec96d536d93edabf426523b233e114ec1cb3178a63",
+   "title": "Say What? This AI Stock Gets Support, Eyes New Entry As Earnings Surge 66%",
+   "url": "https://finnhub.io/api/news?id=47cd830c1ab7955950329bec96d536d93edabf426523b233e114ec1cb3178a63",
+   "publisher": "Yahoo",
+   "summary": "Artificial intelligence has come under renewed scrutiny. But this AI stock is eyeing an entry amid bullish support as profits pop.",
+   "published_at": "2026-09-18T16:57:59Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=47cd830c1ab7955950329bec96d536d93edabf426523b233e114ec1cb3178a63",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 82,
+   "canonical_url": "https://finnhub.io/api/news?id=fb0a3c6ff25d245e3904222583374e2dbbb186eb7e0680de640abaaaabfee427",
+   "title": "Macquarie Says OpenAI Signals AI Boom Still Has Legs",
+   "url": "https://finnhub.io/api/news?id=fb0a3c6ff25d245e3904222583374e2dbbb186eb7e0680de640abaaaabfee427",
+   "publisher": "Yahoo",
+   "summary": "Commercial momentum is easing fears of an AI slowdown.",
+   "published_at": "2026-09-18T16:51:38Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=fb0a3c6ff25d245e3904222583374e2dbbb186eb7e0680de640abaaaabfee427",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 83,
+   "canonical_url": "https://finnhub.io/api/news?id=998b7fb86800193462b3eb80f7221c5994067abd591695b8f964263732a61396",
+   "title": "Which dow jones stocks are moving on Friday?",
+   "url": "https://finnhub.io/api/news?id=998b7fb86800193462b3eb80f7221c5994067abd591695b8f964263732a61396",
+   "publisher": "ChartMill",
+   "summary": "Curious about the dow jones stocks that are in motion on Friday? Join us as we explore the top movers within the dow jones index during today's session.",
+   "published_at": "2026-09-18T16:40:06Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=998b7fb86800193462b3eb80f7221c5994067abd591695b8f964263732a61396",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 84,
+   "canonical_url": "https://finnhub.io/api/news?id=aeac68bac632c0699cba34a98b83db874eecbd21a152a4b478e580d7fde011d4",
+   "title": "Goldman Sachs Delivers Surprising Verdict on Big Tech Stocks",
+   "url": "https://finnhub.io/api/news?id=aeac68bac632c0699cba34a98b83db874eecbd21a152a4b478e580d7fde011d4",
+   "publisher": "Yahoo",
+   "summary": "AI spending is reshaping how investors value tech giants",
+   "published_at": "2026-09-18T16:18:02Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=aeac68bac632c0699cba34a98b83db874eecbd21a152a4b478e580d7fde011d4",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 85,
+   "canonical_url": "https://finnhub.io/api/news?id=4886702773db33ac0f94d61a716d4d2aeaf590a8e7845b0823e37e35998544ab",
+   "title": "What Happens To Snowflake Stock If AI Keeps Costing It Margin?",
+   "url": "https://finnhub.io/api/news?id=4886702773db33ac0f94d61a716d4d2aeaf590a8e7845b0823e37e35998544ab",
+   "publisher": "Yahoo",
+   "summary": "Snowflake (SNOW) has returned about 53% over the past year, and its product revenue growth has accelerated for three straight quarters. In early September, the company cut its fiscal 2027 non-GAAP product gross margin guide by a point, to 74%, pointing to a heavier mix of fast-growing AI workloads that carry a lower contribution margin. So what happens to the stock if that mix keeps shifting.",
+   "published_at": "2026-09-18T16:14:24Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=4886702773db33ac0f94d61a716d4d2aeaf590a8e7845b0823e37e35998544ab",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 86,
+   "canonical_url": "https://finnhub.io/api/news?id=1c06bfbd5911862ecd8caf628653e556ef3df28261ba9d126ae5a69ba30766c1",
+   "title": "'Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate' - Wall Street Journal",
+   "url": "https://finnhub.io/api/news?id=1c06bfbd5911862ecd8caf628653e556ef3df28261ba9d126ae5a69ba30766c1",
+   "publisher": "Benzinga",
+   "summary": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
+   "published_at": "2026-09-18T16:09:54Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=1c06bfbd5911862ecd8caf628653e556ef3df28261ba9d126ae5a69ba30766c1",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 87,
+   "canonical_url": "https://finnhub.io/api/news?id=5fa196483ce6226b01d1e3547322f9a0e90fd5a500f41d8a56b2df90aaef93cc",
+   "title": "The Walt Disney Company Names Karandeep Anand to Newly Created Role of Chief Technology Officer",
+   "url": "https://finnhub.io/api/news?id=5fa196483ce6226b01d1e3547322f9a0e90fd5a500f41d8a56b2df90aaef93cc",
+   "publisher": "Yahoo",
+   "summary": "BURBANK, Calif., September 18, 2026--The Walt Disney Company (NYSE: DIS) today announced that Karandeep Anand will join the company as Senior Executive Vice President and Chief Technology Officer, a newly created position, effective October 2. Anand, who most recently has served as CEO of Character.AI, will report directly to Disney Chief Executive Officer Josh D'Amaro.",
+   "published_at": "2026-09-18T16:05:00Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=5fa196483ce6226b01d1e3547322f9a0e90fd5a500f41d8a56b2df90aaef93cc",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 88,
+   "canonical_url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+   "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+   "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+   "publisher": "Yahoo",
+   "summary": "Salesforce\u2019s new AI layer could change how millions of workers access company data, and Benioff made sure Microsoft heard about it.",
+   "published_at": "2026-09-18T16:03:00Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": -0.3,
+    "impact": "medium",
+    "rationale": "Salesforce's new AI product launch directly targets Microsoft's enterprise market share.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  },
+  {
+   "id": 89,
+   "canonical_url": "https://finnhub.io/api/news?id=650a09bc3672d7bdb1b62b276ffb32c2e7ff5759249617d234df54488e5b5d8c",
+   "title": "3 AI Stocks Stuck in Neutral to Buy Before Their Next Catalysts Hit",
+   "url": "https://finnhub.io/api/news?id=650a09bc3672d7bdb1b62b276ffb32c2e7ff5759249617d234df54488e5b5d8c",
+   "publisher": "Yahoo",
+   "summary": "Broadcom, Meta Platforms, and Microsoft are all trading close to flat for the year.",
+   "published_at": "2026-09-18T15:35:00Z",
+   "fetched_at": "2026-09-20T12:57:21.074074Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=650a09bc3672d7bdb1b62b276ffb32c2e7ff5759249617d234df54488e5b5d8c",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "MSFT",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "General market observation that the stock is trading flat.",
+    "analysis_id": 5,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:56.259297+00:00"
+   }
+  }
+ ],
+ "total": 44,
+ "limit": 200,
+ "offset": 0,
+ "assessment_note": "Sentiment and impact are AI interpretations of the linked article. A null assessment means the article was not analyzed, not that it is neutral.",
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:MSFT",
+   "fetched_at": "2026-09-20T14:48:41.132437+00:00",
+   "expires_at": "2026-09-20T15:03:41.132437+00:00",
+   "attempted_at": "2026-09-20T14:48:41.132437+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null
+  }
+ ],
+ "status": "partial",
+ "note": "No matching articles is different from a failed provider; inspect provider_status."
+}

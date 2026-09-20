@@ -1,0 +1,708 @@
+{
+ "ticker": "NVDA",
+ "status": "partial",
+ "reason": null,
+ "checked_at": "2026-09-20T15:04:51.843820+00:00",
+ "data": {
+  "id": 6,
+  "ticker": "NVDA",
+  "input_hash": "c7cf6cb2bba2710837eb9572dc5c7c0de84b88d6ab2034d099d7919f34e4fbd2",
+  "model": "gemini-3.1-flash-lite",
+  "prompt_version": "news-v2",
+  "generated_at": "2026-09-20T14:05:03.050451+00:00",
+  "inputs": {
+   "ticker": "NVDA",
+   "company_name": "Nvidia",
+   "selected_at": "2026-09-20T14:04:56.958882+00:00",
+   "lookback_hours": 48,
+   "selection": "Most recent deduplicated articles explicitly mentioning the ticker or company in the headline or excerpt, publication time descending.",
+   "total_count": 215,
+   "excluded_without_company_mention": 177,
+   "eligible_count": 38,
+   "selected_count": 12,
+   "omitted_count": 26,
+   "articles": [
+    {
+     "id": 278,
+     "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+     "excerpt": "Jensen Huang's position as the leader of the world's most valuable company, has earned him Trump's ear on the most important topics in AI.",
+     "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+     "publisher": "CNBC Markets",
+     "published_at": "2026-09-20T11:25:08Z",
+     "fetched_at": "2026-09-20T12:57:17.158750Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 112,
+     "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+     "excerpt": "The chip giant's droughts between record closes have ended at new highs within about six months -- or in bear markets that cut the stock by more than half.",
+     "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T09:28:01Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 129,
+     "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+     "excerpt": "Washington just put AI and defense infrastructure back under a spotlight, with plans for an \"AI Force\" and an AI tsar signaling fresh attention on chips, cloud capacity and contractors that can plug into federal demand. That shift could reshape where capital flows next and it creates both openings and risks for investors watching AI-related equities. This article unpacks 3 US-listed large caps exposed to this policy theme and explains how each stock connects to the AI and defense spending...",
+     "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T02:11:49Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 131,
+     "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+     "excerpt": "Nvidia's 55.6% net margin dwarfs Applied Materials' 24.7%, but one trades at a steep valuation premium while the other faces customer concentration risk.",
+     "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T01:35:01Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 137,
+     "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+     "excerpt": "NVIDIA (NasdaqGS:NVDA), Google, and Emerald AI have created the AI Energy Management Alliance to coordinate electricity use in AI data centers. The alliance has started building what it calls the first purpose-built power-flexible AI data center, designed to adjust consumption with grid needs. AEMA plans to publish shared frameworks for grid-responsive data centers with input from utilities, regulators, and large AI infrastructure users. The formation of AEMA and the power-flexible data...",
+     "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T23:09:32Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 148,
+     "title": "Here\u2019s Another Little-Known Firm Jensen Huang\u2019s Nvidia Is Quietly Backing",
+     "excerpt": "Cohere is a Toronto-based firm raising up to $3 billion.",
+     "url": "https://finnhub.io/api/news?id=109613d39dd6fc95501b59b72e1874c843206ee4dfa623b66bed07ca036b8794",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T19:30:02Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 158,
+     "title": "Huang just doubled his chip forecast and blocked a regulator",
+     "excerpt": "What the Nvidia chief told reporters in Scotland does not match what his company put in writing last month.",
+     "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T17:07:00Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 159,
+     "title": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033",
+     "excerpt": "Earlier this year, Nvidia invested $2 billion in semiconductor company Marvell Technology.",
+     "url": "https://finnhub.io/api/news?id=dc95e2dd714425a4a48009f45dc277205e9f8c28f294ff1c95ef408417d4f15c",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T17:05:00Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 165,
+     "title": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron",
+     "excerpt": "Nvidia and Micron are both great options for next year.",
+     "url": "https://finnhub.io/api/news?id=4ee5d8f73b7bcfc2f2111ad1c3df3c392ea4da661144196a049ad018f0f14e71",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T15:50:00Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 179,
+     "title": "Could IonQ (IONQ) AI Written Quantum Circuits Unlock More Real World Workloads?",
+     "excerpt": "IonQ (NYSE: IONQ) and partners Oak Ridge National Laboratory, NVIDIA, and the University of Tennessee built a generative AI system that writes quantum optimization circuits. The joint team reports that the AI driven circuit synthesis cuts out manual trial and error tuning for complex quantum optimization tasks. The research, benchmarked at scale, received a best paper award at a major industry conference, signaling peer recognition of its impact. This new generative AI circuit writer is only...",
+     "url": "https://finnhub.io/api/news?id=caa0f406b1559f63052d82a39594b125cf1e79be3da80a3dd71edaba40adbd3a",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T12:11:08Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 189,
+     "title": "If You'd Invested $1,000 in Nvidia's 1999 IPO, Here's How Much You'd Have Today",
+     "excerpt": "Despite Nvidia's growth, the return on such a modest investment may be surprising.",
+     "url": "https://finnhub.io/api/news?id=a43f6d2dfd712b5a7ade0ddb6f9bd596ab638adb9269bc0388a1f78ee616a051",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T11:05:00Z",
+     "fetched_at": "2026-09-20T12:57:21.840101Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 62,
+     "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+     "excerpt": "The assessment isn't a permanent indictment. Indeed, if anything, it's a clarion call.",
+     "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T08:50:00Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    }
+   ]
+  },
+  "payload": {
+   "summary": "Nvidia continues to expand its influence through strategic alliances, federal defense-related AI initiatives, and research partnerships, though it faces scrutiny regarding communication consistency and market valuation.",
+   "sentiment": 0.3,
+   "impact": "medium",
+   "time_horizon": "medium",
+   "key_points": [
+    "Nvidia formed the AI Energy Management Alliance to develop power-flexible data centers.",
+    "CEO Jensen Huang is reportedly engaging with political leadership on AI safety policy.",
+    "Nvidia is increasingly linked to federal defense spending and AI infrastructure projects.",
+    "The company continues to invest in and partner with AI-focused firms like Cohere and IonQ.",
+    "Analysts highlight Nvidia's strong net margins while noting valuation premiums and communication discrepancies."
+   ],
+   "risks": [
+    "Potential regulatory or political scrutiny regarding AI safety and data center energy consumption.",
+    "Discrepancies between executive public statements and official company filings may create investor uncertainty.",
+    "Historical stock patterns suggest that prolonged periods without new record highs can precede significant volatility.",
+    "High valuation premiums relative to peers may increase sensitivity to market corrections."
+   ],
+   "claims": {
+    "summary": {
+     "text": "Nvidia continues to expand its influence through strategic alliances, federal defense-related AI initiatives, and research partnerships, though it faces scrutiny regarding communication consistency and market valuation.",
+     "sources": [
+      {
+       "id": 137,
+       "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+       "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T23:09:32Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 278,
+       "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+       "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-20T11:25:08Z",
+       "fetched_at": "2026-09-20T12:57:17.158750Z"
+      },
+      {
+       "id": 129,
+       "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+       "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T02:11:49Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 158,
+       "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+       "title": "Huang just doubled his chip forecast and blocked a regulator",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T17:07:00Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    "key_points": [
+     {
+      "text": "Nvidia formed the AI Energy Management Alliance to develop power-flexible data centers.",
+      "sources": [
+       {
+        "id": 137,
+        "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+        "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T23:09:32Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     },
+     {
+      "text": "CEO Jensen Huang is reportedly engaging with political leadership on AI safety policy.",
+      "sources": [
+       {
+        "id": 278,
+        "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+        "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+        "publisher": "CNBC Markets",
+        "published_at": "2026-09-20T11:25:08Z",
+        "fetched_at": "2026-09-20T12:57:17.158750Z"
+       }
+      ]
+     },
+     {
+      "text": "Nvidia is increasingly linked to federal defense spending and AI infrastructure projects.",
+      "sources": [
+       {
+        "id": 129,
+        "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+        "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-20T02:11:49Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     },
+     {
+      "text": "The company continues to invest in and partner with AI-focused firms like Cohere and IonQ.",
+      "sources": [
+       {
+        "id": 148,
+        "url": "https://finnhub.io/api/news?id=109613d39dd6fc95501b59b72e1874c843206ee4dfa623b66bed07ca036b8794",
+        "title": "Here\u2019s Another Little-Known Firm Jensen Huang\u2019s Nvidia Is Quietly Backing",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T19:30:02Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       },
+       {
+        "id": 179,
+        "url": "https://finnhub.io/api/news?id=caa0f406b1559f63052d82a39594b125cf1e79be3da80a3dd71edaba40adbd3a",
+        "title": "Could IonQ (IONQ) AI Written Quantum Circuits Unlock More Real World Workloads?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T12:11:08Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     },
+     {
+      "text": "Analysts highlight Nvidia's strong net margins while noting valuation premiums and communication discrepancies.",
+      "sources": [
+       {
+        "id": 131,
+        "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+        "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-20T01:35:01Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       },
+       {
+        "id": 158,
+        "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+        "title": "Huang just doubled his chip forecast and blocked a regulator",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T17:07:00Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     }
+    ],
+    "risks": [
+     {
+      "text": "Potential regulatory or political scrutiny regarding AI safety and data center energy consumption.",
+      "sources": [
+       {
+        "id": 137,
+        "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+        "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T23:09:32Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       },
+       {
+        "id": 62,
+        "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+        "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T08:50:00Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     },
+     {
+      "text": "Discrepancies between executive public statements and official company filings may create investor uncertainty.",
+      "sources": [
+       {
+        "id": 158,
+        "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+        "title": "Huang just doubled his chip forecast and blocked a regulator",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T17:07:00Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     },
+     {
+      "text": "Historical stock patterns suggest that prolonged periods without new record highs can precede significant volatility.",
+      "sources": [
+       {
+        "id": 112,
+        "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+        "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-20T09:28:01Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     },
+     {
+      "text": "High valuation premiums relative to peers may increase sensitivity to market corrections.",
+      "sources": [
+       {
+        "id": 131,
+        "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+        "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-20T01:35:01Z",
+        "fetched_at": "2026-09-20T12:57:21.840101Z"
+       }
+      ]
+     }
+    ],
+    "sentiment": {
+     "text": "Positive developments in infrastructure and policy influence are balanced by concerns over valuation, communication consistency, and historical market volatility.",
+     "sources": [
+      {
+       "id": 137,
+       "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+       "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T23:09:32Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 158,
+       "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+       "title": "Huang just doubled his chip forecast and blocked a regulator",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T17:07:00Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 112,
+       "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+       "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T09:28:01Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 131,
+       "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+       "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T01:35:01Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    "impact": {
+     "text": "Strategic alliances and federal policy alignment have significant long-term implications for Nvidia's market position and operational scale.",
+     "sources": [
+      {
+       "id": 137,
+       "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+       "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T23:09:32Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 129,
+       "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+       "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T02:11:49Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 278,
+       "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+       "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-20T11:25:08Z",
+       "fetched_at": "2026-09-20T12:57:17.158750Z"
+      }
+     ]
+    },
+    "time_horizon": {
+     "text": "Infrastructure projects and policy engagement are long-term initiatives, while market valuation and stock performance are monitored on a medium-term basis.",
+     "sources": [
+      {
+       "id": 137,
+       "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+       "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T23:09:32Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 112,
+       "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+       "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T09:28:01Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      },
+      {
+       "id": 129,
+       "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+       "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T02:11:49Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    }
+   },
+   "article_assessments": [
+    {
+     "article_id": 278,
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Increased political influence and access to leadership is generally viewed as a strategic advantage.",
+     "sources": [
+      {
+       "id": 278,
+       "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+       "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-20T11:25:08Z",
+       "fetched_at": "2026-09-20T12:57:17.158750Z"
+      }
+     ]
+    },
+    {
+     "article_id": 112,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Historical market analysis provides context but does not predict specific future performance.",
+     "sources": [
+      {
+       "id": 112,
+       "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+       "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T09:28:01Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 129,
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Alignment with federal defense spending represents a potential new growth vertical.",
+     "sources": [
+      {
+       "id": 129,
+       "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+       "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T02:11:49Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 131,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Standard comparative analysis of valuation and margins.",
+     "sources": [
+      {
+       "id": 131,
+       "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+       "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T01:35:01Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 137,
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Proactive management of energy constraints is critical for long-term data center scaling.",
+     "sources": [
+      {
+       "id": 137,
+       "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+       "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T23:09:32Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 148,
+     "sentiment": 0.3,
+     "impact": "low",
+     "rationale": "Minor mention of investment activity; low impact on overall valuation.",
+     "sources": [
+      {
+       "id": 148,
+       "url": "https://finnhub.io/api/news?id=109613d39dd6fc95501b59b72e1874c843206ee4dfa623b66bed07ca036b8794",
+       "title": "Here\u2019s Another Little-Known Firm Jensen Huang\u2019s Nvidia Is Quietly Backing",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T19:30:02Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 158,
+     "sentiment": -0.5,
+     "impact": "medium",
+     "rationale": "Discrepancies between executive statements and official filings can lead to reputational or regulatory risk.",
+     "sources": [
+      {
+       "id": 158,
+       "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+       "title": "Huang just doubled his chip forecast and blocked a regulator",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T17:07:00Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 159,
+     "sentiment": 0.2,
+     "impact": "low",
+     "rationale": "Speculative investment advice regarding a third-party stock.",
+     "sources": [
+      {
+       "id": 159,
+       "url": "https://finnhub.io/api/news?id=dc95e2dd714425a4a48009f45dc277205e9f8c28f294ff1c95ef408417d4f15c",
+       "title": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T17:05:00Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 165,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "General comparative analysis between two tech stocks.",
+     "sources": [
+      {
+       "id": 165,
+       "url": "https://finnhub.io/api/news?id=4ee5d8f73b7bcfc2f2111ad1c3df3c392ea4da661144196a049ad018f0f14e71",
+       "title": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T15:50:00Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 179,
+     "sentiment": 0.3,
+     "impact": "low",
+     "rationale": "Demonstrates ongoing research leadership in emerging fields like quantum computing.",
+     "sources": [
+      {
+       "id": 179,
+       "url": "https://finnhub.io/api/news?id=caa0f406b1559f63052d82a39594b125cf1e79be3da80a3dd71edaba40adbd3a",
+       "title": "Could IonQ (IONQ) AI Written Quantum Circuits Unlock More Real World Workloads?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T12:11:08Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 189,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Historical retrospective with no forward-looking impact.",
+     "sources": [
+      {
+       "id": 189,
+       "url": "https://finnhub.io/api/news?id=a43f6d2dfd712b5a7ade0ddb6f9bd596ab638adb9269bc0388a1f78ee616a051",
+       "title": "If You'd Invested $1,000 in Nvidia's 1999 IPO, Here's How Much You'd Have Today",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T11:05:00Z",
+       "fetched_at": "2026-09-20T12:57:21.840101Z"
+      }
+     ]
+    },
+    {
+     "article_id": 62,
+     "sentiment": -0.2,
+     "impact": "low",
+     "rationale": "General industry sentiment regarding AI communication; limited direct impact on Nvidia.",
+     "sources": [
+      {
+       "id": 62,
+       "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+       "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T08:50:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    }
+   ],
+   "usage": {
+    "promptTokenCount": 2216,
+    "candidatesTokenCount": 1245,
+    "totalTokenCount": 3461
+   },
+   "disclaimer": "Not financial advice. AI interpretations of headlines and excerpts may be wrong.",
+   "interpretation": "AI interpretation, not a price forecast"
+  }
+ },
+ "previous_analysis": null,
+ "coverage": {
+  "ticker": "NVDA",
+  "company_name": "Nvidia",
+  "selected_at": "2026-09-20T15:04:51.837088+00:00",
+  "lookback_hours": 48,
+  "selection": "Most recent deduplicated articles explicitly mentioning the ticker or company in the headline or excerpt, publication time descending.",
+  "total_count": 214,
+  "excluded_without_company_mention": 177,
+  "eligible_count": 37,
+  "selected_count": 12,
+  "omitted_count": 25
+ },
+ "warnings": [
+  "Articles without an explicit ticker/company mention were excluded; this conservative rule may also omit relevant context.",
+  "News retrieval is missing, stale, or incomplete; inspect provider_status.",
+  "Only the most recent articles fit the configured analysis limit."
+ ],
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:NVDA",
+   "fetched_at": "2026-09-20T14:48:42.467043+00:00",
+   "expires_at": "2026-09-20T15:03:42.467043+00:00",
+   "attempted_at": "2026-09-20T14:48:42.467043+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  }
+ ],
+ "last_error": null,
+ "disclaimer": "Not financial advice. AI interpretations of headlines and excerpts may be wrong."
+}

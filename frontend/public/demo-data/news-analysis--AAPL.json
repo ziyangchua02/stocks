@@ -1,0 +1,710 @@
+{
+ "ticker": "AAPL",
+ "status": "partial",
+ "reason": null,
+ "checked_at": "2026-09-20T15:04:51.747849+00:00",
+ "data": {
+  "id": 4,
+  "ticker": "AAPL",
+  "input_hash": "5a6e66e82242ac338e1a40fde068ad6f747289dae3e446e547669ea47d797400",
+  "model": "gemini-3.1-flash-lite",
+  "prompt_version": "news-v2",
+  "generated_at": "2026-09-20T14:04:50.231823+00:00",
+  "inputs": {
+   "ticker": "AAPL",
+   "company_name": "Apple",
+   "selected_at": "2026-09-20T14:04:45.347576+00:00",
+   "lookback_hours": 48,
+   "selection": "Most recent deduplicated articles explicitly mentioning the ticker or company in the headline or excerpt, publication time descending.",
+   "total_count": 50,
+   "excluded_without_company_mention": 20,
+   "eligible_count": 30,
+   "selected_count": 12,
+   "omitted_count": 18,
+   "articles": [
+    {
+     "id": 1,
+     "title": "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
+     "excerpt": "Buffett bought more than $77 billion of this stock in the years leading up to his retirement.",
+     "url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T11:10:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 4,
+     "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+     "excerpt": "The credit is bigger this year. The bill at the register still isn\u2019t zero.",
+     "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T22:07:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 7,
+     "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+     "excerpt": "Apple\u2019s price target hike comes on the heels of surprising consumer survey findings.",
+     "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T16:03:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 8,
+     "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+     "excerpt": "Coinbase\u2019s filing used an Apple contract as its model, which is cash-settled, has no fixed expiration, and would trade from Sunday to Friday.",
+     "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T15:11:11Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 10,
+     "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+     "excerpt": "Apple stock just got a price target cut due to the memory processor crunch.",
+     "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T12:50:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 11,
+     "title": "History Says You Should Know These 3 Things Before Buying Apple Stock (AAPL)",
+     "excerpt": "The pride of Cupertino continues its winning ways, and investors are eager to jump on the bandwagon.",
+     "url": "https://finnhub.io/api/news?id=3b414a219e85ef32df40dd5598b187c14281f58d7d811d16ed4d4254de35fef0",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T11:22:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 14,
+     "title": "Intel, Apple, Nvidia and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+     "excerpt": "Retail investors talked up 5 stocks during the week (Sept. 14 to Sept.18) on X and Reddit's r/WallStreetBets: INTC, AAPL, NVDA, NBIS, ORCL",
+     "url": "https://finnhub.io/api/news?id=8c22fd8d481fea3088a442fc3333cd3f5813e30d4559399fcb24d9867f2b5ca4",
+     "publisher": "Benzinga",
+     "published_at": "2026-09-19T08:30:24Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 16,
+     "title": "Here\u2019s A Stock That Jim Cramer Like Before But Now He Just Doesn\u2019t Want To Buy It",
+     "excerpt": "Glass technology products manufacturer Corning Incorporated (NYSE:GLW) has had an interesting relationship with Jim Cramer\u2019s radar. Late last year, the CNBC TV host was one of the firm\u2019s strongest supporters as he praised it for its partnership with Apple to bring manufacturing back to the US under President Trump\u2019s initiatives. However, more recently, he has [\u2026]",
+     "url": "https://finnhub.io/api/news?id=aaa9f2dc0209d5ddab1e75ce28d0dadc8542140fef23a585f33a5a369a73dabd",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T23:12:18Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 17,
+     "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+     "excerpt": "CFRA Research senior vice president Angelo Zino discusses why new Apple (AAPL) CEO John Ternus may be the right man for the job, especially after the release of the new iPhone 18 Pro and unveiling of the foldable iPhone Duo.",
+     "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T22:00:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 18,
+     "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
+     "excerpt": "The filing seeks CFTC approval for contracts giving US traders 24/5 leveraged exposure to individual stocks without ownership.",
+     "url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T21:01:30Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 19,
+     "title": "Stock Market Today: Nasdaq, S&P Reverse Slightly Higher; Sandisk, Lumentum Lead This Tech Rally (Live Coverage)",
+     "excerpt": "Stock Market Today: The Dow Jones index falls Friday as oil prices reverse higher. Apple, AMD, Micron and Sandisk are key movers.",
+     "url": "https://finnhub.io/api/news?id=e3af098458f9a0beaa2b04ff4e097daf7d06b8abd21453f00b28e2d75b4ae1b5",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T20:57:21Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 20,
+     "title": "GM is re-downloading Apple CarPlay, Android Auto to its cars",
+     "excerpt": "General Motors (GM) will reinstall Apple's (AAPL) CarPlay and Android Auto in its vehicles after initially planning to remove the software from new cars. Yahoo Finance Senior Autos Reporter Pras Subramanian explains the consumer reaction that led to this decision.",
+     "url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T20:35:00Z",
+     "fetched_at": "2026-09-20T12:57:20.052430Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    }
+   ]
+  },
+  "payload": {
+   "summary": "Apple is experiencing mixed market signals, with reports of strong iPhone demand and bullish analyst calls balanced against concerns over memory processor supply constraints and conflicting price target adjustments.",
+   "sentiment": 0.2,
+   "impact": "medium",
+   "time_horizon": "medium",
+   "key_points": [
+    "Wall Street analysts have issued bullish calls citing strong consumer demand for new iPhone models.",
+    "Bank of America has adjusted its outlook on Apple, with reports of both price target cuts due to supply chain issues and analysis of promotional iPhone offers.",
+    "Coinbase has filed with the CFTC to list single-stock perpetual futures contracts for Apple.",
+    "General Motors announced it will continue to support Apple CarPlay in its vehicles following consumer feedback.",
+    "John Ternus has assumed the role of CEO, with some analysts expressing optimism regarding his leadership and the company's product pipeline."
+   ],
+   "risks": [
+    "Memory processor supply chain constraints may negatively impact production and financial performance.",
+    "The introduction of leveraged single-stock perpetual futures could increase volatility for AAPL shares.",
+    "Conflicting analyst price targets reflect uncertainty regarding short-term growth and supply chain stability."
+   ],
+   "claims": {
+    "summary": {
+     "text": "Apple is experiencing mixed market signals, with reports of strong iPhone demand and bullish analyst calls balanced against concerns over memory processor supply constraints and conflicting price target adjustments.",
+     "sources": [
+      {
+       "id": 7,
+       "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+       "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 10,
+       "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+       "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T12:50:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 17,
+       "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+       "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T22:00:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    "key_points": [
+     {
+      "text": "Wall Street analysts have issued bullish calls citing strong consumer demand for new iPhone models.",
+      "sources": [
+       {
+        "id": 7,
+        "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+        "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T16:03:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     },
+     {
+      "text": "Bank of America has adjusted its outlook on Apple, with reports of both price target cuts due to supply chain issues and analysis of promotional iPhone offers.",
+      "sources": [
+       {
+        "id": 4,
+        "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+        "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T22:07:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       },
+       {
+        "id": 10,
+        "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+        "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T12:50:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     },
+     {
+      "text": "Coinbase has filed with the CFTC to list single-stock perpetual futures contracts for Apple.",
+      "sources": [
+       {
+        "id": 8,
+        "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+        "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T15:11:11Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       },
+       {
+        "id": 18,
+        "url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+        "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T21:01:30Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     },
+     {
+      "text": "General Motors announced it will continue to support Apple CarPlay in its vehicles following consumer feedback.",
+      "sources": [
+       {
+        "id": 20,
+        "url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+        "title": "GM is re-downloading Apple CarPlay, Android Auto to its cars",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T20:35:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     },
+     {
+      "text": "John Ternus has assumed the role of CEO, with some analysts expressing optimism regarding his leadership and the company's product pipeline.",
+      "sources": [
+       {
+        "id": 17,
+        "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+        "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T22:00:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     }
+    ],
+    "risks": [
+     {
+      "text": "Memory processor supply chain constraints may negatively impact production and financial performance.",
+      "sources": [
+       {
+        "id": 10,
+        "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+        "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T12:50:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     },
+     {
+      "text": "The introduction of leveraged single-stock perpetual futures could increase volatility for AAPL shares.",
+      "sources": [
+       {
+        "id": 8,
+        "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+        "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T15:11:11Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       },
+       {
+        "id": 18,
+        "url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+        "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T21:01:30Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     },
+     {
+      "text": "Conflicting analyst price targets reflect uncertainty regarding short-term growth and supply chain stability.",
+      "sources": [
+       {
+        "id": 7,
+        "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+        "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T16:03:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       },
+       {
+        "id": 10,
+        "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+        "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T12:50:00Z",
+        "fetched_at": "2026-09-20T12:57:20.052430Z"
+       }
+      ]
+     }
+    ],
+    "sentiment": {
+     "text": "Sentiment is mixed due to the combination of positive demand indicators and leadership optimism versus supply chain-related price target cuts.",
+     "sources": [
+      {
+       "id": 7,
+       "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+       "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 10,
+       "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+       "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T12:50:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 17,
+       "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+       "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T22:00:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    "impact": {
+     "text": "The news covers significant product demand, leadership changes, and potential new financial instruments, all of which are relevant to the stock.",
+     "sources": [
+      {
+       "id": 7,
+       "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+       "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 8,
+       "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+       "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T15:11:11Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 10,
+       "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+       "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T12:50:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 17,
+       "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+       "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T22:00:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 20,
+       "url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+       "title": "GM is re-downloading Apple CarPlay, Android Auto to its cars",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T20:35:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    "time_horizon": {
+     "text": "Product demand and supply chain issues are immediate, while leadership transitions and new financial product listings have medium-term implications.",
+     "sources": [
+      {
+       "id": 7,
+       "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+       "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 8,
+       "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+       "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T15:11:11Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 10,
+       "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+       "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T12:50:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      },
+      {
+       "id": 17,
+       "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+       "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T22:00:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    }
+   },
+   "article_assessments": [
+    {
+     "article_id": 1,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "The article explicitly states the stock mentioned is not Apple.",
+     "sources": [
+      {
+       "id": 1,
+       "url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+       "title": "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T11:10:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 4,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Provides analysis of consumer offers without clear directional impact on the stock.",
+     "sources": [
+      {
+       "id": 4,
+       "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+       "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T22:07:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 7,
+     "sentiment": 0.6,
+     "impact": "medium",
+     "rationale": "Positive signal regarding iPhone demand and analyst sentiment.",
+     "sources": [
+      {
+       "id": 7,
+       "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+       "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 8,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Reports on a regulatory filing for a financial derivative; neutral impact on the underlying company.",
+     "sources": [
+      {
+       "id": 8,
+       "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+       "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T15:11:11Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 10,
+     "sentiment": -0.4,
+     "impact": "medium",
+     "rationale": "Reports a price target cut due to supply chain constraints.",
+     "sources": [
+      {
+       "id": 10,
+       "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+       "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T12:50:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 11,
+     "sentiment": 0.2,
+     "impact": "low",
+     "rationale": "General market commentary on Apple stock.",
+     "sources": [
+      {
+       "id": 11,
+       "url": "https://finnhub.io/api/news?id=3b414a219e85ef32df40dd5598b187c14281f58d7d811d16ed4d4254de35fef0",
+       "title": "History Says You Should Know These 3 Things Before Buying Apple Stock (AAPL)",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T11:22:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 14,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Mentions Apple as a trending stock among retail investors; no fundamental news.",
+     "sources": [
+      {
+       "id": 14,
+       "url": "https://finnhub.io/api/news?id=8c22fd8d481fea3088a442fc3333cd3f5813e30d4559399fcb24d9867f2b5ca4",
+       "title": "Intel, Apple, Nvidia and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+       "publisher": "Benzinga",
+       "published_at": "2026-09-19T08:30:24Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 16,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Discusses Corning and Jim Cramer's past views; tangential to Apple.",
+     "sources": [
+      {
+       "id": 16,
+       "url": "https://finnhub.io/api/news?id=aaa9f2dc0209d5ddab1e75ce28d0dadc8542140fef23a585f33a5a369a73dabd",
+       "title": "Here\u2019s A Stock That Jim Cramer Like Before But Now He Just Doesn\u2019t Want To Buy It",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T23:12:18Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 17,
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Positive analyst commentary on new leadership and product pipeline.",
+     "sources": [
+      {
+       "id": 17,
+       "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+       "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T22:00:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 18,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "Reports on a regulatory filing for a financial derivative; neutral impact on the underlying company.",
+     "sources": [
+      {
+       "id": 18,
+       "url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+       "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T21:01:30Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 19,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "General market coverage mentioning Apple as a mover.",
+     "sources": [
+      {
+       "id": 19,
+       "url": "https://finnhub.io/api/news?id=e3af098458f9a0beaa2b04ff4e097daf7d06b8abd21453f00b28e2d75b4ae1b5",
+       "title": "Stock Market Today: Nasdaq, S&P Reverse Slightly Higher; Sandisk, Lumentum Lead This Tech Rally (Live Coverage)",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T20:57:21Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    },
+    {
+     "article_id": 20,
+     "sentiment": 0.3,
+     "impact": "low",
+     "rationale": "Positive news regarding the continued integration of Apple software in vehicles.",
+     "sources": [
+      {
+       "id": 20,
+       "url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+       "title": "GM is re-downloading Apple CarPlay, Android Auto to its cars",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T20:35:00Z",
+       "fetched_at": "2026-09-20T12:57:20.052430Z"
+      }
+     ]
+    }
+   ],
+   "usage": {
+    "promptTokenCount": 2096,
+    "candidatesTokenCount": 1198,
+    "totalTokenCount": 3294
+   },
+   "disclaimer": "Not financial advice. AI interpretations of headlines and excerpts may be wrong.",
+   "interpretation": "AI interpretation, not a price forecast"
+  }
+ },
+ "previous_analysis": null,
+ "coverage": {
+  "ticker": "AAPL",
+  "company_name": "Apple",
+  "selected_at": "2026-09-20T15:04:51.742990+00:00",
+  "lookback_hours": 48,
+  "selection": "Most recent deduplicated articles explicitly mentioning the ticker or company in the headline or excerpt, publication time descending.",
+  "total_count": 50,
+  "excluded_without_company_mention": 20,
+  "eligible_count": 30,
+  "selected_count": 12,
+  "omitted_count": 18
+ },
+ "warnings": [
+  "Articles without an explicit ticker/company mention were excluded; this conservative rule may also omit relevant context.",
+  "News retrieval is missing, stale, or incomplete; inspect provider_status.",
+  "Only the most recent articles fit the configured analysis limit."
+ ],
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:AAPL",
+   "fetched_at": "2026-09-20T14:48:40.105981+00:00",
+   "expires_at": "2026-09-20T15:03:40.105981+00:00",
+   "attempted_at": "2026-09-20T14:48:40.105981+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  }
+ ],
+ "last_error": null,
+ "disclaimer": "Not financial advice. AI interpretations of headlines and excerpts may be wrong."
+}

@@ -1,0 +1,554 @@
+{
+ "status": "cached",
+ "reason": null,
+ "checked_at": "2026-09-20T15:04:51.692387+00:00",
+ "data": {
+  "id": 1,
+  "input_hash": "4e64345d8cf930788e529e8f5e96f46c42d8c4c2b94b01ca22862343599f1adc",
+  "model": "gemini-3.1-flash-lite",
+  "prompt_version": "brief-v1",
+  "generated_at": "2026-09-20T14:49:57.355801+00:00",
+  "period_start": "2026-09-19T14:49:52.930903+00:00",
+  "period_end": "2026-09-20T14:49:52.930903+00:00",
+  "facts": {
+   "period_start": "2026-09-19T14:49:52.930903+00:00",
+   "period_end": "2026-09-20T14:49:52.930903+00:00",
+   "lookback_hours": 24.0,
+   "tickers": [
+    {
+     "ticker": "AAPL",
+     "company_name": "Apple",
+     "score": 77.39,
+     "previous_score": 82.29,
+     "score_change": -4.900000000000006,
+     "label": "Strong setup",
+     "previous_label": "Caution",
+     "weight_coverage": 1.0,
+     "cautions": [],
+     "last_close": 336.1300048828125,
+     "previous_close": 337.0,
+     "close_change_percent": -0.2581587884829428,
+     "reference_session": "2026-09-18",
+     "news_analysis_refreshed_in_period": true,
+     "alerts": [],
+     "comparison_basis": "earliest signal inside the window; no earlier record exists"
+    },
+    {
+     "ticker": "MSFT",
+     "company_name": "Microsoft",
+     "score": 72.56,
+     "previous_score": 76.25,
+     "score_change": -3.6899999999999977,
+     "label": "Strong setup",
+     "previous_label": "Caution",
+     "weight_coverage": 1.0,
+     "cautions": [],
+     "last_close": 493.7799987792969,
+     "previous_close": 497.75,
+     "close_change_percent": -0.7975893964245362,
+     "reference_session": "2026-09-18",
+     "news_analysis_refreshed_in_period": true,
+     "alerts": [],
+     "comparison_basis": "earliest signal inside the window; no earlier record exists"
+    },
+    {
+     "ticker": "NVDA",
+     "company_name": "Nvidia",
+     "score": 80.43,
+     "previous_score": 84.99,
+     "score_change": -4.559999999999988,
+     "label": "Strong setup",
+     "previous_label": "Caution",
+     "weight_coverage": 1.0,
+     "cautions": [],
+     "last_close": 222.27000427246094,
+     "previous_close": 219.33999633789062,
+     "close_change_percent": 1.3358292985729214,
+     "reference_session": "2026-09-18",
+     "news_analysis_refreshed_in_period": true,
+     "alerts": [
+      {
+       "rule": "price_move",
+       "title": "NVDA moved 1.34% up",
+       "created_at": "2026-09-20T14:49:35.117531+00:00"
+      }
+     ],
+     "comparison_basis": "earliest signal inside the window; no earlier record exists"
+    }
+   ],
+   "articles": [
+    {
+     "id": 278,
+     "ticker": "NVDA",
+     "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+     "publisher": "CNBC Markets",
+     "published_at": "2026-09-20T11:25:08Z",
+     "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+     "impact": "medium",
+     "sentiment": 0.5,
+     "model_rationale": "Increased political influence and access to leadership is generally viewed as a strategic advantage."
+    },
+    {
+     "id": 1,
+     "ticker": "AAPL",
+     "title": "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T11:10:00Z",
+     "url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+     "impact": "low",
+     "sentiment": 0.0,
+     "model_rationale": "The article explicitly states the stock mentioned is not Apple."
+    },
+    {
+     "id": 112,
+     "ticker": "NVDA",
+     "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T09:28:01Z",
+     "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+     "impact": "low",
+     "sentiment": 0.0,
+     "model_rationale": "Historical market analysis provides context but does not predict specific future performance."
+    },
+    {
+     "id": 53,
+     "ticker": "MSFT",
+     "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T03:19:33Z",
+     "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+     "impact": "medium",
+     "sentiment": 0.5,
+     "model_rationale": "Partnership with Nokia enhances Microsoft's AI-driven data capabilities in the telecom sector."
+    },
+    {
+     "id": 129,
+     "ticker": "NVDA",
+     "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T02:11:49Z",
+     "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+     "impact": "medium",
+     "sentiment": 0.5,
+     "model_rationale": "Alignment with federal defense spending represents a potential new growth vertical."
+    },
+    {
+     "id": 131,
+     "ticker": "NVDA",
+     "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T01:35:01Z",
+     "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+     "impact": "low",
+     "sentiment": 0.0,
+     "model_rationale": "Standard comparative analysis of valuation and margins."
+    },
+    {
+     "id": 137,
+     "ticker": "NVDA",
+     "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T23:09:32Z",
+     "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+     "impact": "medium",
+     "sentiment": 0.5,
+     "model_rationale": "Proactive management of energy constraints is critical for long-term data center scaling."
+    },
+    {
+     "id": 4,
+     "ticker": "AAPL",
+     "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T22:07:00Z",
+     "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+     "impact": "low",
+     "sentiment": 0.0,
+     "model_rationale": "Provides analysis of consumer offers without clear directional impact on the stock."
+    },
+    {
+     "id": 148,
+     "ticker": "NVDA",
+     "title": "Here\u2019s Another Little-Known Firm Jensen Huang\u2019s Nvidia Is Quietly Backing",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T19:30:02Z",
+     "url": "https://finnhub.io/api/news?id=109613d39dd6fc95501b59b72e1874c843206ee4dfa623b66bed07ca036b8794",
+     "impact": "low",
+     "sentiment": 0.3,
+     "model_rationale": "Minor mention of investment activity; low impact on overall valuation."
+    },
+    {
+     "id": 158,
+     "ticker": "NVDA",
+     "title": "Huang just doubled his chip forecast and blocked a regulator",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T17:07:00Z",
+     "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+     "impact": "medium",
+     "sentiment": -0.5,
+     "model_rationale": "Discrepancies between executive statements and official filings can lead to reputational or regulatory risk."
+    }
+   ],
+   "note": "All figures are computed locally from stored records."
+  },
+  "payload": {
+   "headline": "Watchlist scores declined across the board despite positive price movement for Nvidia.",
+   "overview": "Apple, Microsoft, and Nvidia all saw their scores decrease over the last 24 hours. While Nvidia experienced a price increase, the other two tickers saw slight declines in their closing prices. News activity was concentrated on Nvidia, covering strategic alliances, executive influence, and regulatory concerns.",
+   "notes": [
+    {
+     "ticker": "AAPL",
+     "what_changed": "The score decreased by 4.90 to 77.39.",
+     "why": "The change may be attributed to general market sentiment as no specific material news was identified.",
+     "basis": "market_data",
+     "source_ids": [],
+     "figures": {
+      "ticker": "AAPL",
+      "company_name": "Apple",
+      "score": 77.39,
+      "previous_score": 82.29,
+      "score_change": -4.900000000000006,
+      "label": "Strong setup",
+      "previous_label": "Caution",
+      "weight_coverage": 1.0,
+      "cautions": [],
+      "last_close": 336.1300048828125,
+      "previous_close": 337.0,
+      "close_change_percent": -0.2581587884829428,
+      "reference_session": "2026-09-18",
+      "news_analysis_refreshed_in_period": true,
+      "alerts": [],
+      "comparison_basis": "earliest signal inside the window; no earlier record exists"
+     },
+     "sources": []
+    },
+    {
+     "ticker": "MSFT",
+     "what_changed": "The score decreased by 3.69 to 72.56.",
+     "why": "The change may be linked to general market trends, though news regarding a data partnership with Nokia was noted.",
+     "basis": "both",
+     "source_ids": [
+      53
+     ],
+     "figures": {
+      "ticker": "MSFT",
+      "company_name": "Microsoft",
+      "score": 72.56,
+      "previous_score": 76.25,
+      "score_change": -3.6899999999999977,
+      "label": "Strong setup",
+      "previous_label": "Caution",
+      "weight_coverage": 1.0,
+      "cautions": [],
+      "last_close": 493.7799987792969,
+      "previous_close": 497.75,
+      "close_change_percent": -0.7975893964245362,
+      "reference_session": "2026-09-18",
+      "news_analysis_refreshed_in_period": true,
+      "alerts": [],
+      "comparison_basis": "earliest signal inside the window; no earlier record exists"
+     },
+     "sources": [
+      {
+       "id": 53,
+       "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+       "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T03:19:33Z"
+      }
+     ]
+    },
+    {
+     "ticker": "NVDA",
+     "what_changed": "The score decreased by 4.56 to 80.43, while the closing price rose 1.34%.",
+     "why": "The score decline may reflect mixed news sentiment, including concerns over regulatory and executive communication alongside positive developments in AI infrastructure and political influence.",
+     "basis": "both",
+     "source_ids": [
+      278,
+      112,
+      129,
+      131,
+      137,
+      148,
+      158
+     ],
+     "figures": {
+      "ticker": "NVDA",
+      "company_name": "Nvidia",
+      "score": 80.43,
+      "previous_score": 84.99,
+      "score_change": -4.559999999999988,
+      "label": "Strong setup",
+      "previous_label": "Caution",
+      "weight_coverage": 1.0,
+      "cautions": [],
+      "last_close": 222.27000427246094,
+      "previous_close": 219.33999633789062,
+      "close_change_percent": 1.3358292985729214,
+      "reference_session": "2026-09-18",
+      "news_analysis_refreshed_in_period": true,
+      "alerts": [
+       {
+        "rule": "price_move",
+        "title": "NVDA moved 1.34% up",
+        "created_at": "2026-09-20T14:49:35.117531+00:00"
+       }
+      ],
+      "comparison_basis": "earliest signal inside the window; no earlier record exists"
+     },
+     "sources": [
+      {
+       "id": 278,
+       "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+       "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-20T11:25:08Z"
+      },
+      {
+       "id": 112,
+       "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+       "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T09:28:01Z"
+      },
+      {
+       "id": 129,
+       "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+       "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T02:11:49Z"
+      },
+      {
+       "id": 131,
+       "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+       "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T01:35:01Z"
+      },
+      {
+       "id": 137,
+       "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+       "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T23:09:32Z"
+      },
+      {
+       "id": 148,
+       "url": "https://finnhub.io/api/news?id=109613d39dd6fc95501b59b72e1874c843206ee4dfa623b66bed07ca036b8794",
+       "title": "Here\u2019s Another Little-Known Firm Jensen Huang\u2019s Nvidia Is Quietly Backing",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T19:30:02Z"
+      },
+      {
+       "id": 158,
+       "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+       "title": "Huang just doubled his chip forecast and blocked a regulator",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T17:07:00Z"
+      }
+     ]
+    }
+   ],
+   "watch_items": [
+    "Nvidia regulatory and executive communication updates",
+    "Microsoft telecom AI data integration progress",
+    "Apple consumer pricing strategy analysis",
+    "Nvidia data center energy scaling developments",
+    "Federal defense spending impact on AI infrastructure"
+   ],
+   "tickers_without_a_note": [],
+   "usage": {
+    "promptTokenCount": 2390,
+    "candidatesTokenCount": 449,
+    "totalTokenCount": 2839
+   },
+   "disclaimer": "Not financial advice. The figures are computed from your cached data; the wording around them is an AI summary that can be wrong or incomplete."
+  }
+ },
+ "previous_brief": null,
+ "current_facts": {
+  "period_start": "2026-09-19T15:04:51.692387+00:00",
+  "period_end": "2026-09-20T15:04:51.692387+00:00",
+  "lookback_hours": 24.0,
+  "tickers": [
+   {
+    "ticker": "AAPL",
+    "company_name": "Apple",
+    "score": 77.39,
+    "previous_score": 82.29,
+    "score_change": -4.900000000000006,
+    "label": "Strong setup",
+    "previous_label": "Caution",
+    "weight_coverage": 1.0,
+    "cautions": [],
+    "last_close": 336.1300048828125,
+    "previous_close": 337.0,
+    "close_change_percent": -0.2581587884829428,
+    "reference_session": "2026-09-18",
+    "news_analysis_refreshed_in_period": true,
+    "alerts": [],
+    "comparison_basis": "earliest signal inside the window; no earlier record exists"
+   },
+   {
+    "ticker": "MSFT",
+    "company_name": "Microsoft",
+    "score": 72.56,
+    "previous_score": 76.25,
+    "score_change": -3.6899999999999977,
+    "label": "Strong setup",
+    "previous_label": "Caution",
+    "weight_coverage": 1.0,
+    "cautions": [],
+    "last_close": 493.7799987792969,
+    "previous_close": 497.75,
+    "close_change_percent": -0.7975893964245362,
+    "reference_session": "2026-09-18",
+    "news_analysis_refreshed_in_period": true,
+    "alerts": [],
+    "comparison_basis": "earliest signal inside the window; no earlier record exists"
+   },
+   {
+    "ticker": "NVDA",
+    "company_name": "Nvidia",
+    "score": 80.43,
+    "previous_score": 84.99,
+    "score_change": -4.559999999999988,
+    "label": "Strong setup",
+    "previous_label": "Caution",
+    "weight_coverage": 1.0,
+    "cautions": [],
+    "last_close": 222.27000427246094,
+    "previous_close": 219.33999633789062,
+    "close_change_percent": 1.3358292985729214,
+    "reference_session": "2026-09-18",
+    "news_analysis_refreshed_in_period": true,
+    "alerts": [
+     {
+      "rule": "price_move",
+      "title": "NVDA moved 1.34% up",
+      "created_at": "2026-09-20T14:49:35.117531+00:00"
+     }
+    ],
+    "comparison_basis": "earliest signal inside the window; no earlier record exists"
+   }
+  ],
+  "articles": [
+   {
+    "id": 278,
+    "ticker": "NVDA",
+    "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+    "publisher": "CNBC Markets",
+    "published_at": "2026-09-20T11:25:08Z",
+    "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+    "impact": "medium",
+    "sentiment": 0.5,
+    "model_rationale": "Increased political influence and access to leadership is generally viewed as a strategic advantage."
+   },
+   {
+    "id": 1,
+    "ticker": "AAPL",
+    "title": "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-20T11:10:00Z",
+    "url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+    "impact": "low",
+    "sentiment": 0.0,
+    "model_rationale": "The article explicitly states the stock mentioned is not Apple."
+   },
+   {
+    "id": 112,
+    "ticker": "NVDA",
+    "title": "Nvidia Stock Hasn't Set a Record in 4 Months. History Says These Stalls Have Ended 2 Ways.",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-20T09:28:01Z",
+    "url": "https://finnhub.io/api/news?id=e5b9c11e2c8ef9754946a897a39f4d47861c86cc00eae10f5d079fd0f7f9acf8",
+    "impact": "low",
+    "sentiment": 0.0,
+    "model_rationale": "Historical market analysis provides context but does not predict specific future performance."
+   },
+   {
+    "id": 53,
+    "ticker": "MSFT",
+    "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-20T03:19:33Z",
+    "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+    "impact": "medium",
+    "sentiment": 0.5,
+    "model_rationale": "Partnership with Nokia enhances Microsoft's AI-driven data capabilities in the telecom sector."
+   },
+   {
+    "id": 129,
+    "ticker": "NVDA",
+    "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-20T02:11:49Z",
+    "url": "https://finnhub.io/api/news?id=39bb53931fd7092c3d8fc56e9285c0d91c36e95eccb8b9e6bf5858d1857ff12c",
+    "impact": "medium",
+    "sentiment": 0.5,
+    "model_rationale": "Alignment with federal defense spending represents a potential new growth vertical."
+   },
+   {
+    "id": 131,
+    "ticker": "NVDA",
+    "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026?",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-20T01:35:01Z",
+    "url": "https://finnhub.io/api/news?id=2f6f0f1163e6efb6a56dab589cdd69f38cdd31024e52bb32aa5dcdaa8d610d1c",
+    "impact": "low",
+    "sentiment": 0.0,
+    "model_rationale": "Standard comparative analysis of valuation and margins."
+   },
+   {
+    "id": 137,
+    "ticker": "NVDA",
+    "title": "Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-19T23:09:32Z",
+    "url": "https://finnhub.io/api/news?id=3cc167e549bf08f7f13503d5b8418f61d23e85d41fa18892cea7039507542882",
+    "impact": "medium",
+    "sentiment": 0.5,
+    "model_rationale": "Proactive management of energy constraints is critical for long-term data center scaling."
+   },
+   {
+    "id": 4,
+    "ticker": "AAPL",
+    "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-19T22:07:00Z",
+    "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+    "impact": "low",
+    "sentiment": 0.0,
+    "model_rationale": "Provides analysis of consumer offers without clear directional impact on the stock."
+   },
+   {
+    "id": 148,
+    "ticker": "NVDA",
+    "title": "Here\u2019s Another Little-Known Firm Jensen Huang\u2019s Nvidia Is Quietly Backing",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-19T19:30:02Z",
+    "url": "https://finnhub.io/api/news?id=109613d39dd6fc95501b59b72e1874c843206ee4dfa623b66bed07ca036b8794",
+    "impact": "low",
+    "sentiment": 0.3,
+    "model_rationale": "Minor mention of investment activity; low impact on overall valuation."
+   },
+   {
+    "id": 158,
+    "ticker": "NVDA",
+    "title": "Huang just doubled his chip forecast and blocked a regulator",
+    "publisher": "Yahoo",
+    "published_at": "2026-09-19T17:07:00Z",
+    "url": "https://finnhub.io/api/news?id=fc9746ad190656e0b5ff25f1a41392e104ed666c97babb34bdfbdaa8e18c18cc",
+    "impact": "medium",
+    "sentiment": -0.5,
+    "model_rationale": "Discrepancies between executive statements and official filings can lead to reputational or regulatory risk."
+   }
+  ],
+  "note": "All figures are computed locally from stored records."
+ },
+ "changed_tickers": [
+  "AAPL",
+  "MSFT",
+  "NVDA"
+ ],
+ "last_error": null,
+ "disclaimer": "Not financial advice. The figures are computed from your cached data; the wording around them is an AI summary that can be wrong or incomplete."
+}

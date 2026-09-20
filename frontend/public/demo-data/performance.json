@@ -1,0 +1,70 @@
+{
+ "groups": [
+  {
+   "label": "Caution",
+   "signals": 3,
+   "horizons": {
+    "1_week": {
+     "measured": 0,
+     "pending": 3,
+     "mean_return_percent": null,
+     "median_return_percent": null,
+     "positive_share": null,
+     "mean_excess_percent": null,
+     "benchmark_measured": 0
+    },
+    "1_month": {
+     "measured": 0,
+     "pending": 3,
+     "mean_return_percent": null,
+     "median_return_percent": null,
+     "positive_share": null,
+     "mean_excess_percent": null,
+     "benchmark_measured": 0
+    }
+   }
+  },
+  {
+   "label": "Strong setup",
+   "signals": 6,
+   "horizons": {
+    "1_week": {
+     "measured": 0,
+     "pending": 6,
+     "mean_return_percent": null,
+     "median_return_percent": null,
+     "positive_share": null,
+     "mean_excess_percent": null,
+     "benchmark_measured": 0
+    },
+    "1_month": {
+     "measured": 0,
+     "pending": 6,
+     "mean_return_percent": null,
+     "median_return_percent": null,
+     "positive_share": null,
+     "mean_excess_percent": null,
+     "benchmark_measured": 0
+    }
+   }
+  }
+ ],
+ "total_signals": 9,
+ "measured_outcomes": 0,
+ "benchmark_symbol": "^GSPC",
+ "horizons": {
+  "1_week": 7,
+  "1_month": 30
+ },
+ "sufficient_sample": false,
+ "minimum_sample_per_group": 30,
+ "verdict": "Not enough recorded outcomes to say anything about predictive value. Treat these numbers as a record of what happened, not as evidence.",
+ "caveats": [
+  "A recorded signal is not a trade: there is no entry rule, no position size, no costs, and no exit rule.",
+  "Forward returns are measured from the reference session close to the first completed session on or after the horizon date.",
+  "Signals for the same ticker on consecutive sessions overlap, so their returns are not independent observations.",
+  "The watchlist is self-selected and changes over time, so this is not a survivorship-free sample of any market.",
+  "Excess return uses a single index benchmark and no risk adjustment."
+ ],
+ "disclaimer": "Not financial advice. Past outcomes do not predict future ones."
+}

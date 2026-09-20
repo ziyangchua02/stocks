@@ -1,0 +1,72 @@
+{
+ "ticker": "AAPL",
+ "status": "cached",
+ "cache_expired": true,
+ "checked_at": "2026-09-20T15:04:51.727313+00:00",
+ "reason": null,
+ "data": {
+  "ticker": "AAPL",
+  "price": 336.13,
+  "previous_close": 337.0,
+  "change": -0.8700000000000045,
+  "change_percent": -0.25816023738872707,
+  "volume": 86241049,
+  "currency": "USD",
+  "source": "yfinance",
+  "source_url": "https://finance.yahoo.com/quote/AAPL/",
+  "source_as_of": "2026-09-18T20:00:02Z",
+  "fetched_at": "2026-09-20T14:48:39.550687Z",
+  "session": "regular",
+  "delay_status": "unknown; provider does not guarantee real-time delivery"
+ },
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:AAPL",
+   "fetched_at": "2026-09-20T14:48:40.105981+00:00",
+   "expires_at": "2026-09-20T15:03:40.105981+00:00",
+   "attempted_at": "2026-09-20T14:48:40.105981+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:fundamentals:AAPL",
+   "fetched_at": "2026-09-20T12:57:20.049426+00:00",
+   "expires_at": "2026-09-21T12:57:20.049426+00:00",
+   "attempted_at": "2026-09-20T12:57:20.049426+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:history:AAPL",
+   "fetched_at": "2026-09-20T14:04:44.781218+00:00",
+   "expires_at": "2026-09-20T15:04:44.781218+00:00",
+   "attempted_at": "2026-09-20T14:04:44.781218+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:quote:AAPL",
+   "fetched_at": "2026-09-20T14:48:39.550721+00:00",
+   "expires_at": "2026-09-20T15:03:39.550721+00:00",
+   "attempted_at": "2026-09-20T14:48:39.550721+00:00",
+   "error": null,
+   "retry_at": null
+  }
+ ]
+}

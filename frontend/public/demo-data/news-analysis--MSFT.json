@@ -1,0 +1,623 @@
+{
+ "ticker": "MSFT",
+ "status": "partial",
+ "reason": null,
+ "checked_at": "2026-09-20T15:04:51.793717+00:00",
+ "data": {
+  "id": 5,
+  "ticker": "MSFT",
+  "input_hash": "f438cb8b170d37ba7f48030aa4ddb75f0b7dc9c26cd74d9a0689e91757342833",
+  "model": "gemini-3.1-flash-lite",
+  "prompt_version": "news-v2",
+  "generated_at": "2026-09-20T14:04:56.259297+00:00",
+  "inputs": {
+   "ticker": "MSFT",
+   "company_name": "Microsoft",
+   "selected_at": "2026-09-20T14:04:51.604672+00:00",
+   "lookback_hours": 48,
+   "selection": "Most recent deduplicated articles explicitly mentioning the ticker or company in the headline or excerpt, publication time descending.",
+   "total_count": 46,
+   "excluded_without_company_mention": 36,
+   "eligible_count": 10,
+   "selected_count": 10,
+   "omitted_count": 0,
+   "articles": [
+    {
+     "id": 53,
+     "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+     "excerpt": "Nokia Oyj (HLSE:NOKIA) expanded its partnership with Microsoft to transform telecom automation using unified, AI-driven data operations. The collaboration connects Nokia Data Suite directly with Microsoft Fabric to streamline network data access for global telecom operators. The combined platform is designed to shorten network data retrieval times and support multi-vendor AI use cases such as autonomous assurance and predictive maintenance. This Nokia and Microsoft AI data operations...",
+     "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-20T03:19:33Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 57,
+     "title": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
+     "excerpt": "One year on from the $9.7 billion Microsoft deal, the company is finally delivering.",
+     "url": "https://finnhub.io/api/news?id=c1baba00348242f866a38d57a26c206a6041303f1db6836a8f8523e7295e0ab2",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T14:27:34Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 62,
+     "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+     "excerpt": "The assessment isn't a permanent indictment. Indeed, if anything, it's a clarion call.",
+     "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T08:50:00Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 63,
+     "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+     "excerpt": "Key Stats for Microsoft StockPrice change for Microsoft stock in last 6 months: 27%$MSFT Stock Price as of Sep. 17: $49852-Week High: $554$MSFT Stock Price Target: $573What Happened?Microsoft (MSFT) stock is in focus after the company raised its quarterly dividend to $0.",
+     "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-19T05:45:30Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 64,
+     "title": "Nvidia-backed Nscale Wants to Ride the AI Infrastructure Boom to Wall Street: Files for NYSE IPO",
+     "excerpt": "London cloud company Nscale, backed by Microsoft and Nvidia, has filed to sell shares publicly on the New York Stock Exchange.",
+     "url": "https://finnhub.io/api/news?id=b601e0618b377bbd981a211a648501cf3450ded5e5e0546fc0f704f9b211789e",
+     "publisher": "Benzinga",
+     "published_at": "2026-09-19T05:12:26Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 92,
+     "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+     "excerpt": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
+     "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+     "publisher": "CNBC Markets",
+     "published_at": "2026-09-18T21:35:55Z",
+     "fetched_at": "2026-09-20T12:57:17.158750Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 70,
+     "title": "Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO",
+     "excerpt": "Nscale, a developer of artificial intelligence data centers that counts Nvidia Corp. and Microsoft Corp. among its partners, filed for an initial public offering in New York to tap into AI\u2019s insatiable demand for computing power.",
+     "url": "https://finnhub.io/api/news?id=86f7f974d24109c01645ba46c3adf7f22dededfbbcba59aaf3f8f0f50add5422",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T19:52:20Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 77,
+     "title": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+     "excerpt": "Oracle is sliding hard on a day when its cloud rivals are barely flinching, and the reason behind that split tells investors something important about where the real pressure on ORCL stock is coming from.",
+     "url": "https://finnhub.io/api/news?id=a096c5d06025b5ca49a7b9827f4c34d7e8b736f61fbbd72325babed2d7a6504e",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T18:07:07Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 88,
+     "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+     "excerpt": "Salesforce\u2019s new AI layer could change how millions of workers access company data, and Benioff made sure Microsoft heard about it.",
+     "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T16:03:00Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    },
+    {
+     "id": 89,
+     "title": "3 AI Stocks Stuck in Neutral to Buy Before Their Next Catalysts Hit",
+     "excerpt": "Broadcom, Meta Platforms, and Microsoft are all trading close to flat for the year.",
+     "url": "https://finnhub.io/api/news?id=650a09bc3672d7bdb1b62b276ffb32c2e7ff5759249617d234df54488e5b5d8c",
+     "publisher": "Yahoo",
+     "published_at": "2026-09-18T15:35:00Z",
+     "fetched_at": "2026-09-20T12:57:21.074074Z",
+     "content_scope": "headline_and_excerpt",
+     "excerpt_truncated": false
+    }
+   ]
+  },
+  "payload": {
+   "summary": "Microsoft is experiencing a mix of positive developments, including dividend increases and strategic partnerships, alongside competitive pressures and concerns regarding AI model safety.",
+   "sentiment": 0.2,
+   "impact": "medium",
+   "time_horizon": "medium",
+   "key_points": [
+    "Microsoft increased its quarterly dividend, drawing positive attention from analysts.",
+    "The company expanded its partnership with Nokia to integrate AI-driven data operations for telecom.",
+    "Microsoft is a backer of Nscale, which has filed for a US IPO.",
+    "Internal leadership expressed concern regarding recent OpenAI model behavior.",
+    "Salesforce launched a competing AI layer, signaling intensifying competition in the enterprise AI space."
+   ],
+   "risks": [
+    "Growing public backlash against the AI industry may impact investor sentiment.",
+    "Increased competition from rivals like Salesforce could pressure Microsoft's market position.",
+    "Potential reputational or operational risks associated with OpenAI's model behavior."
+   ],
+   "claims": {
+    "summary": {
+     "text": "Microsoft is experiencing a mix of positive developments, including dividend increases and strategic partnerships, alongside competitive pressures and concerns regarding AI model safety.",
+     "sources": [
+      {
+       "id": 63,
+       "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+       "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T05:45:30Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 53,
+       "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+       "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T03:19:33Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 92,
+       "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+       "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-18T21:35:55Z",
+       "fetched_at": "2026-09-20T12:57:17.158750Z"
+      },
+      {
+       "id": 88,
+       "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+       "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    "key_points": [
+     {
+      "text": "Microsoft increased its quarterly dividend, drawing positive attention from analysts.",
+      "sources": [
+       {
+        "id": 63,
+        "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+        "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T05:45:30Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     },
+     {
+      "text": "The company expanded its partnership with Nokia to integrate AI-driven data operations for telecom.",
+      "sources": [
+       {
+        "id": 53,
+        "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+        "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-20T03:19:33Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     },
+     {
+      "text": "Microsoft is a backer of Nscale, which has filed for a US IPO.",
+      "sources": [
+       {
+        "id": 64,
+        "url": "https://finnhub.io/api/news?id=b601e0618b377bbd981a211a648501cf3450ded5e5e0546fc0f704f9b211789e",
+        "title": "Nvidia-backed Nscale Wants to Ride the AI Infrastructure Boom to Wall Street: Files for NYSE IPO",
+        "publisher": "Benzinga",
+        "published_at": "2026-09-19T05:12:26Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       },
+       {
+        "id": 70,
+        "url": "https://finnhub.io/api/news?id=86f7f974d24109c01645ba46c3adf7f22dededfbbcba59aaf3f8f0f50add5422",
+        "title": "Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T19:52:20Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     },
+     {
+      "text": "Internal leadership expressed concern regarding recent OpenAI model behavior.",
+      "sources": [
+       {
+        "id": 92,
+        "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+        "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+        "publisher": "CNBC Markets",
+        "published_at": "2026-09-18T21:35:55Z",
+        "fetched_at": "2026-09-20T12:57:17.158750Z"
+       }
+      ]
+     },
+     {
+      "text": "Salesforce launched a competing AI layer, signaling intensifying competition in the enterprise AI space.",
+      "sources": [
+       {
+        "id": 88,
+        "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+        "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T16:03:00Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     }
+    ],
+    "risks": [
+     {
+      "text": "Growing public backlash against the AI industry may impact investor sentiment.",
+      "sources": [
+       {
+        "id": 62,
+        "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+        "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-19T08:50:00Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     },
+     {
+      "text": "Increased competition from rivals like Salesforce could pressure Microsoft's market position.",
+      "sources": [
+       {
+        "id": 88,
+        "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+        "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+        "publisher": "Yahoo",
+        "published_at": "2026-09-18T16:03:00Z",
+        "fetched_at": "2026-09-20T12:57:21.074074Z"
+       }
+      ]
+     },
+     {
+      "text": "Potential reputational or operational risks associated with OpenAI's model behavior.",
+      "sources": [
+       {
+        "id": 92,
+        "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+        "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+        "publisher": "CNBC Markets",
+        "published_at": "2026-09-18T21:35:55Z",
+        "fetched_at": "2026-09-20T12:57:17.158750Z"
+       }
+      ]
+     }
+    ],
+    "sentiment": {
+     "text": "Positive news regarding dividends and partnerships is balanced by competitive challenges and concerns over AI safety.",
+     "sources": [
+      {
+       "id": 63,
+       "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+       "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T05:45:30Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 53,
+       "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+       "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T03:19:33Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 92,
+       "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+       "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-18T21:35:55Z",
+       "fetched_at": "2026-09-20T12:57:17.158750Z"
+      },
+      {
+       "id": 88,
+       "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+       "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    "impact": {
+     "text": "Strategic partnerships and dividend changes have a direct impact, while broader industry sentiment and competition affect long-term positioning.",
+     "sources": [
+      {
+       "id": 63,
+       "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+       "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T05:45:30Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 53,
+       "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+       "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T03:19:33Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 88,
+       "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+       "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    "time_horizon": {
+     "text": "Dividend and partnership news have immediate to medium-term implications, while AI industry sentiment is a longer-term factor.",
+     "sources": [
+      {
+       "id": 63,
+       "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+       "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T05:45:30Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 53,
+       "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+       "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T03:19:33Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      },
+      {
+       "id": 62,
+       "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+       "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T08:50:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    }
+   },
+   "article_assessments": [
+    {
+     "article_id": 53,
+     "sentiment": 0.5,
+     "impact": "medium",
+     "rationale": "Partnership with Nokia enhances Microsoft's AI-driven data capabilities in the telecom sector.",
+     "sources": [
+      {
+       "id": 53,
+       "url": "https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba",
+       "title": "Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-20T03:19:33Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 57,
+     "sentiment": 0.3,
+     "impact": "low",
+     "rationale": "Mentions a past deal with IREN; limited direct impact on Microsoft's current operations.",
+     "sources": [
+      {
+       "id": 57,
+       "url": "https://finnhub.io/api/news?id=c1baba00348242f866a38d57a26c206a6041303f1db6836a8f8523e7295e0ab2",
+       "title": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T14:27:34Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 62,
+     "sentiment": -0.2,
+     "impact": "low",
+     "rationale": "General industry commentary on AI backlash; potential sentiment risk but lacks specific Microsoft impact.",
+     "sources": [
+      {
+       "id": 62,
+       "url": "https://finnhub.io/api/news?id=8e1309b83a3008ff75198bbe7ee1e99805e6e6b31611d8599556b42ae6e7bd13",
+       "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T08:50:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 63,
+     "sentiment": 0.6,
+     "impact": "medium",
+     "rationale": "Dividend increase is a positive signal for shareholders.",
+     "sources": [
+      {
+       "id": 63,
+       "url": "https://finnhub.io/api/news?id=65d32225b4b2a61b1a17f24166516aeafa5bf0664ef7b476b8c2091ac8641d0c",
+       "title": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-19T05:45:30Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 64,
+     "sentiment": 0.2,
+     "impact": "low",
+     "rationale": "Microsoft's backing of Nscale is a minor strategic investment.",
+     "sources": [
+      {
+       "id": 64,
+       "url": "https://finnhub.io/api/news?id=b601e0618b377bbd981a211a648501cf3450ded5e5e0546fc0f704f9b211789e",
+       "title": "Nvidia-backed Nscale Wants to Ride the AI Infrastructure Boom to Wall Street: Files for NYSE IPO",
+       "publisher": "Benzinga",
+       "published_at": "2026-09-19T05:12:26Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 92,
+     "sentiment": -0.4,
+     "impact": "medium",
+     "rationale": "Internal acknowledgement of concerning AI model behavior poses potential reputational and safety risks.",
+     "sources": [
+      {
+       "id": 92,
+       "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+       "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+       "publisher": "CNBC Markets",
+       "published_at": "2026-09-18T21:35:55Z",
+       "fetched_at": "2026-09-20T12:57:17.158750Z"
+      }
+     ]
+    },
+    {
+     "article_id": 70,
+     "sentiment": 0.2,
+     "impact": "low",
+     "rationale": "Reiteration of Microsoft's partnership with Nscale regarding their IPO.",
+     "sources": [
+      {
+       "id": 70,
+       "url": "https://finnhub.io/api/news?id=86f7f974d24109c01645ba46c3adf7f22dededfbbcba59aaf3f8f0f50add5422",
+       "title": "Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T19:52:20Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 77,
+     "sentiment": 0.1,
+     "impact": "low",
+     "rationale": "Market context regarding cloud rivals; Microsoft's performance is described as holding ground.",
+     "sources": [
+      {
+       "id": 77,
+       "url": "https://finnhub.io/api/news?id=a096c5d06025b5ca49a7b9827f4c34d7e8b736f61fbbd72325babed2d7a6504e",
+       "title": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T18:07:07Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 88,
+     "sentiment": -0.3,
+     "impact": "medium",
+     "rationale": "Salesforce's new AI product launch directly targets Microsoft's enterprise market share.",
+     "sources": [
+      {
+       "id": 88,
+       "url": "https://finnhub.io/api/news?id=d11e619871fa8723028a7fd1bccf686698856acf9efaeb0b82fb23217f5a31d2",
+       "title": "Salesforce unveils AIforce as Benioff takes shot at Microsoft",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T16:03:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    },
+    {
+     "article_id": 89,
+     "sentiment": 0.0,
+     "impact": "low",
+     "rationale": "General market observation that the stock is trading flat.",
+     "sources": [
+      {
+       "id": 89,
+       "url": "https://finnhub.io/api/news?id=650a09bc3672d7bdb1b62b276ffb32c2e7ff5759249617d234df54488e5b5d8c",
+       "title": "3 AI Stocks Stuck in Neutral to Buy Before Their Next Catalysts Hit",
+       "publisher": "Yahoo",
+       "published_at": "2026-09-18T15:35:00Z",
+       "fetched_at": "2026-09-20T12:57:21.074074Z"
+      }
+     ]
+    }
+   ],
+   "usage": {
+    "promptTokenCount": 1914,
+    "candidatesTokenCount": 1071,
+    "totalTokenCount": 2985
+   },
+   "disclaimer": "Not financial advice. AI interpretations of headlines and excerpts may be wrong.",
+   "interpretation": "AI interpretation, not a price forecast"
+  }
+ },
+ "previous_analysis": null,
+ "coverage": {
+  "ticker": "MSFT",
+  "company_name": "Microsoft",
+  "selected_at": "2026-09-20T15:04:51.788508+00:00",
+  "lookback_hours": 48,
+  "selection": "Most recent deduplicated articles explicitly mentioning the ticker or company in the headline or excerpt, publication time descending.",
+  "total_count": 44,
+  "excluded_without_company_mention": 34,
+  "eligible_count": 10,
+  "selected_count": 10,
+  "omitted_count": 0
+ },
+ "warnings": [
+  "Articles without an explicit ticker/company mention were excluded; this conservative rule may also omit relevant context.",
+  "News retrieval is missing, stale, or incomplete; inspect provider_status."
+ ],
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:MSFT",
+   "fetched_at": "2026-09-20T14:48:41.132437+00:00",
+   "expires_at": "2026-09-20T15:03:41.132437+00:00",
+   "attempted_at": "2026-09-20T14:48:41.132437+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null,
+   "stale": true
+  }
+ ],
+ "last_error": null,
+ "disclaimer": "Not financial advice. AI interpretations of headlines and excerpts may be wrong."
+}

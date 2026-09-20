@@ -1,0 +1,1689 @@
+{
+ "items": [
+  {
+   "id": 8,
+   "ticker": "MSFT",
+   "scoring_version": "composite-v1",
+   "config_version": "scoring-v1",
+   "config_hash": "318dddcedcda04f09ad3bcc410e003f1db04ee86ef58dfc44572eab0ef3f91d7",
+   "input_hash": "f3b27049259bb3766a8717a3a9a1bf4159b52fa2222c52c3533ffb9196f760dd",
+   "created_at": "2026-09-20T14:04:56.267966+00:00",
+   "score": 72.56,
+   "label": "Strong setup",
+   "status": "scored",
+   "reference_session": "2026-09-18",
+   "reference_close": 493.7799987792969,
+   "payload": {
+    "ticker": "MSFT",
+    "scoring_version": "composite-v1",
+    "config_version": "scoring-v1",
+    "computed_at": "2026-09-20T14:04:56.267966+00:00",
+    "score": 72.56,
+    "label": "Strong setup",
+    "label_rationale": "Score 72.6 against thresholds strong_setup>=70.0, watch>=58.0, neutral>=42.0.",
+    "status": "scored",
+    "reason": null,
+    "weight_coverage": 1.0,
+    "min_weight_coverage": 0.5,
+    "breakdown": [
+     {
+      "component": "trend",
+      "score": 83.33,
+      "status": "scored",
+      "reason": null,
+      "note": "Share of available moving-average structure checks that hold.",
+      "inputs": [
+       {
+        "input": "price_above_sma20",
+        "value": false,
+        "unit": "boolean",
+        "sub_score": 0.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(20) 497.5100",
+        "input_weight": 1.0
+       },
+       {
+        "input": "price_above_sma50",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(50) 464.6806",
+        "input_weight": 1.0
+       },
+       {
+        "input": "price_above_sma200",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(200) 431.6031",
+        "input_weight": 1.5
+       },
+       {
+        "input": "sma20_above_sma50",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "SMA(20) 497.5100 vs SMA(50) 464.6806",
+        "input_weight": 1.0
+       },
+       {
+        "input": "sma50_above_sma200",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "SMA(50) 464.6806 vs SMA(200) 431.6031",
+        "input_weight": 1.5
+       }
+      ],
+      "configured_weight": 0.2,
+      "effective_weight": 0.2,
+      "contribution": 16.67
+     },
+     {
+      "component": "momentum",
+      "score": 56.97,
+      "status": "scored",
+      "reason": null,
+      "note": "MACD histogram is expressed as a percent of the last close so it compares across share prices.",
+      "inputs": [
+       {
+        "input": "rsi14",
+        "value": 53.141298,
+        "unit": "index_0_100",
+        "sub_score": 91.28,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          10.0
+         ],
+         [
+          20.0,
+          25.0
+         ],
+         [
+          35.0,
+          50.0
+         ],
+         [
+          45.0,
+          75.0
+         ],
+         [
+          55.0,
+          95.0
+         ],
+         [
+          65.0,
+          100.0
+         ],
+         [
+          72.0,
+          85.0
+         ],
+         [
+          80.0,
+          45.0
+         ],
+         [
+          90.0,
+          20.0
+         ],
+         [
+          100.0,
+          10.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "macd_histogram_percent_of_price",
+        "value": -0.640916,
+        "unit": "percent_of_last_close",
+        "sub_score": 22.65,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -2.0,
+          0.0
+         ],
+         [
+          -0.5,
+          25.0
+         ],
+         [
+          -0.1,
+          45.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          0.1,
+          55.0
+         ],
+         [
+          0.5,
+          75.0
+         ],
+         [
+          2.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.15,
+      "contribution": 8.55
+     },
+     {
+      "component": "volume",
+      "score": 79.4,
+      "status": "scored",
+      "reason": null,
+      "note": "Participation only. This input has no direction: heavy selling scores the same as heavy buying.",
+      "inputs": [
+       {
+        "input": "volume_ratio20",
+        "value": 1.969938,
+        "unit": "multiple",
+        "sub_score": 79.4,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          30.0
+         ],
+         [
+          0.5,
+          40.0
+         ],
+         [
+          1.0,
+          50.0
+         ],
+         [
+          1.5,
+          70.0
+         ],
+         [
+          2.5,
+          90.0
+         ],
+         [
+          4.0,
+          95.0
+         ],
+         [
+          8.0,
+          60.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.05,
+      "effective_weight": 0.05,
+      "contribution": 3.97
+     },
+     {
+      "component": "range_position",
+      "score": 83.55,
+      "status": "scored",
+      "reason": null,
+      "note": "0 sits at the 52-week low and 100 at the 52-week high.",
+      "inputs": [
+       {
+        "input": "percent_of_52w_range",
+        "value": 70.692361,
+        "unit": "percent",
+        "sub_score": 83.55,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          20.0
+         ],
+         [
+          20.0,
+          45.0
+         ],
+         [
+          40.0,
+          60.0
+         ],
+         [
+          60.0,
+          75.0
+         ],
+         [
+          85.0,
+          95.0
+         ],
+         [
+          95.0,
+          80.0
+         ],
+         [
+          100.0,
+          65.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.1,
+      "effective_weight": 0.1,
+      "contribution": 8.36
+     },
+     {
+      "component": "valuation",
+      "score": 70.07,
+      "status": "scored",
+      "reason": null,
+      "note": "A positive forward discount means the provider's forward P/E is below the trailing P/E. Forward figures are provider estimates, not reported results.",
+      "inputs": [
+       {
+        "input": "pe",
+        "value": 27.47802,
+        "unit": "multiple",
+        "sub_score": 56.7,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          1.0,
+          85.0
+         ],
+         [
+          8.0,
+          90.0
+         ],
+         [
+          15.0,
+          80.0
+         ],
+         [
+          25.0,
+          60.0
+         ],
+         [
+          40.0,
+          40.0
+         ],
+         [
+          60.0,
+          25.0
+         ],
+         [
+          120.0,
+          10.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "forward_pe_discount_percent",
+        "value": 23.83231,
+        "unit": "percent",
+        "sub_score": 83.44,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -50.0,
+          20.0
+         ],
+         [
+          -20.0,
+          35.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          10.0,
+          65.0
+         ],
+         [
+          25.0,
+          85.0
+         ],
+         [
+          50.0,
+          95.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.15,
+      "contribution": 10.51
+     },
+     {
+      "component": "growth_quality",
+      "score": 86.35,
+      "status": "scored",
+      "reason": null,
+      "note": "Revenue growth is quarterly year over year; margin is trailing twelve months.",
+      "inputs": [
+       {
+        "input": "revenue_growth_percent",
+        "value": 17.7,
+        "unit": "percent",
+        "sub_score": 77.7,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -30.0,
+          5.0
+         ],
+         [
+          -10.0,
+          25.0
+         ],
+         [
+          0.0,
+          40.0
+         ],
+         [
+          5.0,
+          55.0
+         ],
+         [
+          15.0,
+          75.0
+         ],
+         [
+          30.0,
+          90.0
+         ],
+         [
+          60.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "profit_margin_percent",
+        "value": 40.305,
+        "unit": "percent",
+        "sub_score": 95.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -20.0,
+          5.0
+         ],
+         [
+          0.0,
+          30.0
+         ],
+         [
+          5.0,
+          45.0
+         ],
+         [
+          10.0,
+          60.0
+         ],
+         [
+          20.0,
+          80.0
+         ],
+         [
+          35.0,
+          95.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.15,
+      "contribution": 12.95
+     },
+     {
+      "component": "news_sentiment",
+      "score": 57.8,
+      "status": "scored",
+      "reason": null,
+      "note": "Model interpretation of headlines and excerpts, pulled toward neutral 50 by the configured impact factor. Sources are on the ticker's news analysis.",
+      "inputs": [
+       {
+        "input": "sentiment",
+        "value": 0.2,
+        "unit": "sentiment_-1_to_1",
+        "sub_score": 61.14,
+        "status": "scored",
+        "reason": null,
+        "source": "gemini:gemini-3.1-flash-lite",
+        "curve": [
+         [
+          -1.0,
+          0.0
+         ],
+         [
+          -0.5,
+          20.0
+         ],
+         [
+          -0.15,
+          42.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          0.15,
+          58.0
+         ],
+         [
+          0.5,
+          80.0
+         ],
+         [
+          1.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0,
+        "impact": "medium",
+        "impact_scaling": 0.7,
+        "scaled_sub_score": 57.8,
+        "analysis_id": 5,
+        "analysis_generated_at": "2026-09-20T14:04:56.259297+00:00",
+        "analysis_age_hours": 0.0
+       }
+      ],
+      "configured_weight": 0.2,
+      "effective_weight": 0.2,
+      "contribution": 11.56
+     }
+    ],
+    "cautions": [],
+    "inputs": {
+     "indicator_snapshot_id": 5,
+     "indicator_status": "available",
+     "indicator_as_of_session": "2026-09-18",
+     "technical_status": "available",
+     "fundamental_status": "available",
+     "last_close": 493.7799987792969,
+     "history_source": "yfinance",
+     "news_analysis_id": 5,
+     "news_status": "partial",
+     "news_generated_at": "2026-09-20T14:04:56.259297+00:00"
+    },
+    "weights": {
+     "trend": 0.2,
+     "momentum": 0.15,
+     "volume": 0.05,
+     "range_position": 0.1,
+     "valuation": 0.15,
+     "growth_quality": 0.15,
+     "news_sentiment": 0.2
+    },
+    "labels": {
+     "strong_setup": 70.0,
+     "watch": 58.0,
+     "neutral": 42.0
+    },
+    "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return."
+   },
+   "age_hours": 1.0,
+   "outcomes": {
+    "1_week": {
+     "status": "pending",
+     "target_date": "2026-09-25",
+     "reason": "The horizon has not elapsed or is not yet downloaded; the newest stored session is 2026-09-18."
+    },
+    "1_month": {
+     "status": "pending",
+     "target_date": "2026-10-18",
+     "reason": "The horizon has not elapsed or is not yet downloaded; the newest stored session is 2026-09-18."
+    }
+   }
+  },
+  {
+   "id": 5,
+   "ticker": "MSFT",
+   "scoring_version": "composite-v1",
+   "config_version": "scoring-v1",
+   "config_hash": "318dddcedcda04f09ad3bcc410e003f1db04ee86ef58dfc44572eab0ef3f91d7",
+   "input_hash": "4ac9e4d8480294c530d10cdb0df82de73160bad9ddcb725728c2c484340ca083",
+   "created_at": "2026-09-20T14:04:28.869253+00:00",
+   "score": 76.25,
+   "label": "Strong setup",
+   "status": "scored",
+   "reference_session": "2026-09-18",
+   "reference_close": 493.7799987792969,
+   "payload": {
+    "ticker": "MSFT",
+    "scoring_version": "composite-v1",
+    "config_version": "scoring-v1",
+    "computed_at": "2026-09-20T14:04:28.869253+00:00",
+    "score": 76.25,
+    "label": "Strong setup",
+    "label_rationale": "Score 76.2 against thresholds strong_setup>=70.0, watch>=58.0, neutral>=42.0.",
+    "status": "scored",
+    "reason": null,
+    "weight_coverage": 0.8,
+    "min_weight_coverage": 0.5,
+    "breakdown": [
+     {
+      "component": "trend",
+      "score": 83.33,
+      "status": "scored",
+      "reason": null,
+      "note": "Share of available moving-average structure checks that hold.",
+      "inputs": [
+       {
+        "input": "price_above_sma20",
+        "value": false,
+        "unit": "boolean",
+        "sub_score": 0.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(20) 497.5100",
+        "input_weight": 1.0
+       },
+       {
+        "input": "price_above_sma50",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(50) 464.6806",
+        "input_weight": 1.0
+       },
+       {
+        "input": "price_above_sma200",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(200) 431.6031",
+        "input_weight": 1.5
+       },
+       {
+        "input": "sma20_above_sma50",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "SMA(20) 497.5100 vs SMA(50) 464.6806",
+        "input_weight": 1.0
+       },
+       {
+        "input": "sma50_above_sma200",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "SMA(50) 464.6806 vs SMA(200) 431.6031",
+        "input_weight": 1.5
+       }
+      ],
+      "configured_weight": 0.2,
+      "effective_weight": 0.25,
+      "contribution": 20.83
+     },
+     {
+      "component": "momentum",
+      "score": 56.97,
+      "status": "scored",
+      "reason": null,
+      "note": "MACD histogram is expressed as a percent of the last close so it compares across share prices.",
+      "inputs": [
+       {
+        "input": "rsi14",
+        "value": 53.141298,
+        "unit": "index_0_100",
+        "sub_score": 91.28,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          10.0
+         ],
+         [
+          20.0,
+          25.0
+         ],
+         [
+          35.0,
+          50.0
+         ],
+         [
+          45.0,
+          75.0
+         ],
+         [
+          55.0,
+          95.0
+         ],
+         [
+          65.0,
+          100.0
+         ],
+         [
+          72.0,
+          85.0
+         ],
+         [
+          80.0,
+          45.0
+         ],
+         [
+          90.0,
+          20.0
+         ],
+         [
+          100.0,
+          10.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "macd_histogram_percent_of_price",
+        "value": -0.640916,
+        "unit": "percent_of_last_close",
+        "sub_score": 22.65,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -2.0,
+          0.0
+         ],
+         [
+          -0.5,
+          25.0
+         ],
+         [
+          -0.1,
+          45.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          0.1,
+          55.0
+         ],
+         [
+          0.5,
+          75.0
+         ],
+         [
+          2.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.1875,
+      "contribution": 10.68
+     },
+     {
+      "component": "volume",
+      "score": 79.4,
+      "status": "scored",
+      "reason": null,
+      "note": "Participation only. This input has no direction: heavy selling scores the same as heavy buying.",
+      "inputs": [
+       {
+        "input": "volume_ratio20",
+        "value": 1.969938,
+        "unit": "multiple",
+        "sub_score": 79.4,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          30.0
+         ],
+         [
+          0.5,
+          40.0
+         ],
+         [
+          1.0,
+          50.0
+         ],
+         [
+          1.5,
+          70.0
+         ],
+         [
+          2.5,
+          90.0
+         ],
+         [
+          4.0,
+          95.0
+         ],
+         [
+          8.0,
+          60.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.05,
+      "effective_weight": 0.0625,
+      "contribution": 4.96
+     },
+     {
+      "component": "range_position",
+      "score": 83.55,
+      "status": "scored",
+      "reason": null,
+      "note": "0 sits at the 52-week low and 100 at the 52-week high.",
+      "inputs": [
+       {
+        "input": "percent_of_52w_range",
+        "value": 70.692361,
+        "unit": "percent",
+        "sub_score": 83.55,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          20.0
+         ],
+         [
+          20.0,
+          45.0
+         ],
+         [
+          40.0,
+          60.0
+         ],
+         [
+          60.0,
+          75.0
+         ],
+         [
+          85.0,
+          95.0
+         ],
+         [
+          95.0,
+          80.0
+         ],
+         [
+          100.0,
+          65.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.1,
+      "effective_weight": 0.125,
+      "contribution": 10.44
+     },
+     {
+      "component": "valuation",
+      "score": 70.07,
+      "status": "scored",
+      "reason": null,
+      "note": "A positive forward discount means the provider's forward P/E is below the trailing P/E. Forward figures are provider estimates, not reported results.",
+      "inputs": [
+       {
+        "input": "pe",
+        "value": 27.47802,
+        "unit": "multiple",
+        "sub_score": 56.7,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          1.0,
+          85.0
+         ],
+         [
+          8.0,
+          90.0
+         ],
+         [
+          15.0,
+          80.0
+         ],
+         [
+          25.0,
+          60.0
+         ],
+         [
+          40.0,
+          40.0
+         ],
+         [
+          60.0,
+          25.0
+         ],
+         [
+          120.0,
+          10.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "forward_pe_discount_percent",
+        "value": 23.83231,
+        "unit": "percent",
+        "sub_score": 83.44,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -50.0,
+          20.0
+         ],
+         [
+          -20.0,
+          35.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          10.0,
+          65.0
+         ],
+         [
+          25.0,
+          85.0
+         ],
+         [
+          50.0,
+          95.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.1875,
+      "contribution": 13.14
+     },
+     {
+      "component": "growth_quality",
+      "score": 86.35,
+      "status": "scored",
+      "reason": null,
+      "note": "Revenue growth is quarterly year over year; margin is trailing twelve months.",
+      "inputs": [
+       {
+        "input": "revenue_growth_percent",
+        "value": 17.7,
+        "unit": "percent",
+        "sub_score": 77.7,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -30.0,
+          5.0
+         ],
+         [
+          -10.0,
+          25.0
+         ],
+         [
+          0.0,
+          40.0
+         ],
+         [
+          5.0,
+          55.0
+         ],
+         [
+          15.0,
+          75.0
+         ],
+         [
+          30.0,
+          90.0
+         ],
+         [
+          60.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "profit_margin_percent",
+        "value": 40.305,
+        "unit": "percent",
+        "sub_score": 95.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -20.0,
+          5.0
+         ],
+         [
+          0.0,
+          30.0
+         ],
+         [
+          5.0,
+          45.0
+         ],
+         [
+          10.0,
+          60.0
+         ],
+         [
+          20.0,
+          80.0
+         ],
+         [
+          35.0,
+          95.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.1875,
+      "contribution": 16.19
+     },
+     {
+      "component": "news_sentiment",
+      "score": null,
+      "status": "unavailable",
+      "reason": "No current news analysis is available for this ticker.",
+      "note": null,
+      "inputs": [
+       {
+        "input": "sentiment",
+        "value": null,
+        "unit": "sentiment_-1_to_1",
+        "sub_score": null,
+        "status": "unavailable",
+        "reason": "No current news analysis is available for this ticker.",
+        "source": null
+       }
+      ],
+      "configured_weight": 0.2,
+      "effective_weight": 0.0,
+      "contribution": null
+     }
+    ],
+    "cautions": [
+     {
+      "flag": "stale_news",
+      "message": "News analysis is stale, so its weight is excluded from the score rather than assumed neutral.",
+      "downgrades_label": false,
+      "news_status": "stale"
+     }
+    ],
+    "inputs": {
+     "indicator_snapshot_id": 2,
+     "indicator_status": "available",
+     "indicator_as_of_session": "2026-09-18",
+     "technical_status": "available",
+     "fundamental_status": "available",
+     "last_close": 493.7799987792969,
+     "history_source": "yfinance",
+     "news_analysis_id": null,
+     "news_status": "stale",
+     "news_generated_at": null
+    },
+    "weights": {
+     "trend": 0.2,
+     "momentum": 0.15,
+     "volume": 0.05,
+     "range_position": 0.1,
+     "valuation": 0.15,
+     "growth_quality": 0.15,
+     "news_sentiment": 0.2
+    },
+    "labels": {
+     "strong_setup": 70.0,
+     "watch": 58.0,
+     "neutral": 42.0
+    },
+    "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return."
+   },
+   "age_hours": 1.01,
+   "outcomes": {
+    "1_week": {
+     "status": "pending",
+     "target_date": "2026-09-25",
+     "reason": "The horizon has not elapsed or is not yet downloaded; the newest stored session is 2026-09-18."
+    },
+    "1_month": {
+     "status": "pending",
+     "target_date": "2026-10-18",
+     "reason": "The horizon has not elapsed or is not yet downloaded; the newest stored session is 2026-09-18."
+    }
+   }
+  },
+  {
+   "id": 2,
+   "ticker": "MSFT",
+   "scoring_version": "composite-v1",
+   "config_version": "scoring-v1",
+   "config_hash": "23b7c3cb232c12c42584ee5c373e693a1e320cfdd318dd7411b10e1489a8cbbb",
+   "input_hash": "c35a75b6949e6671a7093b4c62d6b28cdcb1e29f484bcedf0da159f4308c1ae4",
+   "created_at": "2026-09-20T14:02:50.458440+00:00",
+   "score": 76.25,
+   "label": "Caution",
+   "status": "scored",
+   "reference_session": "2026-09-18",
+   "reference_close": 493.7799987792969,
+   "payload": {
+    "ticker": "MSFT",
+    "scoring_version": "composite-v1",
+    "config_version": "scoring-v1",
+    "computed_at": "2026-09-20T14:02:50.458440+00:00",
+    "score": 76.25,
+    "label": "Caution",
+    "label_rationale": "Lowered to Caution by: stale_inputs.",
+    "status": "scored",
+    "reason": null,
+    "weight_coverage": 0.8,
+    "min_weight_coverage": 0.5,
+    "breakdown": [
+     {
+      "component": "trend",
+      "score": 83.33,
+      "status": "scored",
+      "reason": null,
+      "note": "Share of available moving-average structure checks that hold.",
+      "inputs": [
+       {
+        "input": "price_above_sma20",
+        "value": false,
+        "unit": "boolean",
+        "sub_score": 0.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(20) 497.5100",
+        "input_weight": 1.0
+       },
+       {
+        "input": "price_above_sma50",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(50) 464.6806",
+        "input_weight": 1.0
+       },
+       {
+        "input": "price_above_sma200",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "last close 493.7800 vs SMA(200) 431.6031",
+        "input_weight": 1.5
+       },
+       {
+        "input": "sma20_above_sma50",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "SMA(20) 497.5100 vs SMA(50) 464.6806",
+        "input_weight": 1.0
+       },
+       {
+        "input": "sma50_above_sma200",
+        "value": true,
+        "unit": "boolean",
+        "sub_score": 100.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "comparison": "SMA(50) 464.6806 vs SMA(200) 431.6031",
+        "input_weight": 1.5
+       }
+      ],
+      "configured_weight": 0.2,
+      "effective_weight": 0.25,
+      "contribution": 20.83
+     },
+     {
+      "component": "momentum",
+      "score": 56.97,
+      "status": "scored",
+      "reason": null,
+      "note": "MACD histogram is expressed as a percent of the last close so it compares across share prices.",
+      "inputs": [
+       {
+        "input": "rsi14",
+        "value": 53.141298,
+        "unit": "index_0_100",
+        "sub_score": 91.28,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          10.0
+         ],
+         [
+          20.0,
+          25.0
+         ],
+         [
+          35.0,
+          50.0
+         ],
+         [
+          45.0,
+          75.0
+         ],
+         [
+          55.0,
+          95.0
+         ],
+         [
+          65.0,
+          100.0
+         ],
+         [
+          72.0,
+          85.0
+         ],
+         [
+          80.0,
+          45.0
+         ],
+         [
+          90.0,
+          20.0
+         ],
+         [
+          100.0,
+          10.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "macd_histogram_percent_of_price",
+        "value": -0.640916,
+        "unit": "percent_of_last_close",
+        "sub_score": 22.65,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -2.0,
+          0.0
+         ],
+         [
+          -0.5,
+          25.0
+         ],
+         [
+          -0.1,
+          45.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          0.1,
+          55.0
+         ],
+         [
+          0.5,
+          75.0
+         ],
+         [
+          2.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.1875,
+      "contribution": 10.68
+     },
+     {
+      "component": "volume",
+      "score": 79.4,
+      "status": "scored",
+      "reason": null,
+      "note": "Participation only. This input has no direction: heavy selling scores the same as heavy buying.",
+      "inputs": [
+       {
+        "input": "volume_ratio20",
+        "value": 1.969938,
+        "unit": "multiple",
+        "sub_score": 79.4,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          30.0
+         ],
+         [
+          0.5,
+          40.0
+         ],
+         [
+          1.0,
+          50.0
+         ],
+         [
+          1.5,
+          70.0
+         ],
+         [
+          2.5,
+          90.0
+         ],
+         [
+          4.0,
+          95.0
+         ],
+         [
+          8.0,
+          60.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.05,
+      "effective_weight": 0.0625,
+      "contribution": 4.96
+     },
+     {
+      "component": "range_position",
+      "score": 83.55,
+      "status": "scored",
+      "reason": null,
+      "note": "0 sits at the 52-week low and 100 at the 52-week high.",
+      "inputs": [
+       {
+        "input": "percent_of_52w_range",
+        "value": 70.692361,
+        "unit": "percent",
+        "sub_score": 83.55,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          0.0,
+          20.0
+         ],
+         [
+          20.0,
+          45.0
+         ],
+         [
+          40.0,
+          60.0
+         ],
+         [
+          60.0,
+          75.0
+         ],
+         [
+          85.0,
+          95.0
+         ],
+         [
+          95.0,
+          80.0
+         ],
+         [
+          100.0,
+          65.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.1,
+      "effective_weight": 0.125,
+      "contribution": 10.44
+     },
+     {
+      "component": "valuation",
+      "score": 70.07,
+      "status": "scored",
+      "reason": null,
+      "note": "A positive forward discount means the provider's forward P/E is below the trailing P/E. Forward figures are provider estimates, not reported results.",
+      "inputs": [
+       {
+        "input": "pe",
+        "value": 27.47802,
+        "unit": "multiple",
+        "sub_score": 56.7,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          1.0,
+          85.0
+         ],
+         [
+          8.0,
+          90.0
+         ],
+         [
+          15.0,
+          80.0
+         ],
+         [
+          25.0,
+          60.0
+         ],
+         [
+          40.0,
+          40.0
+         ],
+         [
+          60.0,
+          25.0
+         ],
+         [
+          120.0,
+          10.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "forward_pe_discount_percent",
+        "value": 23.83231,
+        "unit": "percent",
+        "sub_score": 83.44,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -50.0,
+          20.0
+         ],
+         [
+          -20.0,
+          35.0
+         ],
+         [
+          0.0,
+          50.0
+         ],
+         [
+          10.0,
+          65.0
+         ],
+         [
+          25.0,
+          85.0
+         ],
+         [
+          50.0,
+          95.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.1875,
+      "contribution": 13.14
+     },
+     {
+      "component": "growth_quality",
+      "score": 86.35,
+      "status": "scored",
+      "reason": null,
+      "note": "Revenue growth is quarterly year over year; margin is trailing twelve months.",
+      "inputs": [
+       {
+        "input": "revenue_growth_percent",
+        "value": 17.7,
+        "unit": "percent",
+        "sub_score": 77.7,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -30.0,
+          5.0
+         ],
+         [
+          -10.0,
+          25.0
+         ],
+         [
+          0.0,
+          40.0
+         ],
+         [
+          5.0,
+          55.0
+         ],
+         [
+          15.0,
+          75.0
+         ],
+         [
+          30.0,
+          90.0
+         ],
+         [
+          60.0,
+          100.0
+         ]
+        ],
+        "input_weight": 1.0
+       },
+       {
+        "input": "profit_margin_percent",
+        "value": 40.305,
+        "unit": "percent",
+        "sub_score": 95.0,
+        "status": "scored",
+        "reason": null,
+        "source": "yfinance",
+        "curve": [
+         [
+          -20.0,
+          5.0
+         ],
+         [
+          0.0,
+          30.0
+         ],
+         [
+          5.0,
+          45.0
+         ],
+         [
+          10.0,
+          60.0
+         ],
+         [
+          20.0,
+          80.0
+         ],
+         [
+          35.0,
+          95.0
+         ]
+        ],
+        "input_weight": 1.0
+       }
+      ],
+      "configured_weight": 0.15,
+      "effective_weight": 0.1875,
+      "contribution": 16.19
+     },
+     {
+      "component": "news_sentiment",
+      "score": null,
+      "status": "unavailable",
+      "reason": "No current news analysis is available for this ticker.",
+      "note": null,
+      "inputs": [
+       {
+        "input": "sentiment",
+        "value": null,
+        "unit": "sentiment_-1_to_1",
+        "sub_score": null,
+        "status": "unavailable",
+        "reason": "No current news analysis is available for this ticker.",
+        "source": null
+       }
+      ],
+      "configured_weight": 0.2,
+      "effective_weight": 0.0,
+      "contribution": null
+     }
+    ],
+    "cautions": [
+     {
+      "flag": "stale_inputs",
+      "message": "Input data is stale or missing: news. Refresh before relying on this.",
+      "downgrades_label": true,
+      "stale_sections": [
+       "news"
+      ]
+     }
+    ],
+    "inputs": {
+     "indicator_snapshot_id": 2,
+     "indicator_status": "available",
+     "indicator_as_of_session": "2026-09-18",
+     "technical_status": "available",
+     "fundamental_status": "available",
+     "last_close": 493.7799987792969,
+     "history_source": "yfinance",
+     "news_analysis_id": null,
+     "news_status": "stale",
+     "news_generated_at": null
+    },
+    "weights": {
+     "trend": 0.2,
+     "momentum": 0.15,
+     "volume": 0.05,
+     "range_position": 0.1,
+     "valuation": 0.15,
+     "growth_quality": 0.15,
+     "news_sentiment": 0.2
+    },
+    "labels": {
+     "strong_setup": 70.0,
+     "watch": 58.0,
+     "neutral": 42.0
+    },
+    "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return."
+   },
+   "age_hours": 1.03,
+   "outcomes": {
+    "1_week": {
+     "status": "pending",
+     "target_date": "2026-09-25",
+     "reason": "The horizon has not elapsed or is not yet downloaded; the newest stored session is 2026-09-18."
+    },
+    "1_month": {
+     "status": "pending",
+     "target_date": "2026-10-18",
+     "reason": "The horizon has not elapsed or is not yet downloaded; the newest stored session is 2026-09-18."
+    }
+   }
+  }
+ ],
+ "total": 3,
+ "limit": 200,
+ "offset": 0,
+ "note": "Append-only log of every signal generated, with the 1-week and 1-month outcome measured from stored closes once each horizon has elapsed.",
+ "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return.",
+ "outcome_note": "Forward returns are measured from stored daily closes. A horizon that has not elapsed stays pending; nothing is estimated."
+}

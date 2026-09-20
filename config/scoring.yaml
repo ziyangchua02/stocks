@@ -1,0 +1,109 @@
+# Composite scoring weights and curves. Tune freely; every change produces new
+# signal records rather than rewriting old ones. Curves are piecewise linear
+# [input, sub_score] points, clamped outside their first and last point.
+# Not financial advice. These weights encode preferences, not predictive claims.
+version: scoring-v1
+# Withhold the composite score when available components cover less than this
+# fraction of total weight. Missing inputs are never imputed.
+min_weight_coverage: 0.5
+weights:
+  trend: 0.20
+  momentum: 0.15
+  volume: 0.05
+  range_position: 0.10
+  valuation: 0.15
+  growth_quality: 0.15
+  news_sentiment: 0.20
+labels:
+  # Inclusive lower bounds. Below `neutral` the label is "Caution".
+  strong_setup: 70
+  watch: 58
+  neutral: 42
+components:
+  trend:
+    # Boolean structure checks; score is the satisfied share of available weight.
+    min_conditions: 2
+    conditions:
+      price_above_sma20: 1.0
+      price_above_sma50: 1.0
+      price_above_sma200: 1.5
+      sma20_above_sma50: 1.0
+      sma50_above_sma200: 1.5
+  momentum:
+    curves:
+      rsi14:
+        weight: 1.0
+        curve: [[0, 10], [20, 25], [35, 50], [45, 75], [55, 95], [65, 100], [72, 85], [80, 45], [90, 20], [100, 10]]
+      macd_histogram_percent_of_price:
+        weight: 1.0
+        curve: [[-2, 0], [-0.5, 25], [-0.1, 45], [0, 50], [0.1, 55], [0.5, 75], [2, 100]]
+  volume:
+    # Participation only: this measure has no direction, so heavy selling and
+    # heavy buying score alike. Read it with the trend component.
+    curves:
+      volume_ratio20:
+        weight: 1.0
+        curve: [[0, 30], [0.5, 40], [1, 50], [1.5, 70], [2.5, 90], [4, 95], [8, 60]]
+  range_position:
+    curves:
+      percent_of_52w_range:
+        weight: 1.0
+        curve: [[0, 20], [20, 45], [40, 60], [60, 75], [85, 95], [95, 80], [100, 65]]
+  valuation:
+    curves:
+      pe:
+        weight: 1.0
+        curve: [[1, 85], [8, 90], [15, 80], [25, 60], [40, 40], [60, 25], [120, 10]]
+      forward_pe_discount_percent:
+        weight: 1.0
+        curve: [[-50, 20], [-20, 35], [0, 50], [10, 65], [25, 85], [50, 95]]
+  growth_quality:
+    curves:
+      revenue_growth_percent:
+        weight: 1.0
+        curve: [[-30, 5], [-10, 25], [0, 40], [5, 55], [15, 75], [30, 90], [60, 100]]
+      profit_margin_percent:
+        weight: 1.0
+        curve: [[-20, 5], [0, 30], [5, 45], [10, 60], [20, 80], [35, 95]]
+  news_sentiment:
+    # Analyses older than this are reported, not scored.
+    max_age_hours: 48
+    curves:
+      sentiment:
+        weight: 1.0
+        curve: [[-1, 0], [-0.5, 20], [-0.15, 42], [0, 50], [0.15, 58], [0.5, 80], [1, 100]]
+    # Confidence in a low-impact reading is lower, so it moves less far from 50.
+    impact_scaling:
+      low: 0.4
+      medium: 0.7
+      high: 1.0
+cautions:
+  stale_indicators:
+    enabled: true
+    downgrade: true
+  stale_news:
+    # Its weight is already excluded from the score; the flag keeps the gap visible.
+    enabled: true
+    downgrade: false
+  negative_news:
+    enabled: true
+    sentiment_below: -0.25
+    impacts: [medium, high]
+    downgrade: true
+  overbought:
+    enabled: true
+    rsi_above: 80
+    downgrade: false
+  extended_above_sma200:
+    enabled: true
+    percent_above: 30
+    downgrade: false
+  earnings_soon:
+    enabled: true
+    days: 7
+    downgrade: false
+  thin_coverage:
+    # Flags a score built on little weight, even when above min_weight_coverage.
+    enabled: true
+    coverage_below: 0.75
+    downgrade: false

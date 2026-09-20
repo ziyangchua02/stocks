@@ -1,0 +1,113 @@
+{
+ "items": [
+  {
+   "ticker": "NVDA",
+   "company_name": "Nvidia",
+   "score": 80.43,
+   "label": "Strong setup",
+   "status": "scored",
+   "reason": null,
+   "weight_coverage": 1.0,
+   "cautions": [],
+   "top_components": [
+    {
+     "component": "trend",
+     "score": 100.0,
+     "contribution": 20.0
+    },
+    {
+     "component": "growth_quality",
+     "score": 97.5,
+     "contribution": 14.62
+    },
+    {
+     "component": "news_sentiment",
+     "score": 62.2,
+     "contribution": 12.44
+    }
+   ],
+   "as_of_session": "2026-09-18",
+   "last_close": 222.27000427246094,
+   "recorded_signal_id": 9,
+   "detail_url": "/api/tickers/NVDA/score"
+  },
+  {
+   "ticker": "AAPL",
+   "company_name": "Apple",
+   "score": 77.39,
+   "label": "Strong setup",
+   "status": "scored",
+   "reason": null,
+   "weight_coverage": 1.0,
+   "cautions": [],
+   "top_components": [
+    {
+     "component": "trend",
+     "score": 100.0,
+     "contribution": 20.0
+    },
+    {
+     "component": "momentum",
+     "score": 86.73,
+     "contribution": 13.01
+    },
+    {
+     "component": "growth_quality",
+     "score": 82.01,
+     "contribution": 12.3
+    }
+   ],
+   "as_of_session": "2026-09-18",
+   "last_close": 336.1300048828125,
+   "recorded_signal_id": 7,
+   "detail_url": "/api/tickers/AAPL/score"
+  },
+  {
+   "ticker": "MSFT",
+   "company_name": "Microsoft",
+   "score": 72.56,
+   "label": "Strong setup",
+   "status": "scored",
+   "reason": null,
+   "weight_coverage": 1.0,
+   "cautions": [],
+   "top_components": [
+    {
+     "component": "trend",
+     "score": 83.33,
+     "contribution": 16.67
+    },
+    {
+     "component": "growth_quality",
+     "score": 86.35,
+     "contribution": 12.95
+    },
+    {
+     "component": "news_sentiment",
+     "score": 57.8,
+     "contribution": 11.56
+    }
+   ],
+   "as_of_session": "2026-09-18",
+   "last_close": 493.7799987792969,
+   "recorded_signal_id": 8,
+   "detail_url": "/api/tickers/MSFT/score"
+  }
+ ],
+ "scored_count": 3,
+ "unscored_count": 0,
+ "checked_at": "2026-09-20T15:04:51.597247+00:00",
+ "config_version": "scoring-v1",
+ "scoring_version": "composite-v1",
+ "weights": {
+  "trend": 0.2,
+  "momentum": 0.15,
+  "volume": 0.05,
+  "range_position": 0.1,
+  "valuation": 0.15,
+  "growth_quality": 0.15,
+  "news_sentiment": 0.2
+ },
+ "note": "Ranking orders the watchlist by the current weighted score only. Tickers without enough data are listed last with their reason.",
+ "disclaimer": "Not financial advice. A score is a weighted summary of the observed inputs below, not a prediction, recommendation, or measure of expected return."
+}

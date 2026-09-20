@@ -1,0 +1,1250 @@
+{
+ "items": [
+  {
+   "id": 289,
+   "canonical_url": "https://finnhub.io/api/news?id=0519ec93d8848c3b4506a8bdf713e2384d95d2df72a176ff9b1ce9ba7763cd09",
+   "title": "Turning 73 Forces a Withdrawal From This Stock Whether the Owner Wants the Cash or Not",
+   "url": "https://finnhub.io/api/news?id=0519ec93d8848c3b4506a8bdf713e2384d95d2df72a176ff9b1ce9ba7763cd09",
+   "publisher": "Yahoo",
+   "summary": "Most investors celebrate a stock that turns every dollar into eleven, but holding a massive winner inside a traditional IRA sets up a collision between the IRS and your retirement timeline that gets worse the more the shares are worth.",
+   "published_at": "2026-09-20T13:00:22Z",
+   "fetched_at": "2026-09-20T14:48:39.578727Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=0519ec93d8848c3b4506a8bdf713e2384d95d2df72a176ff9b1ce9ba7763cd09",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 1,
+   "canonical_url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+   "title": "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
+   "url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+   "publisher": "Yahoo",
+   "summary": "Buffett bought more than $77 billion of this stock in the years leading up to his retirement.",
+   "published_at": "2026-09-20T11:10:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=aa31b28ac7396a2a945e9772c9027d66e0c952859ae9fb2699e33bd88c241b6f",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "The article explicitly states the stock mentioned is not Apple.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 2,
+   "canonical_url": "https://finnhub.io/api/news?id=328e5fb9d350fb8dd4449fac4453bceafd7dcfcc1cd517cd5b2bf171b1769726",
+   "title": "If You Had Invested $500 a Month in VOO Since Its 2010 Launch, You Would Have About $330,000 Today",
+   "url": "https://finnhub.io/api/news?id=328e5fb9d350fb8dd4449fac4453bceafd7dcfcc1cd517cd5b2bf171b1769726",
+   "publisher": "Yahoo",
+   "summary": "Fifteen years of automatic S&P 500 investing through crashes, pandemics, and AI euphoria reveals something surprising: the fund you pick matters far less than one overlooked detail that quietly decides how much of your $500 actually gets invested each month.",
+   "published_at": "2026-09-20T09:59:02Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=328e5fb9d350fb8dd4449fac4453bceafd7dcfcc1cd517cd5b2bf171b1769726",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 281,
+   "canonical_url": "https://finnhub.io/api/news?id=8dd827e5ff1c2954ca43d4bfe9b3cb529d099c1a2ee055966d4a86162e08888b",
+   "title": "Berkshire Hathaway: Warren Buffett Steps Down As Chairman While Higher Rates Turn The Cash Pile Into A Bigger Asset",
+   "url": "https://finnhub.io/api/news?id=8dd827e5ff1c2954ca43d4bfe9b3cb529d099c1a2ee055966d4a86162e08888b",
+   "publisher": "SeekingAlpha",
+   "summary": "Berkshire Hathaway (BRK.B) looks undervalued: higher-rate tailwinds, strong float, BHE growth, and Greg Abel\u00e2\u0080\u0099s execution\u00e2\u0080\u0094get the key investment thesis now.",
+   "published_at": "2026-09-20T09:30:00Z",
+   "fetched_at": "2026-09-20T14:04:44.812769Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=8dd827e5ff1c2954ca43d4bfe9b3cb529d099c1a2ee055966d4a86162e08888b",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 3,
+   "canonical_url": "https://finnhub.io/api/news?id=e633b04380d8ba61b8d0af190c7c392e0cdf932776b064e4ff55b48dee612f1f",
+   "title": "Taiwan Semiconductor Manufacturing's Foundry Market Share Is a Massive Moat Nobody Talks About",
+   "url": "https://finnhub.io/api/news?id=e633b04380d8ba61b8d0af190c7c392e0cdf932776b064e4ff55b48dee612f1f",
+   "publisher": "Yahoo",
+   "summary": "TSMC owns more than two-thirds of the chip foundry market.",
+   "published_at": "2026-09-20T08:23:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e633b04380d8ba61b8d0af190c7c392e0cdf932776b064e4ff55b48dee612f1f",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 4,
+   "canonical_url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+   "title": "Bank of America does the math on Apple's $1,200 iPhone offer",
+   "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+   "publisher": "Yahoo",
+   "summary": "The credit is bigger this year. The bill at the register still isn\u2019t zero.",
+   "published_at": "2026-09-19T22:07:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=77ae12ba886dec647639ba223f44cc987803b99e1b59b0e733992f395fee804e",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "Provides analysis of consumer offers without clear directional impact on the stock.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 5,
+   "canonical_url": "https://finnhub.io/api/news?id=c0c92924ae13cb6f019c9e221fca221df8b2936806878be8b9ee43a0d423aa82",
+   "title": "Cramer strongly recommends buying beaten-down 90s tech legend",
+   "url": "https://finnhub.io/api/news?id=c0c92924ae13cb6f019c9e221fca221df8b2936806878be8b9ee43a0d423aa82",
+   "publisher": "Yahoo",
+   "summary": "Jim Cramer touts a former mobile phone king as an AI buy, though its Q2 cash flow raises questions.",
+   "published_at": "2026-09-19T19:13:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=c0c92924ae13cb6f019c9e221fca221df8b2936806878be8b9ee43a0d423aa82",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 6,
+   "canonical_url": "https://finnhub.io/api/news?id=e7c88893e45fbbc500a296482ce0c87e9709b092bc2dcd956c578f26ddcad785",
+   "title": "Forget Buying All Seven: The \"Magnificent Seven\" Stock Most Likely to Double by 2028",
+   "url": "https://finnhub.io/api/news?id=e7c88893e45fbbc500a296482ce0c87e9709b092bc2dcd956c578f26ddcad785",
+   "publisher": "Yahoo",
+   "summary": "I believe investors are underrating the potential of this compounding machine.",
+   "published_at": "2026-09-19T18:50:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e7c88893e45fbbc500a296482ce0c87e9709b092bc2dcd956c578f26ddcad785",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 7,
+   "canonical_url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+   "title": "Apple gets bullish Wall Street call as iPhone demand jumps",
+   "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+   "publisher": "Yahoo",
+   "summary": "Apple\u2019s price target hike comes on the heels of surprising consumer survey findings.",
+   "published_at": "2026-09-19T16:03:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=58b9203811fc59e3162b59b966223d56f324222c1c67a4c83e5afe24e2110bc9",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.6,
+    "impact": "medium",
+    "rationale": "Positive signal regarding iPhone demand and analyst sentiment.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 8,
+   "canonical_url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+   "title": "Coinbase Files With CFTC To List US Single-Stock Perpetual Futures, Including AAPL And TSLA Contracts",
+   "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+   "publisher": "Yahoo",
+   "summary": "Coinbase\u2019s filing used an Apple contract as its model, which is cash-settled, has no fixed expiration, and would trade from Sunday to Friday.",
+   "published_at": "2026-09-19T15:11:11Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=fbf822b1a1edb9f93faaedea12bfb16fa622ace06cadfefe458bcad49a850766",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "Reports on a regulatory filing for a financial derivative; neutral impact on the underlying company.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 9,
+   "canonical_url": "https://finnhub.io/api/news?id=4d81a180e6f8e18c98e7f7f44ee77306e9a702930d559d9446b189a7f8237f78",
+   "title": "The Stock Market's Biggest Companies Are Losing Their Grip. Here's the ETF I'd Buy If History Repeats.",
+   "url": "https://finnhub.io/api/news?id=4d81a180e6f8e18c98e7f7f44ee77306e9a702930d559d9446b189a7f8237f78",
+   "publisher": "Yahoo",
+   "summary": "As the market rotates away from large-cap stocks, new opportunities have emerged in their place.",
+   "published_at": "2026-09-19T15:05:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=4d81a180e6f8e18c98e7f7f44ee77306e9a702930d559d9446b189a7f8237f78",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 10,
+   "canonical_url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+   "title": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+   "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+   "publisher": "Yahoo",
+   "summary": "Apple stock just got a price target cut due to the memory processor crunch.",
+   "published_at": "2026-09-19T12:50:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=814e533b97d603798092a58557d5257cd58ff9b553db16b0b83fc6c164476a1f",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": -0.4,
+    "impact": "medium",
+    "rationale": "Reports a price target cut due to supply chain constraints.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 11,
+   "canonical_url": "https://finnhub.io/api/news?id=3b414a219e85ef32df40dd5598b187c14281f58d7d811d16ed4d4254de35fef0",
+   "title": "History Says You Should Know These 3 Things Before Buying Apple Stock (AAPL)",
+   "url": "https://finnhub.io/api/news?id=3b414a219e85ef32df40dd5598b187c14281f58d7d811d16ed4d4254de35fef0",
+   "publisher": "Yahoo",
+   "summary": "The pride of Cupertino continues its winning ways, and investors are eager to jump on the bandwagon.",
+   "published_at": "2026-09-19T11:22:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=3b414a219e85ef32df40dd5598b187c14281f58d7d811d16ed4d4254de35fef0",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.2,
+    "impact": "low",
+    "rationale": "General market commentary on Apple stock.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 12,
+   "canonical_url": "https://finnhub.io/api/news?id=569d989d9e4140e2c947766dd99a3bebcdd39cae7071ae1d8cb1140344e5c3ba",
+   "title": "Warren Buffett found the most boring way to bet on AI",
+   "url": "https://finnhub.io/api/news?id=569d989d9e4140e2c947766dd99a3bebcdd39cae7071ae1d8cb1140344e5c3ba",
+   "publisher": "Yahoo",
+   "summary": "Warren Buffett became the world\u2019s most famous investor by betting on the boring stuff.",
+   "published_at": "2026-09-19T10:30:30Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=569d989d9e4140e2c947766dd99a3bebcdd39cae7071ae1d8cb1140344e5c3ba",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 13,
+   "canonical_url": "https://finnhub.io/api/news?id=13f780888e8f80a1dd6391f3566fca74c418354f968b1de73cb4854818c0ee6f",
+   "title": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
+   "url": "https://finnhub.io/api/news?id=13f780888e8f80a1dd6391f3566fca74c418354f968b1de73cb4854818c0ee6f",
+   "publisher": "Yahoo",
+   "summary": "Investors need something that evolves with a changing economy.",
+   "published_at": "2026-09-19T09:00:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=13f780888e8f80a1dd6391f3566fca74c418354f968b1de73cb4854818c0ee6f",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 14,
+   "canonical_url": "https://finnhub.io/api/news?id=8c22fd8d481fea3088a442fc3333cd3f5813e30d4559399fcb24d9867f2b5ca4",
+   "title": "Intel, Apple, Nvidia and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+   "url": "https://finnhub.io/api/news?id=8c22fd8d481fea3088a442fc3333cd3f5813e30d4559399fcb24d9867f2b5ca4",
+   "publisher": "Benzinga",
+   "summary": "Retail investors talked up 5 stocks during the week (Sept. 14 to Sept.18) on X and Reddit's r/WallStreetBets: INTC, AAPL, NVDA, NBIS, ORCL",
+   "published_at": "2026-09-19T08:30:24Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=8c22fd8d481fea3088a442fc3333cd3f5813e30d4559399fcb24d9867f2b5ca4",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "Mentions Apple as a trending stock among retail investors; no fundamental news.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 15,
+   "canonical_url": "https://finnhub.io/api/news?id=7c8e90cc553de27bdab7853f76754c9bc142a8266ac0fae2cad517624946de38",
+   "title": "Bill Ackman Says Nike \u2018Needs Help\u2019 as Alexandre Arnault Joins Board: \u2018Great Development\u2019",
+   "url": "https://finnhub.io/api/news?id=7c8e90cc553de27bdab7853f76754c9bc142a8266ac0fae2cad517624946de38",
+   "publisher": "Yahoo",
+   "summary": "Investment firm Pershing Square Inc. founder Bill Ackman said Wednesday that Nike Inc.\u2019s decision to add Deputy CEO of LVMH\u2019s Mo\u00ebt Hennessy division Alexandre Arnault to its board was a \u201cgreat development\u201d for the retailer, which is working through a...",
+   "published_at": "2026-09-19T01:31:11Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=7c8e90cc553de27bdab7853f76754c9bc142a8266ac0fae2cad517624946de38",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 16,
+   "canonical_url": "https://finnhub.io/api/news?id=aaa9f2dc0209d5ddab1e75ce28d0dadc8542140fef23a585f33a5a369a73dabd",
+   "title": "Here\u2019s A Stock That Jim Cramer Like Before But Now He Just Doesn\u2019t Want To Buy It",
+   "url": "https://finnhub.io/api/news?id=aaa9f2dc0209d5ddab1e75ce28d0dadc8542140fef23a585f33a5a369a73dabd",
+   "publisher": "Yahoo",
+   "summary": "Glass technology products manufacturer Corning Incorporated (NYSE:GLW) has had an interesting relationship with Jim Cramer\u2019s radar. Late last year, the CNBC TV host was one of the firm\u2019s strongest supporters as he praised it for its partnership with Apple to bring manufacturing back to the US under President Trump\u2019s initiatives. However, more recently, he has [\u2026]",
+   "published_at": "2026-09-18T23:12:18Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=aaa9f2dc0209d5ddab1e75ce28d0dadc8542140fef23a585f33a5a369a73dabd",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "Discusses Corning and Jim Cramer's past views; tangential to Apple.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 17,
+   "canonical_url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+   "title": "John Ternus has the 'Apple DNA' that will push company to the 'next level'",
+   "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+   "publisher": "Yahoo",
+   "summary": "CFRA Research senior vice president Angelo Zino discusses why new Apple (AAPL) CEO John Ternus may be the right man for the job, especially after the release of the new iPhone 18 Pro and unveiling of the foldable iPhone Duo.",
+   "published_at": "2026-09-18T22:00:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=cf7a67c084ea63bcb417d903ad3fc12008da999abbe9e37712e1aa515bfaf28a",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.5,
+    "impact": "medium",
+    "rationale": "Positive analyst commentary on new leadership and product pipeline.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 18,
+   "canonical_url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+   "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
+   "url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+   "publisher": "Yahoo",
+   "summary": "The filing seeks CFTC approval for contracts giving US traders 24/5 leveraged exposure to individual stocks without ownership.",
+   "published_at": "2026-09-18T21:01:30Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=5e42e3b920ebd3317db6c18727698362c541ddeb139e09848f40d6d19b4e11fa",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "Reports on a regulatory filing for a financial derivative; neutral impact on the underlying company.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 19,
+   "canonical_url": "https://finnhub.io/api/news?id=e3af098458f9a0beaa2b04ff4e097daf7d06b8abd21453f00b28e2d75b4ae1b5",
+   "title": "Stock Market Today: Nasdaq, S&P Reverse Slightly Higher; Sandisk, Lumentum Lead This Tech Rally (Live Coverage)",
+   "url": "https://finnhub.io/api/news?id=e3af098458f9a0beaa2b04ff4e097daf7d06b8abd21453f00b28e2d75b4ae1b5",
+   "publisher": "Yahoo",
+   "summary": "Stock Market Today: The Dow Jones index falls Friday as oil prices reverse higher. Apple, AMD, Micron and Sandisk are key movers.",
+   "published_at": "2026-09-18T20:57:21Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e3af098458f9a0beaa2b04ff4e097daf7d06b8abd21453f00b28e2d75b4ae1b5",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.0,
+    "impact": "low",
+    "rationale": "General market coverage mentioning Apple as a mover.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 20,
+   "canonical_url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+   "title": "GM is re-downloading Apple CarPlay, Android Auto to its cars",
+   "url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+   "publisher": "Yahoo",
+   "summary": "General Motors (GM) will reinstall Apple's (AAPL) CarPlay and Android Auto in its vehicles after initially planning to remove the software from new cars. Yahoo Finance Senior Autos Reporter Pras Subramanian explains the consumer reaction that led to this decision.",
+   "published_at": "2026-09-18T20:35:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e2a11418050a909bee1794c2740a93d44ebeb2362de049f5537898beec3cde42",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": {
+    "ticker": "AAPL",
+    "sentiment": 0.3,
+    "impact": "low",
+    "rationale": "Positive news regarding the continued integration of Apple software in vehicles.",
+    "analysis_id": 4,
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-09-20T14:04:50.231823+00:00"
+   }
+  },
+  {
+   "id": 21,
+   "canonical_url": "https://finnhub.io/api/news?id=1b31ab7450c84ff379deb80d2a13a20a6d41845686af4e48e332ad4c57804f0c",
+   "title": "Apple Stock Gets Stunning Price Target Hike on Strong iPhone Demand",
+   "url": "https://finnhub.io/api/news?id=1b31ab7450c84ff379deb80d2a13a20a6d41845686af4e48e332ad4c57804f0c",
+   "publisher": "Yahoo",
+   "summary": "Evercore Delivers Bullish $380 Price Target for Apple Stock",
+   "published_at": "2026-09-18T20:21:20Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=1b31ab7450c84ff379deb80d2a13a20a6d41845686af4e48e332ad4c57804f0c",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 22,
+   "canonical_url": "https://finnhub.io/api/news?id=79ed4a40b029765a0b9953d0c50f57466b5a877b9f880cab1e59f2c42df367a2",
+   "title": "Apple will essentially sell 'every single' iPhone Duo it makes: CFRA",
+   "url": "https://finnhub.io/api/news?id=79ed4a40b029765a0b9953d0c50f57466b5a877b9f880cab1e59f2c42df367a2",
+   "publisher": "Yahoo",
+   "summary": "Apple's (AAPL) iPhone 18 Pro has hit store shelves on Friday, coming out a full month before the foldable iPhone Duo's release in late October. CFRA Research senior vice president and equity analyst Angelo Zino comes on Market Domination to discuss his forecast surrounding demand for the foldable iPhone.",
+   "published_at": "2026-09-18T20:09:34Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=79ed4a40b029765a0b9953d0c50f57466b5a877b9f880cab1e59f2c42df367a2",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 23,
+   "canonical_url": "https://finnhub.io/api/news?id=74137b3be8176ceb189457dfd3226779cdc3846d9e9345ebc7ddfdf4a7986aa0",
+   "title": "Apple Stock Near Buy Point As iPhone 18 Pro Goes On Sale",
+   "url": "https://finnhub.io/api/news?id=74137b3be8176ceb189457dfd3226779cdc3846d9e9345ebc7ddfdf4a7986aa0",
+   "publisher": "Yahoo",
+   "summary": "Apple began selling its latest premium smartphones Friday and analysts are cautiously optimistic about its prospects.",
+   "published_at": "2026-09-18T20:06:46Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=74137b3be8176ceb189457dfd3226779cdc3846d9e9345ebc7ddfdf4a7986aa0",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 24,
+   "canonical_url": "https://finnhub.io/api/news?id=eae90ef194a394f998edd55e8000cc2893e298a80525499a63a5f742b03c52b8",
+   "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+   "url": "https://finnhub.io/api/news?id=eae90ef194a394f998edd55e8000cc2893e298a80525499a63a5f742b03c52b8",
+   "publisher": "Yahoo",
+   "summary": "Tech stocks rose late Friday afternoon, with the State Street Technology Select Sector SPDR ETF (XLK",
+   "published_at": "2026-09-18T19:57:13Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=eae90ef194a394f998edd55e8000cc2893e298a80525499a63a5f742b03c52b8",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 25,
+   "canonical_url": "https://finnhub.io/api/news?id=e9da0b73b12578d13d05da8fdd14dc1fefc9a729affe91a16f80b3d499e9063e",
+   "title": "Jim Cramer shares his expectations for Apple's new hardware releases",
+   "url": "https://finnhub.io/api/news?id=e9da0b73b12578d13d05da8fdd14dc1fefc9a729affe91a16f80b3d499e9063e",
+   "publisher": "CNBC",
+   "summary": "'Mad Money' host Jim Cramer shares his expectations for the latest Apple hardware and what market moving moments are on the docket for next week.",
+   "published_at": "2026-09-18T19:29:34Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=e9da0b73b12578d13d05da8fdd14dc1fefc9a729affe91a16f80b3d499e9063e",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 26,
+   "canonical_url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057",
+   "title": "Where AAPL Stock's $510 Billion Of Shareholder Cash Came From",
+   "url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057",
+   "publisher": "Yahoo",
+   "summary": "One of the world\u2019s largest companies has become a cash-return machine of historic scale, but its engine is now facing a serious test.",
+   "published_at": "2026-09-18T19:24:37Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 27,
+   "canonical_url": "https://finnhub.io/api/news?id=78a32cefff3b734a602cec1107d0af9612b36dcbd1da4258455cd14ace8a28a3",
+   "title": "Intel vs. SK Hynix: Which Chip Stock Is Worth Chasing After This Week's Surge?",
+   "url": "https://finnhub.io/api/news?id=78a32cefff3b734a602cec1107d0af9612b36dcbd1da4258455cd14ace8a28a3",
+   "publisher": "Yahoo",
+   "summary": "Intel (INTC) and SK Hynix (SKHY) have been among this week's hottest semiconductor stocks as investors react to reports that the companies are exploring partnership opportunities.",
+   "published_at": "2026-09-18T19:10:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=78a32cefff3b734a602cec1107d0af9612b36dcbd1da4258455cd14ace8a28a3",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 28,
+   "canonical_url": "https://finnhub.io/api/news?id=78dac5b19e49737ab2663a7ff39c104d70ca1093477fb8c274998e3450a0ab93",
+   "title": "Apple Stock Drops as 1,600+ Italian Workers Strike on iPhone 18 Pro Launch",
+   "url": "https://finnhub.io/api/news?id=78dac5b19e49737ab2663a7ff39c104d70ca1093477fb8c274998e3450a0ab93",
+   "publisher": "Yahoo",
+   "summary": "Apple's Italian stores remained open as unions pressed for more hiring, permanent contracts and increased hours for part-time employees",
+   "published_at": "2026-09-18T18:41:17Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=78dac5b19e49737ab2663a7ff39c104d70ca1093477fb8c274998e3450a0ab93",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 29,
+   "canonical_url": "https://finnhub.io/api/news?id=5a33dd3c5e445f44874155d0095adcd36cf2e316321531510936e794ec46860e",
+   "title": "Apple Raised Stakes with its $2000-Priced Foldable. But Can it Be the New Growth Engine?",
+   "url": "https://finnhub.io/api/news?id=5a33dd3c5e445f44874155d0095adcd36cf2e316321531510936e794ec46860e",
+   "publisher": "Yahoo",
+   "summary": "Apple Inc. (NASDAQ:AAPL) has just released its first foldable phone, the Duo, marking the most significant design change to an iPhone in recent years. The Duo is priced at a steep $1,999 in the United States and features a 7.6-inch inner display; its outer screen is 5.4 inches in size. It is driven by the [\u2026]",
+   "published_at": "2026-09-18T18:11:54Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=5a33dd3c5e445f44874155d0095adcd36cf2e316321531510936e794ec46860e",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 30,
+   "canonical_url": "https://finnhub.io/api/news?id=4ac00e1b4de60d09d4acbd32e9f56adbe79b0efb09edf3ad06a8332151385298",
+   "title": "Explore the S&P500 index on Friday and find out which stocks are the most active in today's session.",
+   "url": "https://finnhub.io/api/news?id=4ac00e1b4de60d09d4acbd32e9f56adbe79b0efb09edf3ad06a8332151385298",
+   "publisher": "ChartMill",
+   "summary": "Looking for the most active S&P500 stocks in today's session? Join us as we dive into the US markets on Friday and discover the stocks that are dominating the trading activity and setting the pace for the market.",
+   "published_at": "2026-09-18T18:05:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "NVDA"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=4ac00e1b4de60d09d4acbd32e9f56adbe79b0efb09edf3ad06a8332151385298",
+     "fetched_at": "2026-09-20T14:48:41.411281Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 31,
+   "canonical_url": "https://finnhub.io/api/news?id=a9fc33ac32348cb3ca829038e580fcf6614d4ebf028c82a628b7baaf67083531",
+   "title": "Apple\u2019s three-part iPhone rollout complicates the demand read",
+   "url": "https://finnhub.io/api/news?id=a9fc33ac32348cb3ca829038e580fcf6614d4ebf028c82a628b7baaf67083531",
+   "publisher": "CNBC",
+   "summary": "CNBC\u2019s MacKenzie Sigalos reports on what has to go right for Apple from here, as investors watch iPhone demand, a new three-part release cycle, and a premium valuation.",
+   "published_at": "2026-09-18T18:01:19Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=a9fc33ac32348cb3ca829038e580fcf6614d4ebf028c82a628b7baaf67083531",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 32,
+   "canonical_url": "https://finnhub.io/api/news?id=1259054b11d2ccaf019ea256624ab71799f8a86b70563c751d0c2da9d6e0ba4e",
+   "title": "The SEC is bringing tokenized stocks to markets: 7 key details you need to know",
+   "url": "https://finnhub.io/api/news?id=1259054b11d2ccaf019ea256624ab71799f8a86b70563c751d0c2da9d6e0ba4e",
+   "publisher": "Yahoo",
+   "summary": "Scott Melker explains what investors need to know about the US Securities and Exchange Commission's (SEC's) decision to bring tokenized stocks to the market. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto.",
+   "published_at": "2026-09-18T18:00:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=1259054b11d2ccaf019ea256624ab71799f8a86b70563c751d0c2da9d6e0ba4e",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 33,
+   "canonical_url": "https://finnhub.io/api/news?id=2a3efbf3d0c84ee59d49e577b17fe42c0272f8c2896d7166964576ed48eaa334",
+   "title": "In India, the new iPhone can arrive faster than a pizza",
+   "url": "https://finnhub.io/api/news?id=2a3efbf3d0c84ee59d49e577b17fe42c0272f8c2896d7166964576ed48eaa334",
+   "publisher": "Yahoo",
+   "summary": "Availability of Apple's iPhone 18 Pro series turned patchy within hours of its debut on India's quick-commerce apps.",
+   "published_at": "2026-09-18T17:45:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=2a3efbf3d0c84ee59d49e577b17fe42c0272f8c2896d7166964576ed48eaa334",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 34,
+   "canonical_url": "https://finnhub.io/api/news?id=41be7092eea7b9ab68320a7ba851f5b67a9e7ceb76f9b9414eedbb3fe7176bc1",
+   "title": "Coinbase Seeks Approval to List Perpetual Futures Tied to U.S. Stocks",
+   "url": "https://finnhub.io/api/news?id=41be7092eea7b9ab68320a7ba851f5b67a9e7ceb76f9b9414eedbb3fe7176bc1",
+   "publisher": "Yahoo",
+   "summary": "Coinbase Global (NASDAQ: $COIN) has filed for regulatory approval to list perpetual futures tied to individual larg...",
+   "published_at": "2026-09-18T17:37:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL",
+    "MSFT"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=41be7092eea7b9ab68320a7ba851f5b67a9e7ceb76f9b9414eedbb3fe7176bc1",
+     "fetched_at": "2026-09-20T14:48:40.320854Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 35,
+   "canonical_url": "https://finnhub.io/api/news?id=9ca832e00c6e363662783a02aff119a7a4c36d236a639bbd6a3fe300a0b71ee3",
+   "title": "Sector Update: Tech Stocks Edge Higher Friday Afternoon",
+   "url": "https://finnhub.io/api/news?id=9ca832e00c6e363662783a02aff119a7a4c36d236a639bbd6a3fe300a0b71ee3",
+   "publisher": "Yahoo",
+   "summary": "Tech stocks were edging higher Friday afternoon, with the State Street Technology Select Sector SPDR",
+   "published_at": "2026-09-18T17:35:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=9ca832e00c6e363662783a02aff119a7a4c36d236a639bbd6a3fe300a0b71ee3",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 36,
+   "canonical_url": "https://finnhub.io/api/news?id=9550097b56fd116fad891676b01b5b469c1596a3b035f5cb27cc263ecad9f2be",
+   "title": "Apple iPhone 18 Seeing 'Muted' Initial Wait Times in Key Markets, UBS Says",
+   "url": "https://finnhub.io/api/news?id=9550097b56fd116fad891676b01b5b469c1596a3b035f5cb27cc263ecad9f2be",
+   "publisher": "Yahoo",
+   "summary": "Apple's (AAPL) recently launched iPhone 18 is seeing \"muted\" initial wait times in major global mark",
+   "published_at": "2026-09-18T16:53:43Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=9550097b56fd116fad891676b01b5b469c1596a3b035f5cb27cc263ecad9f2be",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 37,
+   "canonical_url": "https://finnhub.io/api/news?id=ec5a170ca3ebae9fb0cac9a5501b4988eddb38bda614f478a8dc5238c86f4505",
+   "title": "iPhone 18 Pro Hits Stores Today. Apple Stock Could Rise 13% if Demand Sticks, Analyst Says.",
+   "url": "https://finnhub.io/api/news?id=ec5a170ca3ebae9fb0cac9a5501b4988eddb38bda614f478a8dc5238c86f4505",
+   "publisher": "Yahoo",
+   "summary": "Apple took a risk by launching only premium priced phones in its latest rollout, but one Evercore ISI analyst thinks that risk will pay off for the company\u2019s sales, and its stock. Amit Daryanani raised his price target on Apple to $380 from $365 on Friday, which implies a 13% increase from the stock\u2019s last closing price of $337. This price target boost comes after Evercore completed an annual survey of about 4,000 customers regarding iPhone purchase intentions, which Daryanani says points to what he thinks will be a better-than-expected iPhone refresh cycle.",
+   "published_at": "2026-09-18T16:44:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=ec5a170ca3ebae9fb0cac9a5501b4988eddb38bda614f478a8dc5238c86f4505",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 38,
+   "canonical_url": "https://finnhub.io/api/news?id=aead6599b139db52671a0e6b511ba8b0bbce3d9541b8d3f92136a8ee4daabc22",
+   "title": "CNBC TechCheck Evening Edition: September 18, 2026",
+   "url": "https://finnhub.io/api/news?id=aead6599b139db52671a0e6b511ba8b0bbce3d9541b8d3f92136a8ee4daabc22",
+   "publisher": "CNBC",
+   "summary": "CNBC's TechCheck brings you the latest in tech news from CNBC's 1 Market in the heart of San Francisco.",
+   "published_at": "2026-09-18T16:41:32Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=aead6599b139db52671a0e6b511ba8b0bbce3d9541b8d3f92136a8ee4daabc22",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 39,
+   "canonical_url": "https://finnhub.io/api/news?id=5b8dbb07163b1d9b81e046603815f972c7ce55104dd279ab5708be4cb31f4383",
+   "title": "Trump takes aim at Warsh after Fed hike",
+   "url": "https://finnhub.io/api/news?id=5b8dbb07163b1d9b81e046603815f972c7ce55104dd279ab5708be4cb31f4383",
+   "publisher": "Yahoo",
+   "summary": "Scott Melker discusses Trump taking aim at Fed Chair Warsh for rate hikes, and what investors need to know about the US Securities and Exchange Commission's (SEC's) decision to bring tokenized stocks to the market. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto.",
+   "published_at": "2026-09-18T16:30:36Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=5b8dbb07163b1d9b81e046603815f972c7ce55104dd279ab5708be4cb31f4383",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 40,
+   "canonical_url": "https://finnhub.io/api/news?id=4262a61b058b6ac17a3e37e909b3cc35e87d4a287d0e5d8309cd61f0c5905215",
+   "title": "Hop-on, Inc. Announces Digitalage iOS UX Design Completion - Redesigned Build Enters Internal Testing Through Apple TestFlight",
+   "url": "https://finnhub.io/api/news?id=4262a61b058b6ac17a3e37e909b3cc35e87d4a287d0e5d8309cd61f0c5905215",
+   "publisher": "Yahoo",
+   "summary": "The redesigned iOS interface aims to simplify discovery, broadcasting and replay as Digitalage pursues user adoption and revenue activation.TEMECULA, CA / ACCESS Newswire / September 18, 2026 / (OTCID:HPNN), through its subsidiary Digitalage, Inc.",
+   "published_at": "2026-09-18T16:25:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=4262a61b058b6ac17a3e37e909b3cc35e87d4a287d0e5d8309cd61f0c5905215",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 41,
+   "canonical_url": "https://finnhub.io/api/news?id=954784daaebfec812aef5299f7156fd422d1e5a7b9c43e0e305879b1490af22a",
+   "title": "Apple TV's Emmy Sweep Adds Momentum to AAPL's Services Business",
+   "url": "https://finnhub.io/api/news?id=954784daaebfec812aef5299f7156fd422d1e5a7b9c43e0e305879b1490af22a",
+   "publisher": "Yahoo",
+   "summary": "Apple TV's 29 Emmy wins, record viewership and strong video revenue growth add momentum to Apple's expanding Services business.",
+   "published_at": "2026-09-18T16:20:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=954784daaebfec812aef5299f7156fd422d1e5a7b9c43e0e305879b1490af22a",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 42,
+   "canonical_url": "https://finnhub.io/api/news?id=d6126476ae769d0cc68450aca1005b2ca3ce1da4b767a280d714a1d3865bb4fb",
+   "title": "Apple's iPhone 18 Pro Wait Times Shorten, Signaling Muted Demand, UBS Says",
+   "url": "https://finnhub.io/api/news?id=d6126476ae769d0cc68450aca1005b2ca3ce1da4b767a280d714a1d3865bb4fb",
+   "publisher": "Yahoo",
+   "summary": "Apple (AAPL) faces softer early demand for its new iPhone 18 Pro and Pro Max based on shorter wait t",
+   "published_at": "2026-09-18T16:17:26Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=d6126476ae769d0cc68450aca1005b2ca3ce1da4b767a280d714a1d3865bb4fb",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 43,
+   "canonical_url": "https://finnhub.io/api/news?id=8d8dca75ab430b36094ae26550015632677d7c6bfa827ae774ccf8b8c09ba021",
+   "title": "Apple\u2019s iPhone 18 launch tests premium demand after big stock run",
+   "url": "https://finnhub.io/api/news?id=8d8dca75ab430b36094ae26550015632677d7c6bfa827ae774ccf8b8c09ba021",
+   "publisher": "CNBC",
+   "summary": "CNBC\u2019s MacKenzie Sigalos reports on mixed early demand signals for the new Pro models as Apple looks ahead to its first foldable next month.",
+   "published_at": "2026-09-18T16:15:33Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=8d8dca75ab430b36094ae26550015632677d7c6bfa827ae774ccf8b8c09ba021",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 44,
+   "canonical_url": "https://finnhub.io/api/news?id=9fb6a3ce2e9f4d56ce4a4fbd2b50722624791b9f858a3530a76f66fcd2121208",
+   "title": "Evercore Resets Apple Stock Price Target for 2026",
+   "url": "https://finnhub.io/api/news?id=9fb6a3ce2e9f4d56ce4a4fbd2b50722624791b9f858a3530a76f66fcd2121208",
+   "publisher": "Yahoo",
+   "summary": "Premium upgrades could keep Apple's earnings momentum alive",
+   "published_at": "2026-09-18T16:14:56Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=9fb6a3ce2e9f4d56ce4a4fbd2b50722624791b9f858a3530a76f66fcd2121208",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 45,
+   "canonical_url": "https://finnhub.io/api/news?id=6a79961b3cf681b5b8cd8c3d7f2f5afd71f99892ecad05972d2f63f40bf37c31",
+   "title": "Congressman Ditches Magnificent Seven Stocks for Consumer Staples: Here's What He Bought",
+   "url": "https://finnhub.io/api/news?id=6a79961b3cf681b5b8cd8c3d7f2f5afd71f99892ecad05972d2f63f40bf37c31",
+   "publisher": "Benzinga",
+   "summary": "A US congressman sold some Magnificent Seven stocks and replaced them with a couple consumer staples. Here's the trades.",
+   "published_at": "2026-09-18T16:12:53Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=6a79961b3cf681b5b8cd8c3d7f2f5afd71f99892ecad05972d2f63f40bf37c31",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 46,
+   "canonical_url": "https://finnhub.io/api/news?id=5521d469bc30ed9f7a7e6cbbdded626e2a5bcfc33ab93edf749bce2274bd976f",
+   "title": "Apple's iPhone 18 Pro line hits stores with a $100 price bump amid memory crunch, AI pressure",
+   "url": "https://finnhub.io/api/news?id=5521d469bc30ed9f7a7e6cbbdded626e2a5bcfc33ab93edf749bce2274bd976f",
+   "publisher": "Yahoo",
+   "summary": "Apple's iPhone 18 Pros hit stores Friday.",
+   "published_at": "2026-09-18T15:57:09Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=5521d469bc30ed9f7a7e6cbbdded626e2a5bcfc33ab93edf749bce2274bd976f",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 47,
+   "canonical_url": "https://finnhub.io/api/news?id=d00cddc73fe97bb8299dd5e5469fbe151d2ee421b89644df7d161c4ce0bca4c2",
+   "title": "Apple Stock Has a New Opportunity Investors Can\u2019t Afford to Ignore",
+   "url": "https://finnhub.io/api/news?id=d00cddc73fe97bb8299dd5e5469fbe151d2ee421b89644df7d161c4ce0bca4c2",
+   "publisher": "Yahoo",
+   "summary": "Apple just posted its ninth consecutive earnings beat and shares are up 23% this year, yet the stock may still be dramatically underpriced for what comes next. The case for $450 by 2027 is bolder than anything Wall Street is publishing, and the math is closer than you think.",
+   "published_at": "2026-09-18T15:30:05Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=d00cddc73fe97bb8299dd5e5469fbe151d2ee421b89644df7d161c4ce0bca4c2",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  },
+  {
+   "id": 48,
+   "canonical_url": "https://finnhub.io/api/news?id=569c949affde1ca0e8765c306217c90f6b75649e4140e8a9351a398cb3ef2a79",
+   "title": "These Magnificent Seven Members Still Look Cheap",
+   "url": "https://finnhub.io/api/news?id=569c949affde1ca0e8765c306217c90f6b75649e4140e8a9351a398cb3ef2a79",
+   "publisher": "Yahoo",
+   "summary": "Microsoft's accelerating cloud growth and NVIDIA's unmatched hardware dominance in the AI era mean investors are getting rock-solid earnings power at multiples that look very reasonable relative to their long-term growth trajectories.",
+   "published_at": "2026-09-18T15:15:00Z",
+   "fetched_at": "2026-09-20T12:57:20.052430Z",
+   "content_scope": "headline_and_excerpt",
+   "tickers": [
+    "AAPL"
+   ],
+   "sources": [
+    {
+     "provider": "finnhub",
+     "url": "https://finnhub.io/api/news?id=569c949affde1ca0e8765c306217c90f6b75649e4140e8a9351a398cb3ef2a79",
+     "fetched_at": "2026-09-20T14:48:39.578727Z"
+    }
+   ],
+   "assessment": null
+  }
+ ],
+ "total": 50,
+ "limit": 200,
+ "offset": 0,
+ "assessment_note": "Sentiment and impact are AI interpretations of the linked article. A null assessment means the article was not analyzed, not that it is neutral.",
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:AAPL",
+   "fetched_at": "2026-09-20T14:48:40.105981+00:00",
+   "expires_at": "2026-09-20T15:03:40.105981+00:00",
+   "attempted_at": "2026-09-20T14:48:40.105981+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null
+  }
+ ],
+ "status": "partial",
+ "note": "No matching articles is different from a failed provider; inspect provider_status."
+}

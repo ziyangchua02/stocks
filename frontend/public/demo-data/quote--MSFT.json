@@ -1,0 +1,72 @@
+{
+ "ticker": "MSFT",
+ "status": "cached",
+ "cache_expired": true,
+ "checked_at": "2026-09-20T15:04:51.772725+00:00",
+ "reason": null,
+ "data": {
+  "ticker": "MSFT",
+  "price": 493.78,
+  "previous_close": 497.75,
+  "change": -3.9700000000000273,
+  "change_percent": -0.7975891511803224,
+  "volume": 39356144,
+  "currency": "USD",
+  "source": "yfinance",
+  "source_url": "https://finance.yahoo.com/quote/MSFT/",
+  "source_as_of": "2026-09-18T20:00:02Z",
+  "fetched_at": "2026-09-20T14:48:40.280704Z",
+  "session": "regular",
+  "delay_status": "unknown; provider does not guarantee real-time delivery"
+ },
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:MSFT",
+   "fetched_at": "2026-09-20T14:48:41.132437+00:00",
+   "expires_at": "2026-09-20T15:03:41.132437+00:00",
+   "attempted_at": "2026-09-20T14:48:41.132437+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:fundamentals:MSFT",
+   "fetched_at": "2026-09-20T12:57:21.070485+00:00",
+   "expires_at": "2026-09-21T12:57:21.070485+00:00",
+   "attempted_at": "2026-09-20T12:57:21.070485+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:history:MSFT",
+   "fetched_at": "2026-09-20T14:04:50.580082+00:00",
+   "expires_at": "2026-09-20T15:04:50.580082+00:00",
+   "attempted_at": "2026-09-20T14:04:50.580082+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:quote:MSFT",
+   "fetched_at": "2026-09-20T14:48:40.280778+00:00",
+   "expires_at": "2026-09-20T15:03:40.280778+00:00",
+   "attempted_at": "2026-09-20T14:48:40.280778+00:00",
+   "error": null,
+   "retry_at": null
+  }
+ ]
+}

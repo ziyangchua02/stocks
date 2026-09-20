@@ -1,0 +1,72 @@
+{
+ "ticker": "NVDA",
+ "status": "cached",
+ "cache_expired": true,
+ "checked_at": "2026-09-20T15:04:51.817123+00:00",
+ "reason": null,
+ "data": {
+  "ticker": "NVDA",
+  "price": 222.27,
+  "previous_close": 219.34,
+  "change": 2.930000000000007,
+  "change_percent": 1.335825658794576,
+  "volume": 188794542,
+  "currency": "USD",
+  "source": "yfinance",
+  "source_url": "https://finance.yahoo.com/quote/NVDA/",
+  "source_as_of": "2026-09-18T20:00:00Z",
+  "fetched_at": "2026-09-20T14:48:41.353702Z",
+  "session": "regular",
+  "delay_status": "unknown; provider does not guarantee real-time delivery"
+ },
+ "provider_status": [
+  {
+   "cache_key": "finnhub:news:NVDA",
+   "fetched_at": "2026-09-20T14:48:42.467043+00:00",
+   "expires_at": "2026-09-20T15:03:42.467043+00:00",
+   "attempted_at": "2026-09-20T14:48:42.467043+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "fetched_at": "2026-09-20T14:48:38.257590+00:00",
+   "expires_at": "2026-09-20T15:03:38.257590+00:00",
+   "attempted_at": "2026-09-20T14:48:38.257590+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "rss:https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "fetched_at": "2026-09-20T14:48:37.552281+00:00",
+   "expires_at": "2026-09-20T15:03:37.552281+00:00",
+   "attempted_at": "2026-09-20T14:48:37.552281+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:fundamentals:NVDA",
+   "fetched_at": "2026-09-20T12:57:21.837082+00:00",
+   "expires_at": "2026-09-21T12:57:21.837082+00:00",
+   "attempted_at": "2026-09-20T12:57:21.837082+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:history:NVDA",
+   "fetched_at": "2026-09-20T14:04:56.543240+00:00",
+   "expires_at": "2026-09-20T15:04:56.543240+00:00",
+   "attempted_at": "2026-09-20T14:04:56.543240+00:00",
+   "error": null,
+   "retry_at": null
+  },
+  {
+   "cache_key": "yfinance:quote:NVDA",
+   "fetched_at": "2026-09-20T14:48:41.353870+00:00",
+   "expires_at": "2026-09-20T15:03:41.353870+00:00",
+   "attempted_at": "2026-09-20T14:48:41.353870+00:00",
+   "error": null,
+   "retry_at": null
+  }
+ ]
+}
